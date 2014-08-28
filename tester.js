@@ -5,7 +5,7 @@
 
 @TODO:
 
-2) wailtFor support
+2) support for specific iframe 
 
 ameriprise - 3 frames why does it say 0 frames?
 index - 79
@@ -37,10 +37,6 @@ looking in frame #1
 caught error Error: Permission denied to access property 'document'
 FAIL
 
-
-
-4) abstract success and error messages
-
 6) add -v flag support to shoe console logs
 */
 
@@ -61,6 +57,12 @@ page.onError = function(msg, trace) {
     // console.error(msgStack.join('\n'));
 };
 
+page.onResourceError = function(resourceError) {
+    // system.stderr.writeLine('= onResourceError()');
+    // system.stderr.writeLine('  - unable to load url: "' + resourceError.url + '"');
+    // system.stderr.writeLine('  - error code: ' + resourceError.errorCode + ', description: ' + resourceError.errorString );
+};
+
 page.onCallback = function(msg) {
 	console.log(msg);
 }
@@ -76,7 +78,37 @@ var fileSystem = require('fs'),
 	errors = [],
 	app,
 	index = 0,
-	specific = false;
+	specific = false,
+	handleSuccess = function(name){
+		success++;
+		successDetails.push(name);
+		console.log('OK');
+	},
+	handleFailure = function(responseObj){
+		fail++;
+		if (responseObj.success) {
+			delete responseObj.success;
+		}
+		failDetails.push(responseObj);
+		console.log('FAIL');
+	},
+	message = function(app, msg){
+		var resp = Object.create(null);
+		resp[app.name] = msg;
+		return resp;
+	},
+	generateReport = function(){
+		var path = new Date()+ '.txt',
+			content = 'Succeeded: ' + success + '\n' +
+					  'Good sites: ' + JSON.stringify(successDetails) + '\n' +
+					  'Failed: ' + fail + '\n' +
+					  'Bad Sites: ' + JSON.stringify(failDetails, null, 4);
+		if (errors.length > 0) {
+			content += 'Errors: ' + JSON.stringify(errors, null, 4);
+		}
+
+		fileSystem.write(path, content, 'w');	
+	};
 
 
 if (args.length > 1) {
@@ -91,16 +123,7 @@ var nextPage = function(index) {
 
 		//we are done, generate report and exit
 
-		var path = new Date()+ '.txt',
-			content = 'Succeeded: ' + success + '\n' +
-					  'Good sites: ' + JSON.stringify(successDetails) + '\n' +
-					  'Failed: ' + fail + '\n' +
-					  'Bad Sites: ' + JSON.stringify(failDetails, null, 4);
-		if (errors.length > 0) {
-			content += 'Errors: ' + JSON.stringify(errors, null, 4);
-		}
-
-		fileSystem.write(path, content, 'w');
+		generateReport();
 		slimer.exit();
 		return;
 	}
@@ -134,7 +157,34 @@ var nextPage = function(index) {
 
 
 						appEvents.forEach(function(eventBlock){
-							element = A8Tester.findElement(eventBlock.path, document);
+							if (eventBlock.waitFor) {
+window.callPhantom('waitFor detected');
+								if (typeof eventBlock.waitFor === 'number') {
+									//pause
+									var stop = Date.now()+eventBlock.waitFor;
+									while (Date.now() < stop) {/*pause*/}
+								} else {
+									var WAIT_TIMEOUT = 10000,
+									    WAIT_INTERVAL = 500,
+									    stop, 
+									    interval;
+window.callPhantom('waitFor is a boolean');
+									//wait to appear
+									stop = Date.now()+WAIT_TIMEOUT,
+									interval = Date.now()+WAIT_INTERVAL;
+
+									while (!element && Date.now() < stop) {
+										if (Date.now() > interval) {
+window.callPhantom('in interval');
+											interval += WAIT_INTERVAL;
+											element = A8Tester.findElement(eventBlock.path, document);
+window.callPhantom('element is ' + element);
+										}
+									}
+								}
+							} else {
+								element = A8Tester.findElement(eventBlock.path, document);
+							}
 
 							if (element) {
 								/*
@@ -156,28 +206,15 @@ var nextPage = function(index) {
 					}, app.name, app.login_script[0].events);
 
 					if (ev.failure.length === 0) {
-						success++;
-						successDetails.push(ev.name);
-						console.log('OK');
+						handleSuccess(ev.name);
 					} else {
-						fail++;
-						delete ev.success;
-						failDetails.push(ev);
-						console.log('FAIL');
+						handleFailure(ev);
 					}
 				} else {
-					fail++;
-					var resp = Object.create(null);
-					resp[app.name] = 'Failed to inject test code';
-					errors.push(resp);
-					console.log('FAIL');
+					handleFailure(message(app.name, 'Failed to inject test code.'));
 				}
 			} else {
-				fail++;
-				var resp = Object.create(null);
-				resp[app.name] = 'Failed to load';
-				errors.push(resp);
-				console.log('FAIL');
+				handleFailure(message(app.name, 'Failed to load page.'));
 			}
 			window.setTimeout(function(){
 				index++;

@@ -1,13 +1,13 @@
 var page = require('webpage').create();
-page.onConsoleMessage = function (msg) {
+page.onCallback = function (msg) {
     console.log(msg);
 };
-page.open("http://slimerjs.org", function (status) {
-	console.log('status is ' + status);
+page.open("https://www.ameriprise.com/", function (status) {
+    console.log('framesCount ' + page.framesCount);
+    page.switchToFrame(1);
     var mainTitle = page.evaluate(function () {
-        console.log('message from the web page');
-        return document.querySelector("h1").textContent;
+        return document.querySelector("#username");
     });
-    console.log('First title of the page is ' + mainTitle);
+    console.log('Element is ' + mainTitle);
     slimer.exit();
 });

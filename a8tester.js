@@ -56,7 +56,6 @@ window.A8Tester = {
 		return result;
 	},
 	findElement: function(path, doc) {
-// window.callPhantom('in findElement');
 		var el = null, 
 			frames,
 			win = doc.defaultView;
