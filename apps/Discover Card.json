@@ -1,0 +1,127 @@
+{
+    "url_root": "discovercard.com, discover.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.discovercard.com/cardmembersvcs/loginlogout/app/ac_main",
+            "events": [
+                {
+                    "path": "//*[@id='loginlogout-form']/h:div/h:div/h:form/h:p[1]/h:input",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='loginlogout-form']/h:div/h:div/h:form/h:p[1]/h:input",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userID",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "//*[@id='loginlogout-form']/h:div/h:div/h:form/h:p[1]/h:input",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "userID"
+                },
+                {
+                    "path": "//*[@id='loginlogout-form']/h:div/h:div/h:form/h:p[3]/h:input",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password"
+                },
+                {
+                    "path": "//*[@id='loginlogout-form']/h:div/h:div/h:form/h:p[3]/h:input",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        12
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "discovercard.com"
+    ],
+    "login_url": "https://www.discovercard.com/cardmembersvcs/loginlogout/app/ac_main",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1405100743.836344,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.discover.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='login-account']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userID",
+                    "eid": "login-account",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='login-password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "login-password",
+                    "f": "field1",
+                    "displayname": "Password"
+                },
+                {
+                    "path": "//xhtml:input[@id='login-button']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ftype": "image",
+                    "eid": "login-button",
+                    "esrc": "/images/global/buttons/new-btn-log-in-secure-on.png"
+                }
+            ]
+        }
+    ],
+    "name": "Discover Card",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

@@ -1,0 +1,69 @@
+{
+    "url_root": "americanbusinessbank.com,netteller.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMDE5QjI3QTM0RjExMUUzQkQ3RkY3MDZBQUE0MjY0RSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMDE5QjI3OTM0RjExMUUzQkQ3RkY3MDZBQUE0MjY0RSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDBGOUZGQzIxOTIwNjgxMThDMTRDNjVEMzAwOTg2MDciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "americanbusinessbank.com"
+    ],
+    "login_url": "https://www.americanbusinessbank.com/",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388776442.381798,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.americanbusinessbank.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "id",
+                    "eid": "userid",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "NetTeller ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='pin']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "pin",
+                    "eid": "pin",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "NetTeller PIN"
+                }
+            ]
+        }
+    ],
+    "name": "American Business Bank",
+    "notes": "Anu -10/23/2013",
+    "provisioner": false,
+    "ua_browser": null
+}

@@ -1,0 +1,110 @@
+{
+    "url_root": "amsecbank.com,netteller.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.amsecbank.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='id']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "id",
+                    "eid": "id",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Login ID"
+                }
+            ]
+        },
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=americansecuritybank&bn=36f12412139a12fc&burlid=bf04edd098631de8",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_PasswordTextBox']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$PageContent$Login1$PasswordTextBox",
+                    "eid": "ctl00_PageContent_Login1_PasswordTextBox",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": ["fi=americansecuritybank"],
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMDE5QjI3RTM0RjExMUUzQkQ3RkY3MDZBQUE0MjY0RSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMDE5QjI3RDM0RjExMUUzQkQ3RkY3MDZBQUE0MjY0RSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDFGOUZGQzIxOTIwNjgxMThDMTRDNjVEMzAwOTg2MDciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "cm.netteller.com"
+    ],
+    "login_url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=americansecuritybank&bn=36f12412139a12fc&burlid=bf04edd098631de8",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1390105906.535575,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.amsecbank.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='id']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "id",
+                    "eid": "id",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Login ID"
+                }
+            ]
+        },
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=americansecuritybank&bn=36f12412139a12fc&burlid=bf04edd098631de8",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_PasswordTextBox']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$PageContent$Login1$PasswordTextBox",
+                    "eid": "ctl00_PageContent_Login1_PasswordTextBox",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "American Security Bank",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

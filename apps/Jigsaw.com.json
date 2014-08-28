@@ -1,0 +1,133 @@
+{
+    "url_root": "data.com",
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "title": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "connect.data.com"
+    ],
+    "login_url": "https://connect.data.com/login",
+    "name": "Jigsaw.com",
+    "notes": null,
+    "ua_browser": null,
+    "url_root_array": [
+        "data.com"
+    ],
+    "url_root_map": {
+        "data.com": true
+    },
+    "cred": null,
+    "login_script": [
+        {
+            "url": "https://connect.data.com/login",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='j_username']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "j_username",
+                    "eid": "j_username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='j_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "j_password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "prev_login_script": [
+        {
+            "url": "https://connect.data.com/login",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='j_username']/xhtml:div",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//xhtml:input[@id='j_username']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "j_username",
+                    "eid": "j_username",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:input[@id='j_username']",
+                    "type": "change",
+                    "ftype": "email",
+                    "fname": "j_username",
+                    "eid": "j_username",
+                    "f": "field0"
+                },
+                {
+                    "path": "//xhtml:input[@id='j_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "j_password",
+                    "f": "field1",
+                    "e": [
+                        9
+                    ]
+                },
+                {
+                    "path": "//xhtml:input[@id='j_password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "j_password",
+                    "f": "field1"
+                },
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:div[8]/xhtml:div/xhtml:div/xhtml:div[2]/xhtml:div[2]/xhtml:form[@name='LoginForm']/xhtml:div/xhtml:div/xhtml:div/xhtml:div[5]/xhtml:button",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//xhtml:input[@id='j_password']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "j_password"
+                }
+            ]
+        },
+        {
+            "url": "https://connect.data.com/home",
+            "events": []
+        }
+    ],
+    "catalog_published": true,
+    "matching_type": "never match"
+}

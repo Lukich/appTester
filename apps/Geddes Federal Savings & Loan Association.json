@@ -1,0 +1,66 @@
+{
+    "url_root": "geddesfederalonline.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFRTNCNDJFMzU2MjAxMUUzQTVBQUFCMjM2NTE1OTVGNCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFRTNCNDJFMjU2MjAxMUUzQTVBQUFCMjM2NTE1OTVGNCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MkY4QTA2QjQyRDIwNjgxMThDMTQ4MDUyM0RGOUVEQ0YiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "geddesfederalonline.com"
+    ],
+    "login_url": "https://www.geddesfederalonline.com/onlineserv/HB/Signon.cgi",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388790339.332256,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.geddesfederalonline.com/onlineserv/HB/Signon.cgi",
+            "events": [
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:center/xhtml:form[@name='Login']/xhtml:a[@name='top']/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td[2]/xhtml:input[@name='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:center/xhtml:form[@name='Login']/xhtml:a[@name='top']/xhtml:table/xhtml:tbody/xhtml:tr[3]/xhtml:td/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Geddes Federal Savings & Loan Association",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

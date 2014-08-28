@@ -1,0 +1,76 @@
+{
+    "url_root": "berkbank.com, netteller.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": ["fi=berkbank"],
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGQzlEN0Q3QzU5REExMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGQzlEN0Q3QjU5REExMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MzE3NkM0REJBNDIwNjgxMThDMTRFMDYwNTgyRTk2NkEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "cm.netteller.com",
+        "berkbank.com"
+    ],
+    "login_url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=berkbank&bn=9b3e1239311d4d9a&burlid=a54ba89878188390",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388966983.918774,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=berkbank&bn=9b3e1239311d4d9a&burlid=a54ba89878188390",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_IdTextBox']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$PageContent$Login1$IdTextBox",
+                    "eid": "ctl00_PageContent_Login1_IdTextBox",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Login ID"
+                }
+            ]
+        },
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=berkbank&bn=9b3e1239311d4d9a&burlid=a54ba89878188390",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_PasswordTextBox']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$PageContent$Login1$PasswordTextBox",
+                    "eid": "ctl00_PageContent_Login1_PasswordTextBox",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "The Berkshire Bank",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

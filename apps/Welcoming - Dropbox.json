@@ -1,0 +1,176 @@
+{
+    ":inheritance": "mine",
+    "admin_provisioned": false,
+    "provisioner": false,
+    "admin_controlled_creds": false,
+    "login_script": [
+        {
+            "url": "https://www.dropbox.com/login",
+            "events": [
+                {
+                    "e": [],
+                    "f": "field0",
+                    "ftype": "email",
+                    "eid": "login_email",
+                    "fname": "login_email",
+                    "path": "//*[@id='login_email']",
+                    "type": "keypress"
+                },
+                {
+                    "e": [
+                        12
+                    ],
+                    "f": "field1",
+                    "ftype": "password",
+                    "eid": "login_password",
+                    "fname": "login_password",
+                    "path": "//*[@id='login_password']",
+                    "type": "keypress"
+                }
+            ]
+        }
+    ],
+    "cred": null,
+    "key": "",
+    "metadata": {},
+    "master": null,
+    "type": 8,
+    "orgname": "",
+    "login_url": "https://www.dropbox.com/login",
+    "url_root": "dropbox.com",
+    "catalog_published": true,
+    "alias_urls": [],
+    "matching_type": "never match",
+    "param_list": null,
+    "user_agent_browser_version": "",
+    "prev_login_script": "[{\"url\":\"https://www.dropbox.com/\",\"events\":[{\"path\":\"//*[@id='login-hover-link']\",\"type\":\"focus\",\"eid\":\"login-hover-link\",\"ehref\":\"/login\"},{\"path\":\"//*[@id='login-hover-link']\",\"type\":\"blur\",\"eid\":\"login-hover-link\",\"ehref\":\"/login\"},{\"path\":\"//*[@id='login_email_elm']\",\"type\":\"focus\",\"ftype\":\"email\",\"fname\":\"login_email\",\"eid\":\"login_email_elm\"},{\"path\":\"//*[@id='login_email_elm']\",\"type\":\"blur\",\"ftype\":\"email\",\"fname\":\"login_email\",\"eid\":\"login_email_elm\"},{\"path\":\"//*[@id='login-hover-link']\",\"type\":\"focus\",\"eid\":\"login-hover-link\",\"ehref\":\"/login\"},{\"path\":\"//*[@id='login-hover-link']\",\"type\":\"blur\",\"eid\":\"login-hover-link\",\"ehref\":\"/login\"},{\"path\":\"//*[@id='login_email_elm']\",\"type\":\"focus\",\"ftype\":\"email\",\"fname\":\"login_email\",\"eid\":\"login_email_elm\"},{\"path\":\"//*[@id='login-hover-link']\",\"type\":\"click\",\"ctrlKey\":false,\"altKey\":false,\"metaKey\":false,\"shiftKey\":false,\"detail\":1,\"eid\":\"login-hover-link\",\"ehref\":\"/login\"},{\"path\":\"//*[@id='login_email_elm']\",\"type\":\"click\",\"ctrlKey\":false,\"altKey\":false,\"metaKey\":false,\"shiftKey\":false,\"detail\":1},{\"path\":\"//*[@id='login_email_elm']\",\"type\":\"keypress\",\"ftype\":\"email\",\"fname\":\"login_email\",\"eid\":\"login_email_elm\",\"f\":\"field0\",\"e\":[]},{\"path\":\"//*[@id='login_email_elm']\",\"type\":\"change\",\"ftype\":\"email\",\"fname\":\"login_email\",\"eid\":\"login_email_elm\",\"f\":\"field0\"},{\"path\":\"//*[@id='login_email_elm']\",\"type\":\"blur\",\"ftype\":\"email\",\"fname\":\"login_email\",\"eid\":\"login_email_elm\"},{\"path\":\"//*[@id='login_password_elm']\",\"type\":\"focus\",\"ftype\":\"password\",\"fname\":\"login_password\",\"eid\":\"login_password_elm\"},{\"path\":\"//*[@id='login_password_elm']\",\"type\":\"keypress\",\"ftype\":\"password\",\"fname\":\"login_password\",\"eid\":\"login_password_elm\",\"f\":\"field1\",\"e\":[7]},{\"path\":\"//*[@id='login_password_elm']\",\"type\":\"change\",\"ftype\":\"password\",\"fname\":\"login_password\",\"eid\":\"login_password_elm\",\"f\":\"field1\"},{\"path\":\"//*[@id='toplogin-submit']\",\"type\":\"click\",\"ctrlKey\":false,\"altKey\":false,\"metaKey\":false,\"shiftKey\":false,\"detail\":0,\"ftype\":\"submit\",\"eid\":\"toplogin-submit\"},{\"path\":\"//*[@id='login-hover-cont']/h:form\",\"type\":\"submit\"},{\"path\":\"//*[@id='login_password_elm']\",\"type\":\"keydown\",\"ftype\":\"password\",\"fname\":\"login_password\",\"eid\":\"login_password_elm\"},{\"path\":\"//*[@id='login_password_elm']\",\"type\":\"blur\",\"ftype\":\"password\",\"fname\":\"login_password\",\"eid\":\"login_password_elm\"}]},{\"url\":\"https://www.dropbox.com/login\",\"events\":[]}]",
+    "use_cookie": null,
+    "automation_level": null,
+    "content_restrictions": {
+        "deny": {
+            "locations": [
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/account",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/getspace",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/share",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/links",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/events",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/upgrade",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/install",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/gs",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/cmd/new",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/cmd/rename",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/cmd/move",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/cmd/copy",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/cmd/delete",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/sm/share",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/revisions/",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/s/",
+                    "message": ""
+                },
+                {
+                    "field": "directoryPath",
+                    "type": "startsWith",
+                    "test": "/sh/",
+                    "message": ""
+                }
+            ]
+        },
+        "allow": {
+            "locations": []
+        },
+        "File Transfer Policy:download": "None",
+        "File Transfer Policy:upload": "None"
+    },
+    "title": null,
+    "notes": null,
+    "app_name": null,
+    "ua_version": null,
+    "ua_browser": null,
+    "ua_platform": null,
+    "custom_ua": null,
+    "use_custom_ua": null,
+    "js_platform": null,
+    "name": "Welcoming | Dropbox Demo",
+    "is_root_app": "a8-root-app",
+    "url": "https://www.dropbox.com/login",
+    "iconStyle": "background-image: url(https://api.qint.authentic8.com/sp_thumbs/fo/foQ2yZTiZ9fDVWucDtWm9g.png);background-size:16px 16px;background-repeat: no-repeat; position: relative; top: 2px;width: 16px; height: 14px; float: left; margin-right: 4px;",
+    "path": "<b>/</b>Authentic8 Root of All<br>App Icon:<br><div style='margin-top: 3px; background-color: #fff; border-radius: 5px; padding: 5px;'><img style='position: relative; left: 50%; margin-left: -20px;' width='40px;' height='40px;' src='https://api.qint.authentic8.com/sp_thumbs/fo/foQ2yZTiZ9fDVWucDtWm9g.png'></div>"
+}

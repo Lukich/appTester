@@ -1,0 +1,154 @@
+{
+    "url_root": "southwest.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.southwest.com/flight/login?returnUrl=/account/snapshot",
+            "events": [
+                {
+                    "path": "//*[@id='accountCredential']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "credential",
+                    "eid": "accountCredential"
+                },
+                {
+                    "path": "//*[@id='accountCredential']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "credential",
+                    "eid": "accountCredential",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='accountCredential']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "credential",
+                    "eid": "accountCredential",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='accountCredential']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "credential",
+                    "eid": "accountCredential"
+                },
+                {
+                    "path": "//*[@id='accountPassword']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "password",
+                    "eid": "accountPassword"
+                },
+                {
+                    "path": "//*[@id='accountPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "accountPassword",
+                    "f": "field1",
+                    "e": [
+                        12
+                    ]
+                },
+                {
+                    "path": "//*[@id='accountPassword']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "accountPassword",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='accountPassword']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "accountPassword"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "southwest.com"
+    ],
+    "login_url": "https://southwest.com",
+    "tags": [
+        "travel"
+    ],
+    "thumbnail_ts": 1388043628.793955,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.southwest.com",
+            "events": [
+                {
+                    "path": "//*[@id='accountNumber']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "credential",
+                    "eid": "accountNumber",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='accountPassword']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "password",
+                    "eid": "accountPassword"
+                },
+                {
+                    "path": "//*[@id='accountPassword']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='accountPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "accountPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "waitFor": 500
+                }
+            ]
+        }
+    ],
+    "name": "Southwest Airlines",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

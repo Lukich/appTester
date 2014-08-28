@@ -1,0 +1,183 @@
+{
+    "url_root": "addthis.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.addthis.com/login",
+            "events": [
+                {
+                    "path": "//*[@id='eee']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "eee",
+                    "eid": "eee"
+                },
+                {
+                    "path": "//*[@id='eee']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='eee']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "eee",
+                    "eid": "eee",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='eee']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "eee",
+                    "eid": "eee",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='eee']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "eee",
+                    "eid": "eee"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='sign_in_submit']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "eid": "sign_in_submit"
+                },
+                {
+                    "path": "//*[@id='auth-password']/h:form",
+                    "type": "submit"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                }
+            ]
+        },
+        {
+            "url": "https://www.addthis.com/login#.URKewCfl9VM",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "addthis.com"
+    ],
+    "login_url": "https://www.addthis.com/login",
+    "thumbnail_ts": 1360190031.35424,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.addthis.com/login",
+            "events": [
+                {
+                    "path": "//*[@id='eee']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "eee",
+                    "eid": "eee"
+                },
+                {
+                    "path": "//*[@id='eee']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "eee",
+                    "eid": "eee",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//*[@id='eee']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "eee",
+                    "eid": "eee"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "AddThis",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

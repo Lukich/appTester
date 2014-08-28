@@ -1,0 +1,75 @@
+{
+    "url_root": "secureinternetbank.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxQ0Y5MUM0RDNBODMxMUUzOERFMDlEQzRGQjM5QjYzQSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxQ0Y5MUM0QzNBODMxMUUzOERFMDlEQzRGQjM5QjYzQSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MUU2RDI0RkIxMzIwNjgxMTgwODNFMUExMTMwQzBCMEEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "web2.secureinternetbank.com"
+    ],
+    "login_url": "https://web2.secureinternetbank.com/pbi_pbi1961/Pbi1961.ashx?WCI=Logon&WCE=Submit",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388787203.348316,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "never match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://web2.secureinternetbank.com/pbi_pbi1961/PBI1961.ashx?Rt=243073616&LogonBy=connect3&PRMACCESS=Portfolio",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='AccessId']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "AccessId",
+                    "eid": "AccessId",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Access ID"
+                }
+            ]
+        },
+        {
+            "url": "https://web2.secureinternetbank.com/pbi_pbi1961/Pbi1961.ashx?WCI=Logon&WCE=Submit",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='DisplayPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "DisplayPassword",
+                    "eid": "DisplayPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Eureka Bank",
+    "notes": "Anu-11/4/2013",
+    "provisioner": false,
+    "ua_browser": null
+}

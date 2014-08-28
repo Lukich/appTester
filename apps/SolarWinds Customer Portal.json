@@ -1,0 +1,64 @@
+{
+    "url_root": "solarwinds.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCOTE5MzE3QkVEOTgxMUUzQjlCOUQ1NjI1MjhGMDZBRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCOTE5MzE3QUVEOTgxMUUzQjlCOUQ1NjI1MjhGMDZBRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ODc4N0NCQjYwODIwNjgxMTgwODNFNzY4MEQ0MTE3MzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "customerportal.solarwinds.com"
+    ],
+    "login_url": "https://customerportal.solarwinds.com/",
+    "tags": null,
+    "thumbnail_ts": 1402940441.016147,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://customerportal.solarwinds.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='Username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "Username",
+                    "eid": "Username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "eid": "Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "SolarWinds Customer Portal",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

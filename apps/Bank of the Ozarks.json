@@ -1,0 +1,92 @@
+{
+    "url_root": "omnibank-secure.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.omnibank-secure.com/onlineserv/HB/Signon.cgi",
+            "events": [
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:form[@name='Login']/xhtml:font/xhtml:center/xhtml:a[@name='top']/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td[2]/xhtml:input[@name='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:form[@name='Login']/xhtml:font/xhtml:center/xhtml:a[@name='top']/xhtml:table/xhtml:tbody/xhtml:tr[3]/xhtml:td/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCQkQ3NkY0NEEzRUQxMUUzOURBNkM4MDdBRTgwNzM1NiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCQkQ3NkY0M0EzRUQxMUUzOURBNkM4MDdBRTgwNzM1NiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDkzMjY0NDAzMTIwNjgxMTgyMkFDRkFGOTk2RkNDMzciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "omnibank-secure.com/onlineserv/HB/Signon.cgi"
+    ],
+    "login_url": "https://www.omnibank-secure.com/onlineserv/HB/Signon.cgi",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1395166945.585225,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "ignore params",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.omnibank-secure.com/onlineserv/HB/Signon.cgi",
+            "events": [
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:form[@name='Login']/xhtml:font/xhtml:center/xhtml:a[@name='top']/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td[2]/xhtml:input[@name='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:form[@name='Login']/xhtml:font/xhtml:center/xhtml:a[@name='top']/xhtml:table/xhtml:tbody/xhtml:tr[3]/xhtml:td/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Bank of the Ozarks",
+    "notes": "Anu-11/13/2013",
+    "provisioner": false,
+    "ua_browser": null
+}

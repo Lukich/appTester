@@ -1,0 +1,67 @@
+{
+    "url_root": "thebankofgreenecounty.com,onlinencr.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCNjVDODJDOTU5REIxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCNjVDODJDODU5REIxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MzQ3NkM0REJBNDIwNjgxMThDMTRFMDYwNTgyRTk2NkEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "thebankofgreenecounty.com"
+    ],
+    "login_url": "https://www.thebankofgreenecounty.com/",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388966957.66991,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.thebankofgreenecounty.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='user']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "user",
+                    "eid": "user",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Login ID"
+                },
+                {
+                    "path": "//xhtml:form[@id='LogOn']/xhtml:input[@name='PIN']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "PIN",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "PIN"
+                }
+            ]
+        }
+    ],
+    "name": "The Bank of Greene County",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

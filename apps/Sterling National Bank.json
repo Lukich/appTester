@@ -1,0 +1,76 @@
+{
+    "url_root": "snb.com, netteller.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": ["fi=sterlingbancorp"],
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDRUY5MDBDRDU5REMxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDRUY5MDBDQzU5REMxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QjQ4M0QzMjFBNjIwNjgxMThDMTRFMDYwNTgyRTk2NkEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "cm.netteller.com",
+        "snb.com"
+    ],
+    "login_url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=sterlingbancorp&bn=4daff80df223eb70&burlid=74a7ea9c7c99294c",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388966800.004645,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=sterlingbancorp&bn=4daff80df223eb70&burlid=74a7ea9c7c99294c",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_IdTextBox']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$PageContent$Login1$IdTextBox",
+                    "eid": "ctl00_PageContent_Login1_IdTextBox",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Login ID"
+                }
+            ]
+        },
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=sterlingbancorp&bn=4daff80df223eb70&burlid=74a7ea9c7c99294c",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_PasswordTextBox']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$PageContent$Login1$PasswordTextBox",
+                    "eid": "ctl00_PageContent_Login1_PasswordTextBox",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Sterling National Bank",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

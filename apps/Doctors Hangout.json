@@ -1,0 +1,67 @@
+{
+    "url_root": "doctorshangout.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0RDdDNjU3OEM5NzMxMUUzQTI0MUI5NzA0NkMyNEU2NiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0RDdDNjU3N0M5NzMxMUUzQTI0MUI5NzA0NkMyNEU2NiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTAxMkQ1RTIwODIwNjgxMUE5NjE5M0IxNzNCQzQ0RTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "doctorshangout.com"
+    ],
+    "login_url": "http://www.doctorshangout.com/main/authorization/signIn?",
+    "tags": [
+        "health"
+    ],
+    "thumbnail_ts": 1399063377.413111,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.doctorshangout.com/main/authorization/signIn?",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='signin_email']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "emailAddress",
+                    "eid": "signin_email",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='signin_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "signin_password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Doctors Hangout",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

@@ -1,0 +1,75 @@
+{
+    "url_root": "indiegogo.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0QjAxODNBQURGODQxMUUzODA1Qzg1QjQ1MjMyMUFGRSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0QjAxODNBOURGODQxMUUzODA1Qzg1QjQ1MjMyMUFGRSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTA5QUU3MTg0ODIwNjgxMTgwODNCQTgyMTJDMjFGMTkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "indiegogo.com"
+    ],
+    "login_url": "https://www.indiegogo.com/accounts/sign_up?",
+    "tags": null,
+    "thumbnail_ts": 1401747823.869229,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.indiegogo.com/accounts/sign_up?",
+            "events": [
+                {
+                    "path": "/xhtml:html/xhtml:body",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0
+                },
+                {
+                    "path": "//xhtml:input[@id='account_email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "account[email]",
+                    "eid": "account_email",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='account_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "account[password]",
+                    "eid": "account_password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Indiegogo",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

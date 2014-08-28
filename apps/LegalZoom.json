@@ -1,0 +1,164 @@
+{
+    "url_root": "legalzoom.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.legalzoom.com/LZWeb/Welcome/SignIn.aspx?",
+            "events": [
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingEmail",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail"
+                },
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingEmail",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingEmail",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingEmail",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail"
+                },
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingPassword",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword"
+                },
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingPassword",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                },
+                {
+                    "path": "//*[@id='aspnetForm']",
+                    "type": "submit",
+                    "fname": "aspnetForm",
+                    "eid": "aspnetForm"
+                },
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingPassword",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword"
+                },
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingPassword",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingPassword",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword"
+                }
+            ]
+        },
+        {
+            "url": "https://www.legalzoom.com/LZWeb/Welcome/SignIn.aspx",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": {
+        "dnd_restricted_urls": [
+            "legalzoom.com/LZWeb/MyAccount/AccountProfile.aspx"
+        ]
+    },
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCQ0E5QkIzNzk5N0UxMUUyOEY1OUVFQzQ0QkNDRkQxNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCQ0E5QkIzNjk5N0UxMUUyOEY1OUVFQzQ0QkNDRkQxNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDY4MDExNzQwNzIwNjgxMTgwODM4RTM0M0NGQUI5N0UiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "legalzoom.com"
+    ],
+    "login_url": "https://www.legalzoom.com/LZWeb/Welcome/SignIn.aspx?",
+    "thumbnail_ts": 1365603990.197253,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.legalzoom.com/LZWeb/Welcome/SignIn.aspx?",
+            "events": [
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingEmail",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingEmail",
+                    "displayname": "Email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$ContentPlaceHolder2$ctrlLogin$tbExistingPassword",
+                    "eid": "ctl00_ContentPlaceHolder2_ctrlLogin_tbExistingPassword",
+                    "displayname": "Password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "LegalZoom",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

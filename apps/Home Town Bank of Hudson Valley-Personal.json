@@ -1,0 +1,70 @@
+{
+    "url_root": "hometownbankhv.com, onlinebank.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "param_list": ["bankNr=345"],
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3NkMzREI5RjVBOTkxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3NkMzREI5RTVBOTkxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkVDQzFDRDk1OTIxNjgxMThDMTRFMDYwNTgyRTk2NkEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "global1.onlinebank.com/vtg/preauthenticaterauser.htm?bankNr=345",
+        "hometownbankhv.com"
+    ],
+    "login_url": "https://global1.onlinebank.com/vtg/preauthenticaterauser.htm?loginUrl=25383006ADFB0F89350208851C74C01BF32B89A35F9DD4DA5686674529BDF0094FC0DBBE59002B01D03AA6A7752A7713B56E8DACE1DA641101F0B23B4597E777354D25E6B18DCD22&bankNr=345&rxd=400025eac89ed3885072c23a",
+    "thumbnail_ts": 1387384449.556777,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://global1.onlinebank.com/vtg/dologinfihosted.htm?banknr=345",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "User ID"
+                }
+            ]
+        },
+        {
+            "url": "https://global1.onlinebank.com/vtg/preauthenticaterauser.htm?loginUrl=25383006ADFB0F89350208851C74C01BF32B89A35F9DD4DA5686674529BDF0094FC0DBBE59002B01D03AA6A7752A7713B56E8DACE1DA641101F0B23B4597E777354D25E6B18DCD22&bankNr=345&rxd=400025eac89ed3885072c23a",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Home Town Bank of Hudson Valley-Personal",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

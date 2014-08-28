@@ -1,0 +1,66 @@
+{
+    "url_root": "farmersinsurance.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowNTk0RjBEM0YwMjQxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowNTk0RjBEMkYwMjQxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RTBEMTMxM0YwOTIwNjgxMTgwODNEREQ5NEIzRDlGRjIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "eagent.farmersinsurance.com"
+    ],
+    "login_url": "https://eagent.farmersinsurance.com/siteminderagent/forms/login.fcc?",
+    "tags": [
+        "insurance"
+    ],
+    "thumbnail_ts": 1403822336.080606,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://eagent.farmersinsurance.com/siteminderagent/forms/login.fcc?",
+            "events": [
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:div/xhtml:form[@name='Login']/xhtml:table/xhtml:tbody/xhtml:tr[5]/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:input[@name='USER']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "USER",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:div/xhtml:form[@name='Login']/xhtml:table/xhtml:tbody/xhtml:tr[5]/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr[3]/xhtml:td/xhtml:input[@name='PASSWORD']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Farmers Insurance Agency Dashboard",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

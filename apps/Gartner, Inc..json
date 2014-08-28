@@ -1,0 +1,63 @@
+{
+    "url_root": "gartner.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpERTFEMUVFRTkxRDYxMUUzQkU4QUVGNDIyMzZENzFEQyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpERTFEMUVFRDkxRDYxMUUzQkU4QUVGNDIyMzZENzFEQyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkFEN0Q0RTYwODIwNjgxMTgwODNCMjIyNjJEM0E4N0YiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "gartner.com"
+    ],
+    "login_url": "https://www.gartner.com/login/loginInitAction.do?method=initialize&TARGET=http://www.gartner.com/home",
+    "tags": null,
+    "thumbnail_ts": 1392930036.877727,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.gartner.com/login/loginInitAction.do?method=initialize&TARGET=http://www.gartner.com/home",
+            "events": [
+                {
+                    "path": "//xhtml:body[@id='gSignInbody']/xhtml:div/xhtml:div/xhtml:div/xhtml:div/xhtml:div[2]/xhtml:div[2]/xhtml:div/xhtml:div/xhtml:form[@name='loginForm']/xhtml:input[@name='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:body[@id='gSignInbody']/xhtml:div/xhtml:div/xhtml:div/xhtml:div/xhtml:div[2]/xhtml:div[2]/xhtml:div/xhtml:div/xhtml:form[@name='loginForm']/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Gartner, Inc.",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

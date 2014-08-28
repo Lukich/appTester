@@ -1,0 +1,82 @@
+{
+    "url_root": "dell.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.dell.com/sts/passive/commercial/v1/us/en/19/Premier/Login/Anonymous?wa=wsignin1.0&wtrealm=http%253a%252f%252fwww.dell.com&wreply=https%253a%252f%252fwww.dell.com%252fidentity%252fv2%252fRedirect",
+            "events": [
+                {
+                    "path": "//xhtml:table[@id='UserName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:table[@id='Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCMUEwMDY3MzI2MzIxMUUzOThCQ0NCNEM4QTQ3OUM2RCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCMUEwMDY3MjI2MzIxMUUzOThCQ0NCNEM4QTQ3OUM2RCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjBEOUI2QjcxMjIwNjgxMTgwODM5RjFDMzEyMzNCMDkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "pbar.us.dell.com"
+    ],
+    "login_url": "http://pbar.us.dell.com/pbar/login.aspx?level=4&c=us&s=gen&l=en",
+    "thumbnail_ts": 1381248555.322836,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.dell.com/sts/passive/commercial/v1/us/en/19/Premier/Login/Anonymous?wa=wsignin1.0&wtrealm=http%253a%252f%252fwww.dell.com&wreply=https%253a%252f%252fwww.dell.com%252fidentity%252fv2%252fRedirect",
+            "events": [
+                {
+                    "path": "//xhtml:table[@id='UserName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:table[@id='Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Dell - Premier Login",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

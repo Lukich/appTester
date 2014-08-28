@@ -1,0 +1,129 @@
+{
+    "url_root": "propercloth.com",
+    "prev_login_script": [
+        {
+            "url": "http://propercloth.com/",
+            "events": [
+                {
+                    "path": "//xhtml:a[@id='buttonSignInorCreateAccount']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "eid": "buttonSignInorCreateAccount",
+                    "ehref": "javascript:void(0)"
+                },
+                {
+                    "path": "//xhtml:input[@id='email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "eid": "email",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "Login ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [],
+                    "displayname": "Password"
+                },
+                {
+                    "path": "//xhtml:div[@id='buttonSignInConfirm']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "eid": "buttonSignInConfirm"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEQTU4NDlGMEQxNUYxMUUyODExMEU0NTJBMTE5NTlENSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2QjU3RDEzRUQxNUUxMUUyODExMEU0NTJBMTE5NTlENSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTc1NzcyRUMwOTIwNjgxMTgyMkFCRTY4QzM2OTA2MTkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "propercloth.com"
+    ],
+    "login_url": "http://propercloth.com/",
+    "tags": [
+        "ecommerce", "shopping"
+    ],
+    "thumbnail_ts": 1390322359.658218,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://propercloth.com/",
+            "events": [
+                {
+                    "path": "//html/body/div[1]/div/div[2]/ul[1]/li[6]/a",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//xhtml:input[@id='email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "eid": "email",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "Login ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [],
+                    "displayname": "Password"
+                },
+                {
+                    "path": "//xhtml:button[@id='buttonSignInConfirm']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "eid": "buttonSignInConfirm"
+                }
+            ]
+        }
+    ],
+    "name": "Proper Cloth",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

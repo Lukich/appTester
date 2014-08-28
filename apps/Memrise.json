@@ -1,0 +1,82 @@
+{
+    "url_root": "memrise.com",
+    "prev_login_script": [
+        {
+            "url": "http://www.memrise.com/login/",
+            "events": [
+                {
+                    "path": "//*[@id='content']/h:div/h:div[2]/h:div/h:form/h:div[3]/h:input",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='content']/h:div/h:div[2]/h:div/h:form/h:div[4]/h:input",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        13
+                    ]
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2OERERjQ1NUQ2M0UxMUUyOURGMkE5MEIwRUZEOURBQiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2OERERjQ1NEQ2M0UxMUUyOURGMkE5MEIwRUZEOURBQiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MzU5OUQ2RDg5QzIwNjgxMTgyMkFDQTE5Q0REMDgzQkMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "memrise.com"
+    ],
+    "login_url": "http://www.memrise.com/login/",
+    "thumbnail_ts": 1372344365.117754,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.memrise.com/login/",
+            "events": [
+                {
+                    "path": "//*[@id='content']/h:div/h:div[2]/h:div/h:form/h:div[3]/h:input",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='content']/h:div/h:div[2]/h:div/h:form/h:div[4]/h:input",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        13
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Memrise",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

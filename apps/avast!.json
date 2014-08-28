@@ -1,0 +1,226 @@
+{
+    "url_root": "avast.com",
+    "prev_login_script": [
+        {
+            "url": "https://my.avast.com/en-us/",
+            "events": [
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[3]/h:td[1]/h:input",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "username"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[3]/h:td[1]/h:input",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[3]/h:td[1]/h:input",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[3]/h:td[1]/h:input",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "username",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[3]/h:td[1]/h:input",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "username"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[5]/h:td[1]/h:input",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[5]/h:td[1]/h:input",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[5]/h:td[1]/h:input",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[6]/h:td[2]/h:input[2]",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form",
+                    "type": "submit",
+                    "fname": "login"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[5]/h:td[1]/h:input",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "password"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[5]/h:td[1]/h:input",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password"
+                }
+            ]
+        },
+        {
+            "url": "https://my.avast.com/en-us/",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDOEIyMzNDNkUyNzUxMUUyQUFCODlCMzRDNjcyREUzNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDOEIyMzNDNUUyNzUxMUUyQUFCODlCMzRDNjcyREUzNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjBDMUYyNUUwQTIwNjgxMTgyMkFCN0M4OTg5NkQxNzgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "my.avast.com"
+    ],
+    "login_url": "https://my.avast.com/en-us/",
+    "thumbnail_ts": 1373572428.929282,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://my.avast.com/en-us/",
+            "events": [
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[3]/h:td[1]/h:input",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "username"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[3]/h:td[1]/h:input",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[3]/h:td[1]/h:input",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[3]/h:td[1]/h:input",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "username",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[3]/h:td[1]/h:input",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "username"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[5]/h:td[1]/h:input",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[5]/h:td[1]/h:input",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[5]/h:td[1]/h:input",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[6]/h:td[2]/h:input[2]",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form",
+                    "type": "submit",
+                    "fname": "login"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[5]/h:td[1]/h:input",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "password"
+                },
+                {
+                    "path": "//*[@id='content-holder']/h:div/h:div/h:div[2]/h:form/h:table/h:tbody/h:tr[5]/h:td[1]/h:input",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password"
+                }
+            ]
+        },
+        {
+            "url": "https://my.avast.com/en-us/",
+            "events": []
+        }
+    ],
+    "name": "avast!",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

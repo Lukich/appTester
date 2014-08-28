@@ -1,0 +1,79 @@
+{
+    "url_root": "carecreditpro.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGM0ExOTM2MUYwMjUxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGM0ExOTM2MEYwMjUxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NkVBNzU2MzQwQjIwNjgxMTgwODNEREQ5NEIzRDlGRjIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7UxVwbAAAO3klEQVR42uyaeVxU57nHz5l9BYYZkH1HdmQVAUEQlYSKmkTU2sS0uclNk6ZJbJs0t2k+TZvbfD63TXKvMY1N0sQaN2IQTKLGKIkoigiyDiCLDLswwACzMvu5z5wZEJeIf7TJXZ7fX7Oced/3PN/3+T3Pe4CkKIpAfX9iYAgQAAJAIQAEgPp+xMIuCDMAAaAQAAJAIQAEgEIACACFBzHMABQCQAAoBIAAUAgA21AUZgACQCEABIBCAAgAhW0oZgAKASAAFAJAACjsgjADUAgAAaAQAAJAYRf0vxfAvVykM0+Xd78e7ZmT5rueQd5T0tgpSqXXaU1Gm53isVgSgUDI5ZH/d+OoM5mMVouEL2Ay7hafWYvFZLWwGEzY91w2i8Nk3RMA+cRZ1exI+2RVjFeOmC1Z9Prm60N/qqm6NDJosdkogmIwGB5c/vbYZT9dniXhC7/LuHSOj33VdbVPM00QVJDYY21kdIKv/z9jordrz315revw5oeBwa6ac2abbWd2njuPf8tle69c8haLj3bItVbLs6kr1kXFLQ5gUN3WMPoFRdmNNp3Jor87gGmD4Y2L37zRcImwWhd+Pq7XvXqh8q+tDe+sWV8cE/8dhL55bOTPF84e7enwE4j8hWI7QR3rufpvFyqLQiJfWJmfFRT6j51ObTQqDTqb3W6yWo92tlso21PpWQBgaFr19PGjOzNXrY6IgssipLLy9lY7QWjMlmG1enEL0lvU54b3m+2zJEmQJGNR/3nx9LGDHXIC6grYDRQXNosgmYTFQlAwKTGmnq7oaPkOANQP9hd9uldjtb29uujBuGUCDgfWojebjsqbd54/fb607y/rNm1LSv0HzkgSLn914/I+3FgCDiMRiuCtwWo9PajYmpDs/DY7JHx5UCgHLIigmHQwWdTdfNxWe71iwjBE0YN784OFHInKbHp/SAFDPBsSwVrAA0x/96Xqj9tb6eiTGb7BL2bmrggMAafrn5kC7Hsaa5d5+76+rhhmhG3SoxpvVY4pZqY0xlkWgxHg7pHhF5To48dmMmG0I23N1w16FkluiIyGhZa2NetMszuz8t14PLDRmsG+i4N9Y1oNj8WO8PK+PywyVOo1v5JRjfqxkxUiruD4lm3LA4PnPxdyuE9l5sL9/1ft+ST/AFgGOCTsKWcgdCYjjCwTiZ2B1BqNUwY9m8GQicXg1Hfa8rNTeh2fzfESiR2+7/gZCWMymcw4b19HZJlMG0VZ7DbYifDCardDiNhMloDDnB+EcmTAt3dBbcqzLcrTFGGHwd05nvmBjw8YLNtb69sN2miBaIdvoIzLm794Uqf5e0sdcIDoR3t6lT603dfN3flVvLdvrJdPcVSst0C0RCSGGQ801v7q61NglDaCnp2iSJLkslgvZ+e/sHI1bJ9dNWcbxpUcJlPK5uyqq26ZGI/2lD6dnj1D2UsqDl8eUJjB4khHlsHWe4XFPrRpa2FUnHO68vaWnknlvuLN6QFBt99dql/A3k3bAPmkVpN/4L3nU3O2Jibtqqna1Vofyhedf+xnXBb744Y6MExwFZghzGvJXsiiJb7zIxjMpt01599srLVZLCSTke0b+GbhBkfsIcspwmAyPlRRChu84oHte5vrfnexirATz3/95QvnK2ExUW7uFVseldLJsUgXdF3bXTv6KUQftkekR1qK3/bScc0f+jqnLOY7Xt8zpRrUqJ1cf5uVPx9913GDJJP9Auff5oRG2shTNsrOYrOFTJbaZIT1G63WV86dCXGTbE5IomgqsGVeqz6jmJlxxJokwGF3nqioVvTAVyIuN9bTS2nQDmg0eqvl8S8rjrm5p/oGANTS9qZ4L+/imMRva7pYdKMCs/doNK3jI58caW4cG8nwC4yXLdGbzc+dKD9ytW1t+NIU34AZs7FK0b3mwAe7CotL4pJglwzPTD9+/NOmsdF1oRHhMq9po7FuULFq/3uBsLHoLIA1q3UaBglhpwLF7jk+/id7uxI8pWEenrAZfERiFpO5eBtqsGhOKfZAAeAx2CsDdvh6rCxqqW9Tq+a3k4jNFbHYC3+imJrUAxuSZHK4eWERd3fMpTLv32bkxi3xyQgM4bE57crRR44ddvAjyb/IrziKBD0TpK0j+gQBd5LrF3z2WlfZ1Va4xlsoKi/ZkewXAAn+REXpp13tE3r93y5fTN20ValRX1GO/TI9k89mL2LbjinI91uu+IlElT/610Rff4jfRw21+9qa/7hq7XNZec6Gcjw9u/DgB6+eO5MVEOwlcnvy1GdNo9cPP/jDvLClsKtgDEjjZ46X/V3eFOzuMV8Q6Owk1sckREm9AMCTKRk/THSVHJIkFzkJGyzqk4rdJqsqTpZTGP7K18bQnLpquYaOPv1jIYv9UnA472aS5rm2R8pmu93Wft2unTmrl3ot6Z2alCtHxFzuqysLnIPr9XqD1UzfA30dk/l6wf1NT+78c9EDZT0d9IdUSUxCgo8fJARY769yCmQCIeTEZ4oucG2dxeQogPfY7MJ2YTLfL3ooyS8AogmV6d2G2jWh4T9bkTvfznuL3f6QuxY2R+3wYN/MVOvo8AOxCTmhEQx6tSTt9a/m3xcpld0Y1EWXbkTo3KXLokuLHMQg78/2/42yGTZE/UefiXWfvHXIqCVcc1GwKF8e/2Bc6gpPGeSaxWblsFjOBgA8wRmz8VnDdY06xFN6lxtXqCaf+PyTiyNDNz5icxyrpgiL3Wq12lzhp6gtETG/yFwFL2dmDcNOi6OId+WNe9qbKfoiYGA1GeH+pgyGMa1axObBayjs9wSAooqDIwvoBhE0MDPVPjme4u1z8qoc6rOzkYOQQX22kowO5SiXw50wzm6JimMzbtp8S9zccwKDv+675hrUUdJuSTXqnh5FwGuFuk0mzmw0eT/RqaieVlmgsJAkmySTRG7pbpI8qXe6QDwyNfnmVXn1gKJTNfnhhhJnTx0p9fLgcmcgFnbrvpb6l3PX3nImdE4E9zOiVq8/sk+hGoe34Ixpvv4Wm71FOapQm5x7hqLt33n3uaHhzh9StFwNLkTHbifoCmuDEZn0RHa73mQKk8iiPDxP9/W+ZDHzWOy7Bt8xRYqf73wEZs1Q3qjPe7vODvbZHX0zOW8pfjwek0Ea4QK7jcdk3/78xk8gpsPsXCVJuV5Rzlmoudu/26MIK0UNG/QHx5lvXdcwKRU0ZwKhYINYUiiRrpTIhCxW94TyyJXan3e3K/U6Z3cB1sGbO0uHSaThHtIG5TCs98Omuh9ExCT7BzLmdgJk93uXL0Aj+JO0FbXD/YqpCQhunKdX1U+eFtGtVPPwQOa+Pa6NQtF5TBEMJkM21zBANIVcvvPbnSkZL69aZ3cSpYsqVDwoGDA+zLg1JuG1mrOnujo2xi27Yx222m0s1xYmeY7McwkOsXBofyZlxct56+Aa2jdc2xcowyxf9XaD4fSrpzKJsJsGtNma6f00z5a4xWrIb30Kw4LQOBpqJnPAoG/Xqn0I6r3AEBHcktmsmzWAV5zo7fnrzBQ0OcpZ/U1dHUku8/YL93R5H5z6XsrKK/nsMOxEcKGSsgPglYUh4RC4PvV0eVf7uf5eaDRnbVY+29X7hnlIBBwwLkc/fry3y7VQag4C7ZfzCHls9sOxCZeGFPD64FV5bnD46nBHGeyZnNh9+cKKwKBtiSnOizcnJO9ta3yx6nSIRArmfssNd0+M/3t15aOJqYmOzvKmXenv7lEQGLq/rfGRpPRgieeN8maz1Q32pwUGx8q8A4Ti/fLGoqVx7vwbda5xdOTy8IBg/rhA3pxnLozfAgCKZzuc2i9Xd0yM6e00d5vVtQdvisgCjHRo3ISitws3LnzcsT4m/i1t0a+rTlksllG95t0rF9+9UnPjVEySFovtRHfHMxkrhWwOtExf9Hb9S/mh7MCQc4P9x6513Nqi3JazO5KXH+tsqxxUKHWaTWUfB4g9BJCXMyq4cn9HEzhDSUKS0wzfWl304+Nlqw598P66jYWR0Vzai8xWS1Vvz1OVn8Py7guPhHJG39GNaIFn/jIrb0v5gY1HD5U9uM1P7AblDWrP77756mhPW9lDj+SFRjwSn/zHS1W/qfzi9wVFQjYXnKpNObrjWOm0cVbg6ETp6MDhZM59PXh8OHzVDw9siI6DsIFJQk4vNGeWmMcriknIj4i6ppqE9rZldKhrcrxzRjWi04HfucLnCiH9AxYrViIrgKUkLY/x8r4lRo+lZIj5gt0151pVSqf1zVUhQsDmPJOS8eyKXMiDrTGJH8mvwOelnfLSrjbIv7zA0MqBXufGX0jBvgADpP87xZt/c+bE0a42eDusnXYtiiTvD41MC7hxzlgfm1jOF7x2/szjJ8rAGJeAj5HUuFbfq5leExz2QnZ+ZlDoGJR0Z1FZIKhnf1pb/FrVVwX79kRKZBCpfs202mR6JXv1cv8giODz2XmwPd+pv3imvzfUXQJnF/nk+NrgsDSmf8PYiKsMEM7Dq0M+bu7PpmX+Z33NpZEhNpMBzXFZyQ53vuCGjxgMhju4pM0GnfW4Tj2ph6yg5hNLIuQHuXtKRWIGSd79oevJrrZjne1y7Qy4cwBXWBAQtDUxJcDDc/65xRcd8o/bGnv12gR3yaPxKVE+vm9c+Aa6C3cu/7ms3A/qLo7otbBPfpycEe/jd8v453u7D7Q1XZ6agARP8ZA+HJ9cEBl9e4cHR62a/t7jXR19mmkGwYj2lP1gaUz63GM4rdH4UX3NiuDQjNsezKn0uoPN9TV0k7bM2+dHSWlBHp4LXeXq+Oih1qae6Ul3Lm9zdPzapbFVvd3No8OPpWXxOexPWhogdbYuS3U+VjHbrNBWnVb0MEhG8dLYNZFRzAVN1J0BoPBPkggAhQAQAOqfLvyvCMwABIBCAP+fawDG4PsFQGARRgtCACgEgABQeBLGDEAhAASAQgBYhFGYAQgAhQAQAAoBYBeEwgxAACgEgABQWIQxA1AIAAGgEAACQGEXhBmAQgAIAIUAEAAKuyDMABQCQAAoBIAAUAgA21AUZgACQCEABIBCAAgAhW0oZgAKASAAFAJAACgEgABQCAABoPAkjBmAQgD/U/TfAgwAKMO5XGuxkoUAAAAASUVORK5CYII=",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "carecreditpro.com"
+    ],
+    "login_url": "https://www.carecreditpro.com/CareCreditPortal/",
+    "tags": [
+        "health",
+        "insurance"
+    ],
+    "thumbnail_ts": 1403822153.594176,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.carecreditpro.com/CareCreditPortal/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='usernameFocus']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "loginportlet_1{actionForm.username}",
+                    "eid": "usernameFocus",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='passwordId']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "loginportlet_1{actionForm.password}",
+                    "eid": "passwordId",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                },
+                {
+                    "path": "//xhtml:form[@id='loginForm']/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr[4]/xhtml:td/xhtml:a/xhtml:img",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "esrc": "/CommercialPortalWebProject/login/jsp/../images/index-login-button.png;jsessionid=GYkPTp3CLFh4JylsLlwCR1qs5W5dx21bVTp122bwVH2Yln581PTG!911134487"
+                }
+            ]
+        }
+    ],
+    "name": "Care Credit",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

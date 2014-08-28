@@ -1,0 +1,67 @@
+{
+    "url_root": "nordstrom.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCRDUyRjJGRUMzMzcxMUUzQjZFMjhGRDg4MUJFNUE0NiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQzBFRTMyNEMzMzcxMUUzQjZFMjhGRDg4MUJFNUE0NiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MURENjRBMjgzNTIwNjgxMThDMTQ4REJCMTI0RkE2NkIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "secure.nordstrom.com"
+    ],
+    "login_url": "https://secure.nordstrom.com/SignIn.aspx",
+    "tags": [
+        "ecommerce", "shopping"
+    ],
+    "thumbnail_ts": 1398366670.838028,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://secure.nordstrom.com/SignIn.aspx",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_mainContentPlaceHolder_signIn_email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$mainContentPlaceHolder$signIn$email",
+                    "eid": "ctl00_mainContentPlaceHolder_signIn_email",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='ctl00_mainContentPlaceHolder_signIn_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$mainContentPlaceHolder$signIn$password",
+                    "eid": "ctl00_mainContentPlaceHolder_signIn_password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Nordstrom",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

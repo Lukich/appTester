@@ -1,0 +1,89 @@
+{
+    "url_root": "live.com, msn.com",
+    "prev_login_script": [
+        {
+            "url": "https://login.live.com/login.srf",
+            "events": [
+                {
+                    "path": "//*[@id='i0116']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "login",
+                    "eid": "i0116",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='i0118']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "passwd",
+                    "eid": "i0118",
+                    "f": "field1",
+                    "e": [
+                        9
+                    ]
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": [],
+    "js_platform": null,
+    "use_cookie": "inject",
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpENjE4NTQ2ODk5N0UxMUUyOEY1OUVFQzQ0QkNDRkQxNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpENjE4NTQ2Nzk5N0UxMUUyOEY1OUVFQzQ0QkNDRkQxNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDY4MDExNzQwNzIwNjgxMTgwODM4RTM0M0NGQUI5N0UiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "login.live.com"
+    ],
+    "login_url": "https://login.live.com/login.srf",
+    "tags": null,
+    "thumbnail_ts": 1393882344.498276,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "exact match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://login.live.com/login.srf",
+            "events": [
+                {
+                    "path": "//*[@id='i0116']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "login",
+                    "eid": "i0116",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='i0118']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "passwd",
+                    "eid": "i0118",
+                    "f": "field1",
+                    "e": [
+                        9
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Live.com Accounts",
+    "notes": "matching_type is set exact even though there are no params to match. This is because live.com is used for both a generic microsoft signin and an SSO for other properties.",
+    "provisioner": false,
+    "ua_browser": null
+}

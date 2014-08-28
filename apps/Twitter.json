@@ -1,0 +1,193 @@
+{
+    "url_root": "twitter.com",
+    "prev_login_script": [
+        {
+            "url": "https://twitter.com/",
+            "events": [
+                {
+                    "path": "//*[@id='signin-email']",
+                    "ftype": "text",
+                    "type": "focus",
+                    "eid": "signin-email",
+                    "fname": "session[username_or_email]"
+                },
+                {
+                    "path": "//*[@id='signin-email']",
+                    "ftype": "text",
+                    "type": "blur",
+                    "eid": "signin-email",
+                    "fname": "session[username_or_email]"
+                },
+                {
+                    "shiftKey": false,
+                    "detail": 1,
+                    "altKey": false,
+                    "metaKey": false,
+                    "ctrlKey": false,
+                    "path": "//*[@id='front-container']/h:div[3]/h:div[2]/h:form/h:div[1]/h:label",
+                    "type": "click"
+                },
+                {
+                    "path": "//*[@id='signin-email']",
+                    "ftype": "text",
+                    "type": "focus",
+                    "eid": "signin-email",
+                    "fname": "session[username_or_email]"
+                },
+                {
+                    "ftype": "text",
+                    "shiftKey": false,
+                    "detail": 1,
+                    "altKey": false,
+                    "metaKey": false,
+                    "eid": "signin-email",
+                    "fname": "session[username_or_email]",
+                    "ctrlKey": false,
+                    "path": "//*[@id='signin-email']",
+                    "type": "click"
+                },
+                {
+                    "e": [],
+                    "f": "field0",
+                    "ftype": "text",
+                    "eid": "signin-email",
+                    "fname": "session[username_or_email]",
+                    "path": "//*[@id='signin-email']",
+                    "type": "keypress"
+                },
+                {
+                    "f": "field0",
+                    "ftype": "text",
+                    "eid": "signin-email",
+                    "fname": "session[username_or_email]",
+                    "path": "//*[@id='signin-email']",
+                    "type": "change"
+                },
+                {
+                    "path": "//*[@id='signin-email']",
+                    "ftype": "text",
+                    "type": "blur",
+                    "eid": "signin-email",
+                    "fname": "session[username_or_email]"
+                },
+                {
+                    "path": "//*[@id='signin-password']",
+                    "ftype": "password",
+                    "type": "focus",
+                    "eid": "signin-password",
+                    "fname": "session[password]"
+                },
+                {
+                    "e": [],
+                    "f": "field1",
+                    "ftype": "password",
+                    "eid": "signin-password",
+                    "fname": "session[password]",
+                    "path": "//*[@id='signin-password']",
+                    "type": "keypress"
+                },
+                {
+                    "f": "field1",
+                    "ftype": "password",
+                    "eid": "signin-password",
+                    "fname": "session[password]",
+                    "path": "//*[@id='signin-password']",
+                    "type": "change"
+                },
+                {
+                    "path": "//*[@id='signin-password']",
+                    "ftype": "password",
+                    "type": "blur",
+                    "eid": "signin-password",
+                    "fname": "session[password]"
+                },
+                {
+                    "path": "//*[@id='front-container']/h:div[3]/h:div[2]/h:form/h:table/h:tbody/h:tr/h:td[2]/h:button",
+                    "ftype": "submit",
+                    "type": "focus"
+                },
+                {
+                    "ftype": "submit",
+                    "shiftKey": false,
+                    "detail": 1,
+                    "altKey": false,
+                    "metaKey": false,
+                    "ctrlKey": false,
+                    "path": "//*[@id='front-container']/h:div[3]/h:div[2]/h:form/h:table/h:tbody/h:tr/h:td[2]/h:button",
+                    "type": "click"
+                },
+                {
+                    "path": "//*[@id='front-container']/h:div[3]/h:div[2]/h:form",
+                    "type": "submit"
+                },
+                {
+                    "path": "//*[@id='front-container']/h:div[3]/h:div[2]/h:form/h:table/h:tbody/h:tr/h:td[2]/h:button",
+                    "ftype": "submit",
+                    "type": "blur"
+                }
+            ]
+        },
+        {
+            "url": "https://twitter.com/login/error?redirect_after_login=%2F&username_or_email=user%40email.com",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": "autoplay",
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxODEwRTIwNzk5N0YxMUUyOEY1OUVFQzQ0QkNDRkQxNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxODEwRTIwNjk5N0YxMUUyOEY1OUVFQzQ0QkNDRkQxNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDY4MDExNzQwNzIwNjgxMTgwODM4RTM0M0NGQUI5N0UiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "twitter.com"
+    ],
+    "login_url": "http://twitter.com/",
+    "thumbnail_ts": 1365604174.446972,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://twitter.com/",
+            "events": [
+                {
+                    "path": "//*[@id='signin-email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "session[username_or_email]",
+                    "eid": "signin-email",
+                    "displayname": "Username",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='signin-password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "session[password]",
+                    "eid": "signin-password",
+                    "displayname": "Password",
+                    "f": "field1",
+                    "e": [
+                        5
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Twitter",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

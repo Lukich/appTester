@@ -1,0 +1,77 @@
+{
+    "url_root": "cibc.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDOUYzQUNBOEFDNDUxMUUzQjJCQ0QxQzhBQjk1RDRBQiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDOUYzQUNBN0FDNDUxMUUzQjJCQ0QxQzhBQjk1RDRBQiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjRBNzJDQTRCMTIwNjgxMThDMTRBQ0JCRjkwNTYzMzQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "cibc.com"
+    ],
+    "login_url": "https://www.cibc.com/ca/personal.html",
+    "tags": [
+        "finance"
+    ],
+    "thumbnail_ts": 1396044621.511876,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.cibc.com/ca/personal.html",
+            "events": [
+                {
+                    "path": "/xhtml:html/xhtml:body",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0
+                },
+                {
+                    "path": "//xhtml:input[@id='newCardNumber']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "newCardNumber",
+                    "eid": "newCardNumber",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "Card Number"
+                },
+                {
+                    "path": "//xhtml:input[@id='pswPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "pswPassword",
+                    "eid": "pswPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "CIBC Online Banking",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

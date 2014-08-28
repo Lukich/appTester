@@ -1,0 +1,62 @@
+{
+    "url_root": "expensewire.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMUFDNzc4QjRFMjAxMUUzQUQxRjkwNjQ5NDZENTEyNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMUFDNzc4QTRFMjAxMUUzQUQxRjkwNjQ5NDZENTEyNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NkFFOTBBQkQyRTIwNjgxMTgyMkFBNjcxMkFFNkRCMzkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "web.expensewire.com"
+    ],
+    "login_url": "https://web.expensewire.com/expensewire/SignInPage.aspx",
+    "thumbnail_ts": 1385417992.48191,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://web.expensewire.com/expensewire/SignInPage.aspx",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='UserID']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "UserID",
+                    "eid": "UserID",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "Password",
+                    "eid": "Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "ExpenseWire",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

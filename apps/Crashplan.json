@@ -1,0 +1,75 @@
+{
+    ":inheritance": "mine",
+    "admin_provisioned": false,
+    "provisioner": false,
+    "admin_controlled_creds": false,
+    "login_script": [
+        {
+            "url": "https://www.crashplan.com/account/login.vtl",
+            "events": [
+                {
+                    "path": "//*[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "loginForm.username",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "loginForm.password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [],
+                    "displayname": "Password"
+                },
+                {
+                    "path": "//*[@id='login-button']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                }
+            ]
+        }
+    ],
+    "cred": null,
+    "key": "",
+    "metadata": {},
+    "master": null,
+    "type": 8,
+    "orgname": "",
+    "login_url": "https://www.crashplan.com/account/login.vtl",
+    "url_root": "crashplan.com",
+    "catalog_published": true,
+    "alias_urls": [
+        "crashplan.com"
+    ],
+    "matching_type": "domain only",
+    "param_list": null,
+    "user_agent_browser_version": "",
+    "prev_login_script": "[\n    {\n        \"url\": \"https://www.crashplan.com/account/login.vtl\",\n        \"events\": [\n            {\n                \"path\": \"//*[@id='username']\",\n                \"type\": \"blur\",\n                \"ftype\": \"Text\",\n                \"fname\": \"loginForm.username\",\n                \"eid\": \"username\"\n            },\n            {\n                \"path\": \"//*[@id='username']\",\n                \"type\": \"focus\",\n                \"ftype\": \"Text\",\n                \"fname\": \"loginForm.username\",\n                \"eid\": \"username\"\n            },\n            {\n                \"path\": \"//*[@id='username']\",\n                \"type\": \"click\",\n                \"ctrlKey\": false,\n                \"altKey\": false,\n                \"metaKey\": false,\n                \"shiftKey\": false,\n                \"detail\": 1\n            },\n            {\n                \"path\": \"//*[@id='username']\",\n                \"type\": \"keypress\",\n                \"ftype\": \"text\",\n                \"fname\": \"loginForm.username\",\n                \"eid\": \"username\",\n                \"f\": \"field0\",\n                \"e\": []\n            },\n            {\n                \"path\": \"//*[@id='username']\",\n                \"type\": \"change\",\n                \"ftype\": \"Text\",\n                \"fname\": \"loginForm.username\",\n                \"eid\": \"username\",\n                \"f\": \"field0\"\n            },\n            {\n                \"path\": \"//*[@id='username']\",\n                \"type\": \"blur\",\n                \"ftype\": \"Text\",\n                \"fname\": \"loginForm.username\",\n                \"eid\": \"username\"\n            },\n            {\n                \"path\": \"//*[@id='password']\",\n                \"type\": \"focus\",\n                \"ftype\": \"password\",\n                \"fname\": \"loginForm.password\",\n                \"eid\": \"password\"\n            },\n            {\n                \"path\": \"//*[@id='password']\",\n                \"type\": \"keypress\",\n                \"ftype\": \"password\",\n                \"fname\": \"loginForm.password\",\n                \"eid\": \"password\",\n                \"f\": \"field1\",\n                \"e\": [\n                    8\n                ]\n            },\n            {\n                \"path\": \"//*[@id='password']\",\n                \"type\": \"change\",\n                \"ftype\": \"password\",\n                \"fname\": \"loginForm.password\",\n                \"eid\": \"password\",\n                \"f\": \"field1\"\n            },\n            {\n                \"path\": \"//*[@id='login-button']\",\n                \"type\": \"click\",\n                \"ctrlKey\": false,\n                \"altKey\": false,\n                \"metaKey\": false,\n                \"shiftKey\": false,\n                \"detail\": 0,\n                \"ftype\": \"submit\",\n                \"eid\": \"login-button\"\n            },\n            {\n                \"path\": \"//*[@id='loginForm']\",\n                \"type\": \"submit\",\n                \"fname\": \"loginForm\",\n                \"eid\": \"loginForm\"\n            },\n            {\n                \"path\": \"//*[@id='password']\",\n                \"type\": \"keydown\",\n                \"ftype\": \"password\",\n                \"fname\": \"loginForm.password\",\n                \"eid\": \"password\"\n            },\n            {\n                \"path\": \"//*[@id='login-button']\",\n                \"type\": \"click\",\n                \"ctrlKey\": false,\n                \"altKey\": false,\n                \"metaKey\": false,\n                \"shiftKey\": false,\n                \"detail\": 0,\n                \"ftype\": \"submit\",\n                \"eid\": \"login-button\"\n            },\n            {\n                \"path\": \"//*[@id='loginForm']\",\n                \"type\": \"submit\",\n                \"fname\": \"loginForm\",\n                \"eid\": \"loginForm\"\n            },\n            {\n                \"path\": \"//*[@id='password']\",\n                \"type\": \"keydown\",\n                \"ftype\": \"password\",\n                \"fname\": \"loginForm.password\",\n                \"eid\": \"password\"\n            },\n            {\n                \"path\": \"//*[@id='password']\",\n                \"type\": \"blur\",\n                \"ftype\": \"password\",\n                \"fname\": \"loginForm.password\",\n                \"eid\": \"password\"\n            },\n            {\n                \"path\": \"//*[@id='login-button']\",\n                \"type\": \"focus\",\n                \"ftype\": \"submit\",\n                \"eid\": \"login-button\"\n            },\n            {\n                \"path\": \"//*[@id='login-button']\",\n                \"type\": \"click\",\n                \"ctrlKey\": false,\n                \"altKey\": false,\n                \"metaKey\": false,\n                \"shiftKey\": false,\n                \"detail\": 1,\n                \"ftype\": \"submit\",\n                \"eid\": \"login-button\"\n            },\n            {\n                \"path\": \"//*[@id='loginForm']\",\n                \"type\": \"submit\",\n                \"fname\": \"loginForm\",\n                \"eid\": \"loginForm\"\n            },\n            {\n                \"path\": \"//*[@id='login-button']\",\n                \"type\": \"blur\",\n                \"ftype\": \"submit\",\n                \"eid\": \"login-button\"\n            },\n            {\n                \"path\": \"//*[@id='rso']/h:li[1]/h:table/h:tbody/h:tr[2]/h:td[1]/h:div/h:span/h:h3/h:a\",\n                \"type\": \"focus\",\n                \"ehref\": \"http://www.crashplan.com/account/\"\n            }\n        ]\n    }\n]",
+    "use_cookie": "inject",
+    "automation_level": "autofill",
+    "content_restrictions": null,
+    "title": null,
+    "notes": null,
+    "app_name": null,
+    "ua_version": null,
+    "ua_browser": null,
+    "ua_platform": null,
+    "custom_ua": null,
+    "use_custom_ua": true,
+    "js_platform": "Default",
+    "name": "Crashplan",
+    "is_root_app": "a8-root-app",
+    "url": "https://www.crashplan.com/account/login.vtl",
+    "iconStyle": "background-image: url(https://api.qint.authentic8.com/sp_thumbs/DM/DMK53Mq7cn5nZGSdG6sNVA.png);background-size:16px 16px;background-repeat: no-repeat; position: relative; top: 2px;width: 16px; height: 14px; float: left; margin-right: 4px;",
+    "path": "<b>/</b>Authentic8 Root of All<br>App Icon:<br><div style='margin-top: 3px; background-color: #fff; border-radius: 5px; padding: 5px;'><img style='position: relative; left: 50%; margin-left: -20px;' width='40px;' height='40px;' src='https://api.qint.authentic8.com/sp_thumbs/DM/DMK53Mq7cn5nZGSdG6sNVA.png'></div>"
+}

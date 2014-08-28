@@ -1,0 +1,65 @@
+{
+    "url_root": "cardmanager.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5QTc3NkJFNkEwRkIxMUUzQjM3OEQ4QkRBNTI3RTNGMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5QTc3NkJFNUEwRkIxMUUzQjM3OEQ4QkRBNTI3RTNGMCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgwODNBRUU5MzQ2NUZEMTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "mb.cardmanager.com"
+    ],
+    "login_url": "https://mb.cardmanager.com/",
+    "tags": [
+        "finance"
+    ],
+    "thumbnail_ts": 1394552185.262941,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "never match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://mb.cardmanager.com/",
+            "events": [
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td/xhtml:form[@name='logonForm']/xhtml:fieldset/xhtml:table/xhtml:tbody/xhtml:tr[3]/xhtml:td[2]/xhtml:input[@name='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td/xhtml:form[@name='logonForm']/xhtml:fieldset/xhtml:table/xhtml:tbody/xhtml:tr[5]/xhtml:td[2]/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "MB Financial Bank - Card Manager",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

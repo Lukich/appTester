@@ -1,0 +1,88 @@
+{
+    "url_root": "netsuite.com",
+    "prev_login_script": [
+        {
+            "url": "https://system.netsuite.com/pages/customerlogin.jsp?",
+            "events": [
+                {
+                    "path": "h:html/h:body/h:table[2]/h:tbody/h:tr/h:td[2]/h:table/h:tbody/h:tr/h:td[2]/h:table[1]/h:tbody/h:tr/h:td/h:table/h:tbody/h:tr/h:td/h:table[1]/h:tbody/h:tr[2]/h:td[4]/h:table/h:tbody/h:tr[2]/h:td[2]/h:form/h:table/h:tbody/h:tr[4]/h:td[2]/h:input",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "h:html/h:body/h:table[2]/h:tbody/h:tr/h:td[2]/h:table/h:tbody/h:tr/h:td[2]/h:table[1]/h:tbody/h:tr/h:td/h:table/h:tbody/h:tr/h:td/h:table[1]/h:tbody/h:tr[2]/h:td[4]/h:table/h:tbody/h:tr[2]/h:td[2]/h:form/h:table/h:tbody/h:tr[8]/h:td[2]/h:input",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "system.netsuite.com"
+    ],
+    "login_url": "https://system.netsuite.com/pages/customerlogin.jsp?country=US&ck=0FGX2rXgAXGQAsTu&vid=0FGX2rXgAXaQAhxR&cktime=123061&addrcountry=US",
+    "tags": null,
+    "thumbnail_ts": 1362161647.785019,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://system.netsuite.com/pages/customerlogin.jsp?country=US&ck=0FGX2rXgAXGQAsTu&vid=0FGX2rXgAXaQAhxR&cktime=123061&addrcountry=US",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='userName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "email",
+                    "eid": "userName",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:div[@id='header']/xhtml:div/xhtml:form/xhtml:div/xhtml:div[2]/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "NetSuite",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

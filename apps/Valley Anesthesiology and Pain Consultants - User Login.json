@@ -1,0 +1,67 @@
+{
+    "url_root": "valleyanesth.org",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMDQyQjNBMUI3RTMxMUUzOEFDRTg1QjAzQThDODkzNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMDQyQjNBMEI3RTMxMUUzOEFDRTg1QjAzQThDODkzNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RTM0RUY2NkU1QjIwNjgxMTgyMkE4Q0JCOUZFQzQ1NDgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "valleyanesth.org"
+    ],
+    "login_url": "https://www.valleyanesth.org/UserLogin.aspx",
+    "tags": [
+        "health"
+    ],
+    "thumbnail_ts": 1397490162.658889,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.valleyanesth.org/UserLogin.aspx",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='Login1_UserName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "Login1$UserName",
+                    "eid": "Login1_UserName",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='Login1_Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "Login1$Password",
+                    "eid": "Login1_Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Valley Anesthesiology and Pain Consultants - User Login",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

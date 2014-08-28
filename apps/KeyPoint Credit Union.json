@@ -1,0 +1,96 @@
+{
+    "url_root": "kpcu.com,keypointcu-secure.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.kpcu.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDMEEzMzhFODQ0MzYxMUUzODE4RUNDMEI4MDU0Nzg3RSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDMEEzMzhFNzQ0MzYxMUUzODE4RUNDMEI4MDU0Nzg3RSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MzJFMTEwMjA2RDIwNjgxMTgyMkFEMTNCNEY0RjkyRTIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "kpcu.com"
+    ],
+    "login_url": "https://www.kpcu.com/",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1384371885.702423,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.kpcu.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "KeyPoint Credit Union",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

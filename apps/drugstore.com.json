@@ -1,0 +1,68 @@
+{
+    "url_root": "drugstore.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFQUVDNDY1MUYwMjQxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFQUVDNDY1MEYwMjQxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6REY0QTRDOEEwQTIwNjgxMTgwODNEREQ5NEIzRDlGRjIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "drugstore.com"
+    ],
+    "login_url": "https://www.drugstore.com/user/login.asp?besecure=on&sra=1",
+    "tags": [
+        "ecommerce", "shopping"
+    ],
+    "thumbnail_ts": 1404152756.786576,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.drugstore.com/user/login.asp?besecure=on&sra=1",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='txtEmail']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "txtEmail",
+                    "eid": "txtEmail",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='txtPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "txtPassword",
+                    "eid": "txtPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "drugstore.com",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

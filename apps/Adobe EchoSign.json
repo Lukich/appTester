@@ -1,0 +1,133 @@
+{
+    "url_root": "echosign.com",
+    "prev_login_script": [
+        {
+            "url": "https://secure.echosign.com/public/login",
+            "events": [
+                {
+                    "path": "//*[@id='userEmail']",
+                    "type": "focus",
+                    "ftype": "email",
+                    "fname": "j_username",
+                    "eid": "userEmail"
+                },
+                {
+                    "path": "//*[@id='userEmail']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "j_username",
+                    "eid": "userEmail",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//*[@id='userEmail']",
+                    "type": "blur",
+                    "ftype": "email",
+                    "fname": "j_username",
+                    "eid": "userEmail"
+                },
+                {
+                    "path": "//*[@id='loginForm']/h:table/h:tbody/h:tr[2]/h:td/h:input",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "j_password"
+                },
+                {
+                    "path": "//*[@id='loginForm']/h:table/h:tbody/h:tr[2]/h:td/h:input",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "secure.echosign.com"
+    ],
+    "login_url": "https://secure.echosign.com/public/login",
+    "tags": null,
+    "thumbnail_ts": 1399998791.187063,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://secure.echosign.com/public/login",
+            "events": [
+                {
+                    "path": "//*[@id='userEmail']",
+                    "type": "focus",
+                    "ftype": "email",
+                    "fname": "j_username",
+                    "eid": "userEmail"
+                },
+                {
+                    "path": "//*[@id='userEmail']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "j_username",
+                    "eid": "userEmail",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//*[@id='userEmail']",
+                    "type": "blur",
+                    "ftype": "email",
+                    "fname": "j_username",
+                    "eid": "userEmail"
+                },
+                {
+                    "path": "//*[@id='loginForm']/h:table/h:tbody/h:tr[2]/h:td/h:input",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "j_password"
+                },
+                {
+                    "path": "//*[@id='loginForm']/h:table/h:tbody/h:tr[2]/h:td/h:input",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Adobe EchoSign",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

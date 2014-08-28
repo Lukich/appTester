@@ -1,0 +1,94 @@
+{
+    "url_root": "apple.com",
+    "prev_login_script": [
+        {
+            "url": "https://secure1.store.apple.com/us/sign_in/order?c=aHR0cHM6Ly9zZWN1cmUxLnN0b3JlLmFwcGxlLmNvbS91cy9hY2NvdW50L2hvbWV8MWFvczVhOTVhZjk3YzFhOTZjM2U3ZTA2YWE2NmFmOTMxNWNhZjg2MzQ0ZTg&r=SCKFUHKXACXX7DYHYT9JT7JJTAPAXHFKH&s=aHR0cHM6Ly9zZWN1cmUxLnN0b3JlLmFwcGxlLmNvbS91cy9vcmRlci9saXN0P2hpc3Q9OTB8MWFvc2RlOTRkMmI1ZGJmN2FkZjU0ODUxMWFmZmQ0NzJlM2QxMzc2MDM2ZGQ&t=SXYD4UDAPXU7P7KXF",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='login-appleId']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "login-appleId",
+                    "eid": "login-appleId",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:input[@id='login-password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "login-password",
+                    "eid": "login-password",
+                    "f": "field1",
+                    "e": [
+                        10
+                    ]
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": 9900,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBRjIwNzcwODI2MjYxMUUzOThCQ0NCNEM4QTQ3OUM2RCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBRjIwNzcwNzI2MjYxMUUzOThCQ0NCNEM4QTQ3OUM2RCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MUZEOUI2QjcxMjIwNjgxMTgwODM5RjFDMzEyMzNCMDkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "secure1.store.apple.com",
+        "store.apple.com"
+    ],
+    "login_url": "https://secure1.store.apple.com/us/sign_in/order?c=aHR0cHM6Ly9zZWN1cmUxLnN0b3JlLmFwcGxlLmNvbS91cy9hY2NvdW50L2hvbWV8MWFvczVhOTVhZjk3YzFhOTZjM2U3ZTA2YWE2NmFmOTMxNWNhZjg2MzQ0ZTg&r=SCKFUHKXACXX7DYHYT9JT7JJTAPAXHFKH&s=aHR0cHM6Ly9zZWN1cmUxLnN0b3JlLmFwcGxlLmNvbS91cy9vcmRlci9saXN0P2hpc3Q9OTB8MWFvc2RlOTRkMmI1ZGJmN2FkZjU0ODUxMWFmZmQ0NzJlM2QxMzc2MDM2ZGQ&t=SXYD4UDAPXU7P7KXF",
+    "tags": [
+        "ecommerce", "shopping"
+    ],
+    "thumbnail_ts": 1387565840.043439,
+    "memo": "These are the notes from the admin.\n\nQ1:flub\nA1:blah\n\nQ2: foo\nA2: bar",
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://secure1.store.apple.com/us/sign_in/order?c=aHR0cHM6Ly9zZWN1cmUxLnN0b3JlLmFwcGxlLmNvbS91cy9hY2NvdW50L2hvbWV8MWFvczVhOTVhZjk3YzFhOTZjM2U3ZTA2YWE2NmFmOTMxNWNhZjg2MzQ0ZTg&r=SCKFUHKXACXX7DYHYT9JT7JJTAPAXHFKH&s=aHR0cHM6Ly9zZWN1cmUxLnN0b3JlLmFwcGxlLmNvbS91cy9vcmRlci9saXN0P2hpc3Q9OTB8MWFvc2RlOTRkMmI1ZGJmN2FkZjU0ODUxMWFmZmQ0NzJlM2QxMzc2MDM2ZGQ&t=SXYD4UDAPXU7P7KXF",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='login-appleId']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "login-appleId",
+                    "eid": "login-appleId",
+                    "displayname": "Apple ID",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:input[@id='login-password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "login-password",
+                    "eid": "login-password",
+                    "displayname": "Password",
+                    "f": "field1",
+                    "e": [
+                        10
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Apple Store",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

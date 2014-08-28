@@ -1,0 +1,67 @@
+{
+    "url_root": "kohls.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2OUMyNjM1N0EzRUQxMUUzOURBNkM4MDdBRTgwNzM1NiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2OUMyNjM1NkEzRUQxMUUzOURBNkM4MDdBRTgwNzM1NiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTVDMTE1M0QzMDIwNjgxMTgyMkFDRkFGOTk2RkNDMzciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "kohls.com"
+    ],
+    "login_url": "https://www.kohls.com/myaccount/kohls_login.jsp",
+    "tags": [
+        "ecommerce", "shopping"
+    ],
+    "thumbnail_ts": 1395164223.030505,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.kohls.com/myaccount/kohls_login.jsp",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='txtemail_sign']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "txtemail_sign",
+                    "eid": "txtemail_sign",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='txtpassword_sign']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "txtpassword_sign",
+                    "eid": "txtpassword_sign",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Kohl's",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

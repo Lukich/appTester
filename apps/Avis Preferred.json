@@ -1,0 +1,229 @@
+{
+    "url_root": "avis.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.avis.com/car-rental/profile/login.ac",
+            "events": [
+                {
+                    "path": "//*[@id='loginusername']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "userName",
+                    "eid": "loginusername"
+                },
+                {
+                    "path": "//*[@id='loginusername']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='loginusername']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userName",
+                    "eid": "loginusername",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='loginusername']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "userName",
+                    "eid": "loginusername",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='loginusername']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "userName",
+                    "eid": "loginusername"
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword"
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword"
+                },
+                {
+                    "path": "//*[@id='FIND_RES_']",
+                    "type": "focus",
+                    "eid": "FIND_RES_",
+                    "ehref": "javascript:document.FIND_RES.submit()"
+                },
+                {
+                    "path": "//*[@id='FIND_RES_']/h:img",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "esrc": "../images/global/en/buttons/login_btn_over.gif"
+                },
+                {
+                    "path": "//*[@id='FIND_RES']",
+                    "type": "submit()"
+                },
+                {
+                    "path": "//*[@id='FIND_RES_']",
+                    "type": "blur",
+                    "eid": "FIND_RES_",
+                    "ehref": "javascript:document.FIND_RES.submit()"
+                }
+            ]
+        },
+        {
+            "url": "https://www.avis.com/car-rental/profile/login-submit.ac;jsessionid=wpY7RSkTb1h2pQDl48sbhjvggwQ1G852m22JJfCvvh6LhTv2VzTQ!-167426306",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "avis.com"
+    ],
+    "login_url": "https://www.avis.com/car-rental/profile/login.ac",
+    "tags": [
+        "travel"
+    ],
+    "thumbnail_ts": 1388042993.879965,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.avis.com/car-rental/profile/login.ac",
+            "events": [
+                {
+                    "path": "//*[@id='loginusername']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "userName",
+                    "eid": "loginusername"
+                },
+                {
+                    "path": "//*[@id='loginusername']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userName",
+                    "eid": "loginusername",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//*[@id='loginusername']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "userName",
+                    "eid": "loginusername"
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword"
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword",
+                    "f": "field1",
+                    "e": [
+                        12
+                    ],
+                    "displayname": "Password"
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword"
+                },
+                {
+                    "path": "//*[@id='FIND_RES_']",
+                    "type": "focus",
+                    "eid": "FIND_RES_",
+                    "ehref": "javascript:document.FIND_RES.submit()"
+                },
+                {
+                    "path": "//*[@id='FIND_RES_']/h:img",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "esrc": "../images/global/en/buttons/login_btn_over.gif"
+                }
+            ]
+        }
+    ],
+    "name": "Avis Preferred",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

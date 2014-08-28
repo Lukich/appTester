@@ -1,0 +1,67 @@
+{
+    "url_root": "cleanoffer.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozRTYyMDg1NzFBNjUxMUU0QUNBQUY1QjNFRjhBRjhENCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozRTYyMDg1NjFBNjUxMUU0QUNBQUY1QjNFRjhBRjhENCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkE3RjExNzQwNzIwNjgxMTgyMkFBMERCMjUwNjkxRUYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "cleanoffer.com"
+    ],
+    "login_url": "http://www.cleanoffer.com/",
+    "tags": null,
+    "thumbnail_ts": 1407880504.926497,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.cleanoffer.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "j_username",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "CleanOffer",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null,
+    "no_ufc": null
+}

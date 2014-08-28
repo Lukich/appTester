@@ -1,0 +1,178 @@
+{
+    "url_root": "visual.ly",
+    "prev_login_script": [
+        {
+            "url": "https://visual.ly/user/login",
+            "events": [
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "name",
+                    "eid": "edit-name"
+                },
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "name",
+                    "eid": "edit-name",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "name",
+                    "eid": "edit-name",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "name",
+                    "eid": "edit-name"
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass"
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='edit-submit']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "fname": "op",
+                    "eid": "edit-submit"
+                },
+                {
+                    "path": "//*[@id='user-login']",
+                    "type": "submit",
+                    "eid": "user-login"
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass"
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass"
+                }
+            ]
+        },
+        {
+            "url": "https://visual.ly/user/login",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "visual.ly"
+    ],
+    "login_url": "https://visual.ly/user/login",
+    "thumbnail_ts": 1360192562.982658,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://visual.ly/user/login",
+            "events": [
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "name",
+                    "eid": "edit-name",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Visual.ly",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

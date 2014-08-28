@@ -1,0 +1,121 @@
+{
+    "url_root": "wirelesswatchdogs.com",
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "title": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "wirelesswatchdogs.com"
+    ],
+    "login_url": "https://www.wirelesswatchdogs.com/clientportal/Login.aspx",
+    "name": "Wireless Watchdogs",
+    "notes": null,
+    "ua_browser": null,
+    "cred": null,
+    "login_script": [
+        {
+            "url": "https://www.wirelesswatchdogs.com/clientportal/Login.aspx",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='SystemLogin_UserName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "SystemLogin$UserName",
+                    "eid": "SystemLogin_UserName",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='SystemLogin_Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "SystemLogin$Password",
+                    "eid": "SystemLogin_Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "prev_login_script": [
+        {
+            "url": "https://www.wirelesswatchdogs.com/clientportal/Login.aspx",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='SystemLogin_UserName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "SystemLogin$UserName",
+                    "eid": "SystemLogin_UserName",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:input[@id='SystemLogin_UserName']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "SystemLogin$UserName",
+                    "eid": "SystemLogin_UserName",
+                    "f": "field0"
+                },
+                {
+                    "path": "//xhtml:input[@id='SystemLogin_Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "SystemLogin$Password",
+                    "eid": "SystemLogin_Password",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                },
+                {
+                    "path": "//xhtml:input[@id='SystemLogin_Password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "SystemLogin$Password",
+                    "eid": "SystemLogin_Password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//xhtml:input[@id='SystemLogin_LoginButton']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "image",
+                    "fname": "SystemLogin$LoginButton",
+                    "eid": "SystemLogin_LoginButton",
+                    "esrc": "Images/submit.jpg"
+                },
+                {
+                    "path": "//xhtml:input[@id='SystemLogin_Password']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "SystemLogin$Password",
+                    "eid": "SystemLogin_Password"
+                }
+            ]
+        },
+        {
+            "url": "https://www.wirelesswatchdogs.com/clientportal/Login.aspx",
+            "events": []
+        }
+    ],
+    "catalog_published": true,
+    "matching_type": "domain only"
+}

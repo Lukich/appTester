@@ -1,0 +1,135 @@
+{
+    "url_root": "rewardsnetwork.com",
+    "prev_login_script": [
+        {
+            "url": "https://aa.rewardsnetwork.com/login.htm",
+            "events": [
+                {
+                    "path": "//*[@id='loginform']/*[@id='loginId']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "loginId",
+                    "eid": "loginId"
+                },
+                {
+                    "path": "//*[@id='loginform']/*[@id='loginId']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "loginId",
+                    "eid": "loginId",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='loginform']/*[@id='loginId']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "loginId",
+                    "eid": "loginId"
+                },
+                {
+                    "path": "//*[@id='loginform']/*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='loginform']/*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "aa.rewardsnetwork.com"
+    ],
+    "login_url": "https://aa.rewardsnetwork.com/login.htm",
+    "tags": [
+        "travel"
+    ],
+    "thumbnail_ts": 1388042736.668706,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://aa.rewardsnetwork.com/login.htm",
+            "events": [
+                {
+                    "path": "//*[@id='loginform']/*[@id='loginId']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "loginId",
+                    "eid": "loginId"
+                },
+                {
+                    "path": "//*[@id='loginform']/*[@id='loginId']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "loginId",
+                    "eid": "loginId",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='loginform']/*[@id='loginId']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "loginId",
+                    "eid": "loginId"
+                },
+                {
+                    "path": "//*[@id='loginform']/*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='loginform']/*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "AAdvantage Dining Program",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

@@ -1,0 +1,69 @@
+{
+    "url_root": "anthem.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyNDEwRjBERUY5OTUxMUUzOTU2QkUyMUM4MkE0NEExRSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpENDZBNjczNkY5OTQxMUUzOTU2QkUyMUM4MkE0NEExRSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDRBMTk1Q0MxNjIwNjgxMTgyMkFEMjExQ0M3QjQyNjgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "employer1.anthem.com"
+    ],
+    "login_url": "https://employer1.anthem.com/wps/portal/eeaemployer",
+    "tags": [
+        "health",
+        "insurance"
+    ],
+    "thumbnail_ts": 1404943467.751689,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://employer1.anthem.com/wps/portal/eeaemployer",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='userID']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "USER",
+                    "eid": "userID",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Anthem BlueCross Employer Portal",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

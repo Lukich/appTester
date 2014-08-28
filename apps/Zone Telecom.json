@@ -1,0 +1,62 @@
+{
+    "url_root": "zonetelecom.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4QUFGOUY1QzM4MTgxMUUzQUNGMjhCMDU5QzUyNUI5NiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4QUFGOUY1QjM4MTgxMUUzQUNGMjhCMDU5QzUyNUI5NiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjQ4OUVDQjgwQTIwNjgxMTgwODNBNTkzMjREQjdDNTIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "my.zonetelecom.com"
+    ],
+    "login_url": "https://my.zonetelecom.com/web4/enduser/Login/tabid/199/Default.aspx",
+    "thumbnail_ts": 1383083339.373328,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://my.zonetelecom.com/web4/enduser/Login/tabid/199/Default.aspx",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='dnn_ctr923_EndUserLogon_txtUsername']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "dnn$ctr923$EndUserLogon$txtUsername",
+                    "eid": "dnn_ctr923_EndUserLogon_txtUsername",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='dnn_ctr923_EndUserLogon_txtPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "dnn$ctr923$EndUserLogon$txtPassword",
+                    "eid": "dnn_ctr923_EndUserLogon_txtPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Zone Telecom",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

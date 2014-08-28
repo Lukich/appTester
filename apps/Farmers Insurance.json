@@ -1,0 +1,202 @@
+{
+    "url_root": "farmers.com,farmersinsurance.com",
+    "prev_login_script": [
+        {
+            "url": "http://www.farmers.com/login/",
+            "events": [
+                {
+                    "path": "//*[@id='username']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "USERNAME",
+                    "eid": "username"
+                },
+                {
+                    "path": "//*[@id='username']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "USERNAME",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//*[@id='username']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "USERNAME",
+                    "eid": "username"
+                },
+                {
+                    "path": "//*[@id='fauxPassword']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "fauxPassword",
+                    "eid": "fauxPassword"
+                },
+                {
+                    "path": "//*[@id='fauxPassword']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='fauxPassword']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "fauxPassword",
+                    "eid": "fauxPassword",
+                    "f": "field1",
+                    "e": [],
+                    "displayname": "Password"
+                },
+                {
+                    "path": "//*[@id='fauxPassword']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "fauxPassword",
+                    "eid": "fauxPassword"
+                },
+                {
+                    "path": "//*[@id='pssword']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "pssword",
+                    "eid": "pssword"
+                },
+                {
+                    "path": "//*[@id='pssword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "pssword",
+                    "eid": "pssword",
+                    "f": "field1",
+                    "e": [
+                        12
+                    ]
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": 9800,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBQzdENTJGQUZDNkYxMUUyQjMwMkRGNDM5REE5NTdDQSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBQzdENTJGOUZDNkYxMUUyQjMwMkRGNDM5REE5NTdDQSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NzQ3N0M4NTYwRTIwNjgxMThDMTRGMEE1NDY4RjI1NzEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "farmers.com"
+    ],
+    "login_url": "http://www.farmers.com/login/",
+    "tags": [
+        "insurance"
+    ],
+    "thumbnail_ts": 1387565306.888927,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.farmers.com/login/",
+            "events": [
+                {
+                    "path": "//*[@id='username']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "USERNAME",
+                    "eid": "username"
+                },
+                {
+                    "path": "//*[@id='username']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "USERNAME",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//*[@id='username']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "USERNAME",
+                    "eid": "username"
+                },
+                {
+                    "path": "//*[@id='fauxPassword']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "fauxPassword",
+                    "eid": "fauxPassword"
+                },
+                {
+                    "path": "//*[@id='fauxPassword']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='pssword']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "pssword",
+                    "eid": "pssword"
+                },
+                {
+                    "path": "//*[@id='pssword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "pssword",
+                    "eid": "pssword",
+                    "f": "field1",
+                    "e": [
+                        12
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Farmers Insurance",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

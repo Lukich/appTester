@@ -1,0 +1,66 @@
+{
+    "url_root": "ideascale.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1QzE2RTY3NDA2RkExMUU0QkYzQUE1RUU4MUEzQkRGNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGNzVGNkVFQTA2RjkxMUU0QkYzQUE1RUU4MUEzQkRGNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTg0MjI2QTMyNDIwNjgxMThDMTRENDgwNTM4QUFCNEMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "ultrataxcs.ideascale.com"
+    ],
+    "login_url": "http://ultrataxcs.ideascale.com/",
+    "tags": null,
+    "thumbnail_ts": 1405729424.469983,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://ultrataxcs.ideascale.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='emailAddress']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "emailAddress",
+                    "eid": "emailAddress",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "UltraTax CS Ideas Community",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

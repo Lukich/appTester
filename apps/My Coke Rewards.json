@@ -1,0 +1,66 @@
+{
+    "url_root": "mycokerewards.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1MDNGNTkyMEYwMjgxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1MDNGNTkxRkYwMjgxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6M0FBMzFFRDMwRDIwNjgxMTgwODNEREQ5NEIzRDlGRjIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "mycokerewards.com"
+    ],
+    "login_url": "https://www.mycokerewards.com/signin.do",
+    "tags": null,
+    "thumbnail_ts": 1403820395.292091,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.mycokerewards.com/signin.do",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='emailAddress']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "emailAddress",
+                    "eid": "emailAddress",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='passwordText']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "passwordText",
+                    "eid": "passwordText",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "My Coke Rewards",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

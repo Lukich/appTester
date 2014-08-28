@@ -1,0 +1,69 @@
+{
+    "url_root": "employereservices.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2MTU4MTI3RTAxNTQxMUU0QjlDN0ZBMTU5RjJCMEU3QiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2MTU4MTI3RDAxNTQxMUU0QjlDN0ZBMTU5RjJCMEU3QiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTBGNjg3M0IxQjIwNjgxMTgyMkE4Qjc2QjE1QTM2OEIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "employereservices.com"
+    ],
+    "login_url": "https://www.employereservices.com/ees/prelogin/login.do",
+    "tags": [
+        "health",
+        "insurance"
+    ],
+    "thumbnail_ts": 1405115345.955713,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.employereservices.com/ees/prelogin/login.do",
+            "events": [
+                {
+                    "path": "//xhtml:form[@id='loginForm']/xhtml:div/xhtml:div/xhtml:fieldset/xhtml:ul/xhtml:li/xhtml:input[@name='passwordForm.userId']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "passwordForm.userId",
+                    "eid": "passwordForm.userId",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "//xhtml:form[@id='loginForm']/xhtml:div/xhtml:div/xhtml:fieldset/xhtml:ul/xhtml:li[2]/xhtml:input[@name='passwordForm.password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "passwordForm.password",
+                    "eid": "passwordForm.password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Employer eServices",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

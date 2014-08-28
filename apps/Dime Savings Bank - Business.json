@@ -1,0 +1,86 @@
+{
+    "url_root": "dime.com, ebanking-services.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0MkQwQzMyMDU5RDkxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0MkQwQzMxRjU5RDkxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RjBCQUY0QjBBMjIwNjgxMThDMTRFMDYwNTgyRTk2NkEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "dime.ebanking-services.com",
+        "dime.com"
+    ],
+    "login_url": "https://dime.ebanking-services.com/EamWeb/account/login.aspx?appId=beb&brand=dime",
+    "tags": [
+        "finance",
+        "business"
+    ],
+    "thumbnail_ts": 1388770322.131786,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://dime.ebanking-services.com/EamWeb/account/login.aspx?appId=beb&brand=dime",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='_textBoxCompanyId']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$MainContent$_textBoxCompanyId",
+                    "eid": "_textBoxCompanyId",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Company ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='_textBoxUserId']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$MainContent$_textBoxUserId",
+                    "eid": "_textBoxUserId",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "User ID"
+                }
+            ]
+        },
+        {
+            "url": "https://dime.ebanking-services.com/EamWeb/account/login.aspx?appId=beb&brand=dime",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='_textBoxPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$MainContent$_textBoxPassword",
+                    "eid": "_textBoxPassword",
+                    "f": "field2",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Dime Savings Bank - Business",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

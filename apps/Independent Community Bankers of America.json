@@ -1,0 +1,76 @@
+{
+    "url_root": "icba.org",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5NjQ1QjIxMDM1MUUxMUUzQjkzOEExNkE4RDkzQjA4OSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5NjQ1QjIwRjM1MUUxMUUzQjkzOEExNkE4RDkzQjA4OSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTYzNTU2NkQyQjIwNjgxMTgwODNENDVENzg2OTI2QTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "icba.org"
+    ],
+    "login_url": "http://icba.org/login.cfm",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388791078.481573,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://icba.org/login.cfm",
+            "events": [
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:table[2]/xhtml:tbody/xhtml:tr[2]/xhtml:td[2]/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:input[@name='Username']/xhtml:div",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:table[2]/xhtml:tbody/xhtml:tr[2]/xhtml:td[2]/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:input[@name='Username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "Username",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "Username"
+                },
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:table[2]/xhtml:tbody/xhtml:tr[2]/xhtml:td[2]/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td[3]/xhtml:input[@name='Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Independent Community Bankers of America",
+    "notes": "Anu-10/23/2013",
+    "provisioner": false,
+    "ua_browser": null
+}

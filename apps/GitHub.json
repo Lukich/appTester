@@ -1,0 +1,182 @@
+{
+    "url_root": "github.com",
+    "prev_login_script": [
+        {
+            "url": "https://github.com/login",
+            "events": [
+                {
+                    "path": "//*[@id='login_field']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "login",
+                    "eid": "login_field",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='login_field']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "login",
+                    "eid": "login_field",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='login_field']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "login",
+                    "eid": "login_field"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='login']/h:form/h:div[3]/h:input[3]",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "fname": "commit"
+                },
+                {
+                    "path": "//*[@id='login']/h:form",
+                    "type": "submit"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/session",
+            "events": [
+                {
+                    "path": "//*[@id='password']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "github.com"
+    ],
+    "login_url": "https://github.com/login",
+    "thumbnail_ts": 1358664816.620131,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://github.com/login",
+            "events": [
+                {
+                    "path": "//*[@id='login_field']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "login",
+                    "eid": "login_field",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//*[@id='login_field']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "login",
+                    "eid": "login_field"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "GitHub",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

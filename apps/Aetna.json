@@ -1,0 +1,95 @@
+{
+    "url_root": "aetna.com",
+    "prev_login_script": [
+        {
+            "url": "https://member.aetna.com/appConfig/login/login.fcc?TYPE=33554433&REALMOID=06-36d8cb4d-4ac1-44c7-b12d-a80fba4b718e&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-jRs63Nsa3LlO0w8DBRJePrGDb%2fSrW4lCcEp3BCF2N5CYudNJWAZ6IAjtTBQZYxKV&TARGET=-SM-HTTPS%3a%2f%2fmember%2eaetna%2ecom%2fMbrLanding%2fRoutingServlet%3fcreateSession%3dtrue",
+            "events": [
+                {
+                    "path": "//*[@id='USER']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "USER",
+                    "eid": "USER",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "eid": "Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ]
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": 10000,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAcf0lEQVR4nK1dXY8cx3XttyRPAfJb4gSBk/ghj3lIAMeMnZc8JLCirxgJkACRdnd2SUOxHCsGLMNfognH5n7IsKXIgiQbSCQqgLmkHYG2RC6XMUyb4i6dWKQMURJt7k7XyUN1dd+uqXvvqV4tMJyZnqpb95577qnq6p5hg1kDrDbon63X7GfyOW9T6ldzXLPH+qzZL/XJH1Z/zU/tM62thZ2Fjxej0q8xQfaSVwrKA8ECRAPJI4DV3ku81d+zxySotrAYotXmycCpoTtaTCsxV3uUkl5TYWy1WAS0yFJDuikJYvBj468hlYJ/Q1UdEyz7IJxyk8Qeq3lv+WUVwVGVp2SbLQwmfifmRQUogcBWqAUqC4TH8Bpw2Iqw7DGktGJmEmjFyhDZy1GJtD0BtOC86mMliwH8KJWrJZetGobMWiUxbb2+U3zVCOtVfMFOQ4FZK21adTC2S+BoYGugMMrgVQxDDM0ua9PCzsKtFmvDB30KqHGccaYEvCe9DDCaXQYEZtzapNcokRe7hq+mMjUYzCQBtOqpkW1iMLePBeYUEtV8zhDES4CW1KOqaC127PgzjQA1DtcyvCZxLEjWOJotxj5DJEbF2KR7xz2isWMsKIDG6lKQllIwFauxlQWQ8dMjQQ3gVny1vk8pBIZoDPGVvk1xENYJqxKnVJjlBxHMJJmvSSSjKlN80+KrUTVLnUrvu9eLG0EWuxiSaIBo6mEFw7T1+jOJLmHASK3Vz/LFU1CP8CzJCgnPP7fPAjQDnnNeG5ZULHhMArzEMwXA+OgRyEu+lVhPjSYc89cAVuLZRNaQxiOKRaAaNatJWE1sR0lYbXyeylnk7B72xSAmGSwoGplKKlOjKhoIbCI9orNYsCT2sNZIMcUn4nWZAJak1SS7NiDveM1nHqm85LMYaJXG+FNLDqtgLNtGm0Z12EpKTXXXkIIhHKtQDOhspda0ZVTHI48VB+uTlousj35DCCOTFsAM49nAmGqw+k6RSgtIzwfW/lHU1VIBjwQjAljyx7DeS65HqppkWWB5VZa/r5FOpkqZRNZWslcIjOo6fpVPA2uYWMPkEpheYKw9zSeGlLUFwKpQTUF5BNGU1yO/1WdVuxxsVY8HIKMamu0aoJh2XoIs216ya4jKkNOzbxWbhiVBXHsN4FU4UyUasz15Y4HyiOol1SJLTaI8orIqwWDiKQTj44IC1EqIRwCmwmpI5xGNJRKjGlZ8rF9WH5ZEVoKnFEaRAJ4zU5LsBc8SxUoaQx7WB883zZ8cM0sJLFIctbhqCS6e9Y2gCiMmCJ6MeUBYBJha4QxBZs1iTPmxGjWxxmF88IhsYWSQsHwa6BFCA2QKQ5kK8RLIEIipchYDtmJrVI/1oxZjq0AXCMAwma1yj+GM3NUAyiSgVqIZ8tUk2Ss2K2kaXtrnVlvxuil2qAV4an8vMSw4HtNZAtRW3VFjriWP99qLsYARd0eQxcAaQCynvGBZAnrja7HUkoaJbYpvU8nDqkv2+VgBplSCJz9TCMKMNZVkjArUEs3qWxNnbd8a7BXClAngdHKd8hxlkmyR0pC0SWBaPli2GR9LfaZKuEfI2lytlraCPUc9xllB11Sil2wlIBpoZkwDuCOrnvWeVUjWpkbkVW0n0GM7w3gN6KNIJOMbC6IWy1RZZRNf45PlK9OOiGfxLKCUsClyWlNBTLAW4XJftapmgfaevRiszy3S1iTdi4/8rHxTKMO0qQ8mOV6ANVVpkcazUerLVB2TiFJCPRJ78dUQYZYTwGNnTZBshXiAl+wxxLDI7IHHAur1tWxpiWYSXkMGr89q6XJwjROMjJVAskDVKsDrxyayVoIZIlg+M7gwhCaSaSq38hl/R5AWOJMQFmiPXFaiayRTIyJDpCmkZmyxCluKmzmm+KX/QAQrywwYWhK0JFrta5Jvja8l3IrJGq9ErpqkHoWIXpGU8tc9L14N1BLPVKR2rKZ6NNnzxq+pava9Rk7ruFdItfgwnzNJV9rr9wTWOuxJEUMehlgsYUptLTsegCzxGcW0fC0RjB2HxVA8ylcDvWBqWMnIpkcKjywM+RgCe+owlbClcaaoCINdTbHNvLuCmQR7QbKk0pLnBV8Cghm71LYmPs2nGgJahH8v8kLkRP99AE++rKrRmM3KGUMcT1kY+0yVeQTQYvMI55HcI4kXl9evJwBroIaRVlAemF5SmbG8ZHqJYPuzSfbirUm6VySan4qv/s/E1Ty8yqqpnKNUigcye8wCX3vUYGLFadk8Sk6yh/9TsZqMemy0klMDYIksJWJp/lr+M+2ZfhrRmXhYYntq4RWS4r99TyAz6IkGWOneH+9eL3fvV8Rnq93xPOA10VYDeaV7fbyzsZIdn3V25Niz7vXxbJzUdk20XRO2VkQf6b/0S8Yk/VjL3qfX0rcTiu2VZhxnsrXcjOOUsctn+TqPzyjIZgFwq5o1JuXJWi70YRwvkS8FIu2uieeVbPycUJJoiaBPfATYvB/YeADY/BjwSPeZTIS0v9yMiedV37J4XmuAh4X95YI/yX/ZJsexlMSUaJmDpe5h9RUP/7Zwgz0LgUj2JfBWCu+Pd05K9ZD2JeuXmqEiZeXIipMg5KRLqiHBCi0AIIQWAQC27o/jrGSPJWE3V7Jc3dYK4692NpI6Sv/zIpllY+eqNcvGlooqba41i2Q1pif9plCNGPlxmRCZbCnFKfl5kks2U9JXsnHWCseWm3Gypdw+nLVJfpz8CBb+1gq2chWScUjiybHz6S9PvCyEHJdS0nJFyvMh1XQ5s5tjruTPvxxsrQmkbK0KB6TzsnpkNXuLmzwB2npiJXudKj6BnwBJn2+vd1k/7J7DOPkyWUlK8wSsCJuS6HmVSv9KJM1xy/ukNUy+zsmLLvl9XPSbNWPyKzhzl4NLc71MRD4nS/ZLGV9udGbKROb2S+uFvO1yM/Ylr+RZAzzyGwiH7+AQc6AN6CaAMXHlHJ0ILm3IqaS0nslxkESR01a+oJ1l7RKZc7XMiyzHU05lVnF3/W0CFDosfJ4GO3kM+I8vAtubwI+/B+xdBPZ3gP1dYG8X2H0ROLsJnPyTxSrOpU6OfbwBHvk14OmHgPMbwE9eQdi/AuxfjLZ3XgTOPwmc/OCinzIJn2iAW9eAVmp/9yafdtYyG+v3AVsfA7b+Bnju0agi57eAH50H9i8B+5eBvf8Bru8AP/w28NLngVPHxpUppwhZoV/+MPDcx4FzXweufh+4cQXYuwz8bBfYuwTsvBwx3firsfpIkp48FuPLp/DSWZeqAFqjfH7OSfHCo2gP7gAA5gAQ+roCEBA6kAPQv8btW8DJPx0v7ko+PNIAl88goEUIANo5DvrEDaP0r2/fBJ5ZHRZeSw2weR9w4Vm0B+8C7RwtDqOt6O3IxgFCtCSTtTjKaPzRv2EOoI2TS2hjAUhiymo/eQx46418NYIQwvg9AOAwxn37JvDUw2NbZ74EXHgeuPrfwHOfBt68Fj976Qlg/UFdxUeLQKviLWKsNsA3VuRsCoS5CCKRIQIT36RjLXDqzxYXeqkST30EOLiDQwChbXt7hzjsMxFCRoQQwcILj/bVIQGNr1sE6QNatGGAuk1rgtWhf8Ch8P+wi7cVdlPsB8JuZ/LuHeArfzGQMlXx5j0DRkHak3YTsVqEMI9FFALw9GwgwdNLwKWXgZe+CDzzT5gf3Ink2tuN5Ndy2yuAtcjL54/SXLL1YFehQ6XHMIZADkUwh332ANx+MwKTb3p8/g8Q7r6DOcZkQhsw5HOgXQiDzsT283hqt9wAN3Z6MNtWJGb0fCAOtOP4O7Kkpgd9v5iU5AV6moyNhzCPPuQLvq17R0o5ftl2+AVBCKFYB+8Cn+xwe/WZaG97Ezh7Gtg5A9y8Hgmxfp+bU10BrKTLx/oDveMhtMCtn8Y57LtbcR1w8G5XYejOvzs1SI9Tx8Yr4lkDXL8U+4Qkq3O0oSPV/iXgO4/F+Xjn5UiNyI0xmJdejFPM/kCA2DgAQcr/QMh5AlmsH/rpB4cIfRK6xN/+BXD9MvDjV4C3bnafHfYxjqjwxB+PcT15DGjFlHH758CNXeDCtyJhDu/gsJtCe+UK7RDHC5+OPm7dj/CDZ4BXvwV8cwV44V+BC89Ggpw8pq/fimsAraF1qrZ5H8K7t4AXvwR85ncWd6YebYA3ftpXSAI5pNDPbgyLsNUG+PIHO6mbA6FFm+ZltMDeDhYU6dJ/dmuLdjx/3roW233nsbhou77bfdAO9pPt7dNxgXpuPT5L+137fl5PNLhxeXFRdvX7I7UYCAHgzBfGmzXHG+Dtm7FqP/dH40VvarPzYkfMrl46RQwA8MNvjRfOci8gFVS+G5gXc5UCaA95OnKiG1TuoM2aWOXooxgn6tzGeEPlh98eKqzvFedtPPXQeKV+vAG2twToAWiBOQ7iUGmDZ63pzv/bLp1JVrspI82npf0GDOKONr4KAPD6lfEp43IDnPrzwWk5Z7chEuvjzfhUuHQalzBdboDHP9DjFXrV6uh448ritCJty/0Z6izAYkqJDPngS+K9/DyBlFVEz+Trl4dTo+UGeP1VIXmDXPerc7lnv9zEaQZxIXaItmvfAns/Gvuw/fXBTjel9IDmmzLZGkD+hbaNyrX/2uCzwCctMwNiuzaR7vzmGK8cy/x6Q4rx7XimME8ESCvO65eHRXO+pS7xsXK6QADlVKFIhvS6JDPLTZx/Nu8Bth4ENtKKd96tltMaIAC39oCNjwJP/i2w9dFU8tlfR5Y0xkoDfOVDwNVzI1KhPRhm3ssvjn29dKY3PMzl3UClnbNOyeSqPr7uxkjTkSTO2kD0OTKl2/7aIsb5/v1qA5z8UMRt4x5g817g5k8lDMP0sr+7eGaR7xrm02Uhp/xdwSVCzJphznpqKYJ8+82YsP6sQO4LiFgCupXb4spcrqZHZwF9s/F837bDoi4kMnz2/WOA93chT1eHs5L5eFs138NHmoPnaeRoZOflRRWcNXEfpF/sCjpsrw87onLK2bwfuPgScPvmaE9h+OvWN13B9AW0v7NYhLl6eNP3qnYxSCODBOhEM6xm37g2uD5Hn/zof34ensIK/eZQEHPy4t+wbhivrbvP+rcC8Of+ZRzLUhMls7OVn6r1CZfVn0Ac/UWPQwhxV7KEW+EvAHGxJ/fqP/d7wN5rWavxqfNwWpv2GQYfsL+rXyRijs0SAbTVv5w/8zk+VdYTH0Z78HaXoJieg05gZZoG2Y/wtwjdOX3cZEnrgfScgj/MbfRnEF2VtdHOARBfX30FOPWh8Uo6+fyz3d5Wm4E9qkipbh0B4iIsjOm5vVUuluLfYVSAhOWjDXDnV73tNi0yR39jovdri9Bp6o0r5WsqzFpuNAVYnXNZTCvv1Gb/tXhajW53rB127cLdXwI/eDYCdW4LmB+MUtqHt7cLbG8A21+N++sY1jkxyUPasXclniPvXYr9LjwbV9dPP7S4F55fQOr2A4axxZQib8CQdxAtN0hrlRACDqTKbJ8uF03xL0QCJJ92zmCYJocKDyEg3L0DXDwTz47ObYwIMHq1/2r57EFLtkIM7tvBpevun/hNpFk0bl4N8z5u7QH/LECdNei3T/ut4jbCub0+jHO8Ae6+012pa4FO9tPu2Gj8/CqbPA/O/Z41wPVBbiUBIAmQ+j3cDHMoBmVCe9CdmQD47mb54lXxbx6ngLRQ+9Uvx0kH4hrj7TeiOqTT6KVs/GFlBLz6fHmRZ1V+cQooLfRk4zTX53flnH5AOHTYUyEAwDf+foEwrVzBSvDPbQxJPd4AexcRN4wOkObFfhnx1NJwX91S5tdKs3i/XQJxrQH2r4hz6Q7MtCaR9+DJc+pZM/gaWtxJHrVztP97iZwCuv5nN4argl0Sx/M6gLNfXbyUjjFuPXm3N8tTgLZYz98vEECTi3RThDznXW2AzQf74CJDxanVUw+PT1FmTeJ7D2bafcf26fG1gPNbkIu70dx781qskHRNPmd5GvPx3108Pdu7mF1pE2cXJ48N7eV9emIROCxUu1PY/d2y3GZ/fcVub/Yx9kh0atjTcvv0WLnSGiQnUxvirqVUZq/6lWnB/m/j5GMt++xz7+sWe4eDg3PgAAG4+r2hotO8GubjxVfbVfa5r46l+rPv69ulC0oHuDsgevvnwDcfGjY/UpV/9v3A84/Fy6Fpl0yuXy48C5n/0XnArdeBb/5DvEH0pS8BL3xq8Gf0JxRk/+Ii4IU1QE+6q6/0ZIzXOeZiYdudNt68Hi+BJ5/7KUD63I4JoMztqjK4BMgfpZ2+dL/dW290Aca1ezofD0Ccz/Z3gJ9cAK6/1jM9SPkPAM5/fXH+vnwmY74EdD4k8s1rcUPm4N3eYACAvVcXgXj+scFmG4bKFO97gm4/mcl126eqv3RbUoDiIrBLbtrxnDXArWtSDxGQqDVHuPtOXOBefWV0IWvAoltIy0WlMcebU8DCWYC2kJCnfpIU3SpVXC5B2i4Z7Vr1yUsKIM77t08PMp3sP/Lr/dW1MOqLrD+6K2SDFy1CBE5K+nIDPPpb/eJr3H+e2Qdw7t/6eNPR/hpAOjff3xnf6aMuArvt6RuXh/i+88lhfGT7JsNREf8YyRBCLBLtbmhNxQvk0P/HEG3ekFefZg3wxk9GjocAIbWl8/shiDkQSST305Pdx387XtEbnR+HwiuJdWfz/24MwKTF4ayJG0Rdx8WbOiIRDnAYT1tTnP0FpNBvagUgXpaWO41pQQqIPY+IxRyI1yzk2uLSy4tJzYIanWX1x7qbYvZ+VFYAReq1h/0rYTLh+Zcy5KnX9iZw95d9EuTCNr0s3+rUxso4IUBcEuOtNXE+vnlV9DuMkIR8i7mr5Lt3gMsvlVXsRAM89Y/A27/o1xct2i5Jw/qkvfxfvSqFNOdi2LlsA4A3Xx8Wo2nF/vgH0G0uixi7OPcuD5ims5UzX0B46yYQDkWlB+HJsGOa3qWpoiegNgV4j34K0OYNeWylMEh+v/2JJl7EOHNy2MQ4vxWfv7sR5+CtB4DNvwaefBA4/ZcDweQdvfI8XyrN478fbz45ux4Jt70eH+c24inWv8/i5Vh5SiklOp/CNu+PC6ntrfh8bh04+zVg417gM384qEZa8+Tbrqnil5tFzOS1gfy+R7nCT21PfRB44bG4V3B+I06L59ZjXGdOAlv3AOv3Alt/B6zfEze98tvrvUWfMlX4Pxef31kqn0vfkJHzeemu1Lwq8/HllzDkwnCl0EY+8gTlX49aUWzIseXegvwsv09A3haecEj3Qcg7dktf/JCXfdMYpRhzv2dNeZ9Dy59FDHMK0BaBOdglZsmKk9KY7CeA8sAT+Pk4pYTnhJNJkn3zKSUlarVgJ1e4layNPJ4TU34JJcctT9rxZhHT0ncDSiosn9eMz7ypILNr/1RsPg3kyZGJkGyX04TGxtKXOGT7fIs3P34i65uSnkgov6+41Ix9Tf3TsSTxJ5pxQvNYc7WRxJYbZjmJ8mrOlVEq1cPCX6k4K80Y41wFaomgKkCpsmSgJbmVIOTfWM0rVgM0T5pMNkPQnJArWX+pJnKXUrax5vO1pkzG1Cb/dlSykb4ZnDA6rowlCZMnLydnrlrscwE//f8L0OSjJNHWvJO3Zx550krjen01H633jI9WrFa70pglnKw4NF9rMRZt9Z+L15LBJvG9AK+GKN4YtSScQlZtnJrEa8li2hmJ1nzQ/8MIK5AapjJJtcbRKskDlQWf8amkJozqTSGTJ91MTipiWPyFECvBFkG8dpYzUxJkkYytSg9M7ZkljYUXk3x2bCYPSnv+28HeYFqSvYopfc4ki2G/579XLazi1frsKYr23sPTKmbFX+6/jGGrxkuSpzYeQdgqYCvvKDa9omAeXsHUksizX3it3xGkJbAWTK9KraRb7TziWON45NOqx6u2mjGZmBnya36Q7bnbwhnQLVayVW7ZtUjEgmpVkRfr1PFr8NX8Yyvcw7HgM/dr4aXkMsmqcZqtzprXXkKs6lAqRk1IbcVrbaaQhSVkYSzuZ+KsYDUwWOCYgLwE1SiNB65X5WxytfEZrFl1qsFdaeP/x5G1AR41oTUBMjYZZWEUxRrHUzq2Ty1ZGb+cGPT/M8gDnWHwe0GWEqu1cWrGnqIWbFXWEMVLPEuuGgKMFGBKMmsS7jmh2fOY7rX3fGLHZiWbJbOXVFYZatoY+CzeEeQxmRnASgjzGUMqlgS5vfyh2WCUpYaknt+MgtQSgchF3e8EskB5DnpBlcZiKl2TbY8Ulj0rplqlqk2eZrtGUS2CuwSwBtRA9N5bpGGAtEjoJX6K9LJE1hTDa6PF5tljMXFi4r4ZxA5aA3zN59axo1QTQ0pG0Urt8qRNkezavpofBlb2PYGWA9oAHpAMc1kFsUBmQNPIaiWTjb2WsKyM15DSysEsEcCTZ8ZYTTBaENq4mtQzpKwlLkNW630N+dhklXw7Crmzdou/EMIQwlIJtr1nhw2sFJyXZKa9R6CaRNcomOZfTTFW2NB/JYwFV3OOqZoaCStVgeeLF4dlkyFODQk0Anj+sZiwZM6O278QUgLWOlb7WguyRgWsSmDs1lZPbTFYSSn1ZQloEaQCO/0/jmQTyCaOAYZJpgeIVzklW1YCvNg0VWHJ6BWZ5qeFv6cw4pm/K1hjHlMtNVVqjaWBPCU5WuIZPy01Y4pjqt9MITHkGBHACoBNHOOgVhksGDUJYdVGS4xWdV5FWuOz5K/BuIa8is/6aaDHIC+hHvs0crCJ9sZiX2sglQD2CM+qWw1BvOquIWkhNv2/jfMS5yWFBdMjn9eH7WeRh6lmNuHemLXxsMS1xjGKulloeBSZYhPEAF1THSzwDKk9dWDssImuIbQWJ4ujogj8xaAaYCynmPYaCFpfRlU84hyl0kq2LLssptYYNWQwbNv/cyhTEWwVaG1Y5nuJ89hvEdeL1yOwRYraB9O/VqUMvP3fCPJAtNjPBuslnAHZIw/jWwk8lmCMGtWSYEqMbL66R/n/DfSkg2VkDciWnFrjW+BbSWGqzKogjRisyjFJZQvEwsHCdJW9H8BySKuY2gBqk2KNVxrbAp4hGVMIjP0pBPP8scZxcLe/G+gFqTlj2aiVrynkYQD37NbIrUVWTZXY2NgimaJYJgE8JjLBeVLEEGBqf6vCvVg8EjDkqFUKL96a+I2E5777+wCapGsS64FWUwm15LT810jF+lUjsaxPNeQo4V2rjoXj/hRgVTHjRI1KWGBb47EVbcVhHa9JtkculpyleBgstJwpxVtPAE8uLRtTqtML1gLMAr8mASUgPTJ58WsK6iXdIi0bg3htnwVoAXjss9SDscWqClvlFrkYwluxsQpixW+RjFW9mqIQff3/NMoCWQtWC7CCmdXjl/yuqVaWZJ6v2riMHc+X2jaWaqkKwCbqKG1YG17CGBll/dSq2yKoNWaNWlmE9Hy27BAE178dzDDUYy9TGUwiS2MxjGcBsuxOqT4vAYz6MDYYzB1ScmsAFpCpzNQqna2umuR7BNeSYPnCYmIpiYbDFEX1CkjY9W8L95jOyhJLIkK2XH+mVHgpQYwSerF4PlqFwPpRU0CZrfItYQzgDDtLCfFIxthiqt2K6b0iZM3x90olvP4auRWyl38kqiY4y3EmGWxSGGXygLY+t8D2ElEan1VSz3dGMVh1KByv2wgqGbUSWqsQzDisTHsyyBD/KITTSFHqN0XFLGJrnxfGtC8GWQAzjK4hkAdKiVxetddUEQO8N4ZHqikqx/g4ldyzBv8P+W+CiWskq/QAAAAASUVORK5CYII=",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "member.aetna.com"
+    ],
+    "login_url": "https://member.aetna.com/appConfig/login/login.fcc?TYPE=33554433&REALMOID=06-36d8cb4d-4ac1-44c7-b12d-a80fba4b718e&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-jRs63Nsa3LlO0w8DBRJePrGDb%2fSrW4lCcEp3BCF2N5CYudNJWAZ6IAjtTBQZYxKV&TARGET=-SM-HTTPS%3a%2f%2fmember%2eaetna%2ecom%2fMbrLanding%2fRoutingServlet%3fcreateSession%3dtrue",
+    "tags": [
+        "insurance"
+    ],
+    "thumbnail_ts": 1387565147.352261,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://member.aetna.com/appConfig/login/login.fcc?TYPE=33554433&REALMOID=06-36d8cb4d-4ac1-44c7-b12d-a80fba4b718e&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-jRs63Nsa3LlO0w8DBRJePrGDb%2fSrW4lCcEp3BCF2N5CYudNJWAZ6IAjtTBQZYxKV&TARGET=-SM-HTTPS%3a%2f%2fmember%2eaetna%2ecom%2fMbrLanding%2fRoutingServlet%3fcreateSession%3dtrue",
+            "events": [
+                {
+                    "path": "//*[@id='USER']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "USER",
+                    "eid": "USER",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//*[@id='Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "eid": "Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Aetna",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

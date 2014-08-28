@@ -1,0 +1,63 @@
+{
+    "url_root": "poweredbytech.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyOUUwODk3NEFDNDQxMUUzQjJCQ0QxQzhBQjk1RDRBQiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyOUUwODk3M0FDNDQxMUUzQjJCQ0QxQzhBQjk1RDRBQiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OEQyODMyQTRBRjIwNjgxMThDMTRBQ0JCRjkwNTYzMzQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "poweredbytech.com"
+    ],
+    "login_url": "http://www.poweredbytech.com/login.asp",
+    "tags": null,
+    "thumbnail_ts": 1396044761.492966,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.poweredbytech.com/login.asp",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='div_articleid_94']/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td[2]/xhtml:input[@name='email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "email",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:div[@id='div_articleid_94']/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td[2]/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Powered by Tech",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

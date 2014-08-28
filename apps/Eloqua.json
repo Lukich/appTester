@@ -1,0 +1,109 @@
+{
+    "url_root": "eloqua.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBQzYzQjcyRTYyMzMxMUUyQjkwOUZFQkM3NDM4OUM0QiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBQzYzQjcyRDYyMzMxMUUyQjkwOUZFQkM3NDM4OUM0QiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OUFDMDc1MjE3QjIwNjgxMThDMTRBNjBDQkM5Mjc3MzAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "login.eloqua.com"
+    ],
+    "login_url": "https://login.eloqua.com/",
+    "thumbnail_ts": 1379571189.572506,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://login.eloqua.com/",
+            "events": [
+                {
+                    "path": "//*[@id='sitename']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "sitename",
+                    "eid": "sitename"
+                },
+                {
+                    "path": "//*[@id='sitename']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "sitename",
+                    "eid": "sitename",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Company"
+                },
+                {
+                    "path": "//*[@id='sitename']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "sitename",
+                    "eid": "sitename"
+                },
+                {
+                    "path": "//*[@id='username']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username"
+                },
+                {
+                    "path": "//*[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username",
+                    "f": "field1",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//*[@id='username']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field2",
+                    "e": [
+                        12
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Eloqua",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

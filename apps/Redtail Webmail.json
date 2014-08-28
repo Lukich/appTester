@@ -1,0 +1,127 @@
+{
+    "url_root": "redtailtechnology.com",
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "title": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "webmail.redtailtechnology.com"
+    ],
+    "login_url": "https://webmail.redtailtechnology.com/",
+    "name": "Redtail Webmail",
+    "notes": null,
+    "ua_browser": null,
+    "cred": null,
+    "login_script": [
+        {
+            "url": "https://webmail.redtailtechnology.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "prev_login_script": [
+        {
+            "url": "https://webmail.redtailtechnology.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='username']/xhtml:div",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//xhtml:input[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:input[@id='username']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username",
+                    "f": "field0"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1"
+                },
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:div/xhtml:div/xhtml:form[@name='loginForm']/xhtml:table/xhtml:tbody/xhtml:tr[3]/xhtml:td[2]/xhtml:input",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                }
+            ]
+        },
+        {
+            "url": "https://webmail.redtailtechnology.com/zimbra/",
+            "events": []
+        }
+    ],
+    "catalog_published": true,
+    "matching_type": "domain only"
+}

@@ -1,0 +1,76 @@
+{
+    "url_root": "citywidebanks.com, netteller.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": ["fi=citywidebanks"],
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyOTVDMjcyNjRCMjMxMUUzODZENkMwREFEMDk2QTM1RiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyOTVDMjcyNTRCMjMxMUUzODZENkMwREFEMDk2QTM1RiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDA4NkUwRUIwQTIwNjgxMTgwODNFQTM0NDgwNzFCRDUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "cm.netteller.com",
+        "citywidebanks.com"
+    ],
+    "login_url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=citywidebanks&bn=981bd0f97b28156b&burlid=44617c494e130f34",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388786485.69515,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=citywidebanks&bn=981bd0f97b28156b&burlid=44617c494e130f34",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_IdTextBox']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$PageContent$Login1$IdTextBox",
+                    "eid": "ctl00_PageContent_Login1_IdTextBox",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Login ID"
+                }
+            ]
+        },
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=citywidebanks&bn=981bd0f97b28156b&burlid=44617c494e130f34",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_PasswordTextBox']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$PageContent$Login1$PasswordTextBox",
+                    "eid": "ctl00_PageContent_Login1_PasswordTextBox",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Citywide Banks",
+    "notes": "Anu-11/21/2013",
+    "provisioner": false,
+    "ua_browser": null
+}

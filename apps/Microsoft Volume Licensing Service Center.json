@@ -1,0 +1,81 @@
+{
+    "url_root": "live.com, msn.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": [
+        "wreply=https%3a%2f%2fwww.microsoft.com%2fLicensing%2fservicecenter%2fHome.aspx",
+        "lc=1033",
+        "id=74335",
+        "cru=https%3a%2f%2fwww.microsoft.com%2fLicensing%2fservicecenter%2fDefault.aspx"
+    ],
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCOTE5MzE3M0VEOTgxMUUzQjlCOUQ1NjI1MjhGMDZBRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCOTE5MzE3MkVEOTgxMUUzQjlCOUQ1NjI1MjhGMDZBRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDc4MDExNzQwNzIwNjgxMTgwODNFNzY4MEQ0MTE3MzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "login.live.com"
+    ],
+    "login_url": "https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=12&ct=1402934479&rver=5.0.3265.0&wp=MCMBI&wreply=https%3a%2f%2fwww.microsoft.com%2fLicensing%2fservicecenter%2fHome.aspx&lc=1033&cb=%26lcid%3d1033%26brand%3dMicrosoft%26ReturnUrl%3dhttps%3a%2f%2fwww.microsoft.com%2fLicensing%2fservicecenter%2fDefault.aspx&id=74335&cru=https%3a%2f%2fwww.microsoft.com%2fLicensing%2fservicecenter%2fDefault.aspx",
+    "tags": null,
+    "thumbnail_ts": 1402940328.66502,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=12&ct=1402934479&rver=5.0.3265.0&wp=MCMBI&wreply=https%3a%2f%2fwww.microsoft.com%2fLicensing%2fservicecenter%2fHome.aspx&lc=1033&cb=%26lcid%3d1033%26brand%3dMicrosoft%26ReturnUrl%3dhttps%3a%2f%2fwww.microsoft.com%2fLicensing%2fservicecenter%2fDefault.aspx&id=74335&cru=https%3a%2f%2fwww.microsoft.com%2fLicensing%2fservicecenter%2fDefault.aspx",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='idDiv_PWD_UsernameExample']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "eid": "idDiv_PWD_UsernameExample"
+                },
+                {
+                    "path": "//xhtml:input[@id='i0116']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "login",
+                    "eid": "i0116",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": ""
+                },
+                {
+                    "path": "//xhtml:input[@id='i0118']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "passwd",
+                    "eid": "i0118",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Microsoft Volume Licensing Service Center",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

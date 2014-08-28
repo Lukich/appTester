@@ -1,0 +1,86 @@
+{
+    "url_root": "schwab.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": 9800,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "client.schwab.com",
+        "client.schwab.com/Login/SignOn/CustomerCenterLogin.aspx",
+	"schwab.com"
+    ],
+    "login_url": "https://client.schwab.com/Login/SignOn/CustomerCenterLogin.aspx",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388786255.143079,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://client.schwab.com/Login/SignOn/CustomerCenterLogin.aspx",
+            "events": [
+                {
+                    "path": "//*[@id='ctl00_WebPartManager1_CenterLogin_LoginUserControlId_txtLoginID']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$WebPartManager1$CenterLogin$LoginUserControlId$txtLoginID",
+                    "eid": "ctl00_WebPartManager1_CenterLogin_LoginUserControlId_txtLoginID",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Login ID"
+                },
+                {
+                    "path": "//*[@id='ctl00_WebPartManager1_CenterLogin_LoginUserControlId_txtLoginID']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "ctl00$WebPartManager1$CenterLogin$LoginUserControlId$txtLoginID",
+                    "eid": "ctl00_WebPartManager1_CenterLogin_LoginUserControlId_txtLoginID"
+                },
+                {
+                    "path": "//*[@id='txtPassword']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "txtPassword",
+                    "eid": "txtPassword"
+                },
+                {
+                    "path": "//*[@id='txtPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "txtPassword",
+                    "eid": "txtPassword",
+                    "f": "field1",
+                    "e": [
+                        12
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Charles Schwab Client Center",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

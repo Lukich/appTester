@@ -1,0 +1,77 @@
+{
+    "url_root": "carefirst.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0Q2NzJBNzE1QkUxMUU0OTkyMDgwOTczNzZEMzA0MSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0Q2NzJBNjE1QkUxMUU0OTkyMDgwOTczNzZEMzA0MSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTBFRkFEQkUwQTIwNjgxMTgyMkFCQ0ZBN0MyQjRGQzYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7u4xEPAAANE0lEQVR42uxcC1BUdRdn37vALiwubxBYHokKOpo8fGsZBH02alqa9kArrWbsc5oi+3I++rQcJ7VSx7TUsnyQiqZZqJWS4CN8pLyU91uEBZZdYNllH99vubSssIuiozbTObOzc/fuuf977/md8zu/c3mwTCaTA9nDMxYBQAAQAGQEAAFA9pAAMBqNFAUCgAAgIwAIADICgAAgIwAIALIHCYDBYKAoEAAEABkBQACQEQAEANmDBkCv11MUCAACgIwAIADICAACgOxBA9DZ2UlRIAAIADICgAAgIwD+gQDodDqKAgFAAJARAAQAGQHwDwRAq9VSFAgAAoCMACAAyB4GAB0EwEMGoKODokAAEABkBAABQPYwANBoNBSFh2hsCgEB8I827t/kOsrLy69du9aPg0wme/TRRx/MxRQ32+iLLnyOuxOv7/6KFq2biCvmc+yt1qE3Vql1oVLh3fcAk8mUnZ2dlpbW0NDg7+/P4/GUSiUiMnPmzICAALRxiURyj/esUChu3Lixd+/edevW4SPO5efnhw2cKDMzc/369aNGjUpPT7+7xXNyckQiUUhIyB36iz6/7GBEbCz3b95eHCFbP9W/r/P0g8XZde2zw6SJcskImUgi5HLZLIPJpO4w5DVpjper91xr8nLinp0XzmLZqoDb/s+42traxYsXnz179pNPPvnwww8RfezU6/WHDx+eOnUqPqakpMyfP/8eARjUZd7e3szHsLAwuVzObI8fP3748OE4y13/e7svvvjixRdfHMDhRlN33Hv2mLOw7woqreFMTev0EJc8RdvugkaNwSjmcfhsVqfRpOo08DnscKkgIUiyI09RqdIOlvAHTEGlpaXx8fE1NTXff/99YmJiz2FcLtIf8UpISFCr1febE3Dqr776ymg0stm3aVrt7e3Mnx06OTkxzkeOHPn2228BwEC04a3R75esEOsF4W5HSlrmDhkk5LL5LAcTC7lu0hsdtAZjoVIbFyBOK1ZerGsfMADglnnz5lVXVy9YsMA6+haLjY19+eWXVSrVfRfLLNb777/PJCDiW1ZWdv369eLiYmzg8lCjYKqmpqZeVyIUCl1dXUFuqNe1a9dGRUWhsIYOHRoUFMSySQe32jA3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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "member.carefirst.com"
+    ],
+    "login_url": "https://member.carefirst.com/wpsm/portal/AntiPhishing",
+    "tags": [
+        "health",
+        "insurance"
+    ],
+    "thumbnail_ts": 1407448177.639161,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://member.carefirst.com/individuals/login/solo-individual.page",
+            "events": [
+                {
+                    "path": "//xhtml:form[@id='memberSoloLoginForm']/xhtml:input[@name='userId']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userId",
+                    "eid": "userID",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "User ID"
+                }
+            ]
+        },
+        {
+            "url": "https://member.carefirst.com/wpsm/portal/AntiPhishing",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "CareFirst BlueCross BlueShield",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null,
+    "no_ufc": null
+}

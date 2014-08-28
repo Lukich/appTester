@@ -1,0 +1,171 @@
+{
+    "url_root": "sugarcrm.com",
+    "prev_login_script": [
+        {
+            "url": "http://www.sugarcrm.com/user",
+            "events": [
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "name",
+                    "eid": "edit-name"
+                },
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "name",
+                    "eid": "edit-name",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "name",
+                    "eid": "edit-name",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "name",
+                    "eid": "edit-name"
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass"
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='edit-submit']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "fname": "op",
+                    "eid": "edit-submit"
+                },
+                {
+                    "path": "//*[@id='user-login']",
+                    "type": "submit",
+                    "eid": "user-login"
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass"
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "edit-pass"
+                }
+            ]
+        },
+        {
+            "url": "http://www.sugarcrm.com/user?destination=user",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowMTQxMTA1RTk5N0YxMUUyOEY1OUVFQzQ0QkNDRkQxNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMTQxMTA1RDk5N0YxMUUyOEY1OUVFQzQ0QkNDRkQxNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDY4MDExNzQwNzIwNjgxMTgwODM4RTM0M0NGQUI5N0UiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "sugarcrm.com"
+    ],
+    "login_url": "http://www.sugarcrm.com/user",
+    "thumbnail_ts": 1365604135.752456,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.sugarcrm.com/user",
+            "events": [
+                {
+                    "path": "//*[@id='edit-name']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "name",
+                    "displayname": "Username",
+                    "eid": "edit-name",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='edit-pass']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "displayname": "Password",
+                    "eid": "edit-pass",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "SugarCRM",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

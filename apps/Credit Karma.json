@@ -1,0 +1,67 @@
+{
+    "url_root": "creditkarma.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBRTdBRDQ0MjlDQ0MxMUUzOTU0OURFODlERkYyMzczQyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBRTdBRDQ0MTlDQ0MxMUUzOTU0OURFODlERkYyMzczQyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUU2REQ1MzUwOTIwNjgxMTgwODNGOEFENUEyQjc1NjMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "creditkarma.com"
+    ],
+    "login_url": "https://www.creditkarma.com/auth/logon",
+    "tags": [
+        "finance"
+    ],
+    "thumbnail_ts": 1394060908.425562,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.creditkarma.com/auth/logon",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Credit Karma",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

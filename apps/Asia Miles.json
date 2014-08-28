@@ -1,0 +1,209 @@
+{
+    "url_root": "asiamiles.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.asiamiles.com/am/en/login",
+            "events": [
+                {
+                    "path": "//*[@id='txtMbrID']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "txtMbrID",
+                    "eid": "txtMbrID"
+                },
+                {
+                    "path": "//*[@id='txtMbrID']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='txtMbrID']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "txtMbrID",
+                    "eid": "txtMbrID",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='txtMbrID']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "txtMbrID",
+                    "eid": "txtMbrID",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='txtMbrID']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "txtMbrID",
+                    "eid": "txtMbrID"
+                },
+                {
+                    "path": "//*[@id='txtMbrPIN']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "txtMbrPIN",
+                    "eid": "txtMbrPIN"
+                },
+                {
+                    "path": "//*[@id='txtMbrPIN']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='txtMbrPIN']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "txtMbrPIN",
+                    "eid": "txtMbrPIN",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='txtMbrPIN']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "txtMbrPIN",
+                    "eid": "txtMbrPIN",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='txtMbrPIN']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "txtMbrPIN",
+                    "eid": "txtMbrPIN"
+                },
+                {
+                    "path": "//*[@id='memberLogin']/h:tbody/h:tr[4]/h:td[2]/h:input",
+                    "type": "focus",
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//*[@id='memberLogin']/h:tbody/h:tr[4]/h:td[2]/h:input",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//*[@id='content']/h:form",
+                    "type": "submit()"
+                },
+                {
+                    "path": "//*[@id='content']/h:form",
+                    "type": "submit",
+                    "fname": "loginForm"
+                },
+                {
+                    "path": "//*[@id='memberLogin']/h:tbody/h:tr[4]/h:td[2]/h:input",
+                    "type": "blur",
+                    "ftype": "submit"
+                }
+            ]
+        },
+        {
+            "url": "https://www.asiamiles.com/am/en/login",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "asiamiles.com"
+    ],
+    "login_url": "https://www.asiamiles.com/am/en/login",
+    "tags": [
+        "travel"
+    ],
+    "thumbnail_ts": 1388042960.440353,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.asiamiles.com/am/en/login",
+            "events": [
+                {
+                    "path": "//*[@id='txtMbrID']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "txtMbrID",
+                    "eid": "txtMbrID"
+                },
+                {
+                    "path": "//*[@id='txtMbrID']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "txtMbrID",
+                    "eid": "txtMbrID",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Member ID"
+                },
+                {
+                    "path": "//*[@id='txtMbrID']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "txtMbrID",
+                    "eid": "txtMbrID"
+                },
+                {
+                    "path": "//*[@id='txtMbrPIN']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "txtMbrPIN",
+                    "eid": "txtMbrPIN"
+                },
+                {
+                    "path": "//*[@id='txtMbrPIN']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "txtMbrPIN",
+                    "eid": "txtMbrPIN",
+                    "f": "field1",
+                    "e": [
+                        12
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Asia Miles",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

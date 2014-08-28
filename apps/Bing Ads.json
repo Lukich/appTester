@@ -1,0 +1,137 @@
+{
+    "url_root": "microsoft.com",
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "title": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "secure.bingads.microsoft.com"
+    ],
+    "login_url": "https://secure.bingads.microsoft.com/?skipMigrationFilter=true",
+    "name": "Bing Ads",
+    "notes": null,
+    "ua_browser": null,
+    "url_root_array": [
+        "microsoft.com"
+    ],
+    "url_root_map": {
+        "microsoft.com": true
+    },
+    "cred": null,
+    "login_script": [
+        {
+            "url": "https://secure.bingads.microsoft.com/?skipMigrationFilter=true",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='LoginModel_Username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "LoginModel.Username",
+                    "eid": "LoginModel_Username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='LoginModel_Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "LoginModel.Password",
+                    "eid": "LoginModel_Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "prev_login_script": [
+        {
+            "url": "https://secure.bingads.microsoft.com/?skipMigrationFilter=true",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='LoginModel_Username']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ftype": "text",
+                    "fname": "LoginModel.Username",
+                    "eid": "LoginModel_Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='LoginModel_Username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "LoginModel.Username",
+                    "eid": "LoginModel_Username",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:input[@id='LoginModel_Username']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "LoginModel.Username",
+                    "eid": "LoginModel_Username",
+                    "f": "field0"
+                },
+                {
+                    "path": "//xhtml:input[@id='LoginModel_Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "LoginModel.Password",
+                    "eid": "LoginModel_Password",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                },
+                {
+                    "path": "//xhtml:input[@id='LoginModel_Password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "LoginModel.Password",
+                    "eid": "LoginModel_Password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//xhtml:input[@id='btnLogin']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "eid": "btnLogin"
+                },
+                {
+                    "path": "//xhtml:input[@id='LoginModel_Password']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "LoginModel.Password",
+                    "eid": "LoginModel_Password"
+                }
+            ]
+        },
+        {
+            "url": "https://secure.bingads.microsoft.com/?skipMigrationFilter=true",
+            "events": []
+        }
+    ],
+    "catalog_published": true,
+    "matching_type": "domain only"
+}

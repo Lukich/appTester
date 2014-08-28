@@ -1,0 +1,67 @@
+{
+    "url_root": "rapidrewardsdining.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4MkMxNzhEMTlCNEYxMUUzODQ0MDg0RjAyRDJEREQ3RSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4MkMxNzhEMDlCNEYxMUUzODQ0MDg0RjAyRDJEREQ3RSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QTREN0EwMUIyOTIwNjgxMThBNkRDOUZGMTZBNUIwMkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "rapidrewardsdining.com"
+    ],
+    "login_url": "https://www.rapidrewardsdining.com/login.htm",
+    "tags": [
+        "travel"
+    ],
+    "thumbnail_ts": 1393969392.184779,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.rapidrewardsdining.com/login.htm",
+            "events": [
+                {
+                    "path": "//xhtml:form[@id='loginform']/xhtml:input[@name='loginId']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "loginId",
+                    "eid": "loginId",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Login ID"
+                },
+                {
+                    "path": "//xhtml:form[@id='loginform']/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Rapid Rewards Dining",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

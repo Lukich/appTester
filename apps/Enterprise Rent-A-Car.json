@@ -1,0 +1,212 @@
+{
+    "url_root": "enterprise.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.enterprise.com/car_rental/enterprisePlusLoginWidget.do",
+            "events": [
+                {
+                    "path": "//*[@id='searchCriteria']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "searchCriteria",
+                    "eid": "searchCriteria"
+                },
+                {
+                    "path": "//*[@id='searchCriteria']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "searchCriteria",
+                    "eid": "searchCriteria"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[1]/h:p[2]/h:input",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "memberNumber"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[1]/h:p[2]/h:input",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[1]/h:p[2]/h:input",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "memberNumber",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[1]/h:p[2]/h:input",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "memberNumber",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[1]/h:p[2]/h:input",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "memberNumber"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[2]/h:p[2]/h:input",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[2]/h:p[2]/h:input",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[2]/h:p[2]/h:input",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[2]/h:p[2]/h:input",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[2]/h:p[2]/h:input",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password"
+                },
+                {
+                    "path": "//*[@id='loginWidgetButton']",
+                    "type": "focus",
+                    "ftype": "submit",
+                    "fname": "loginWidgetButton",
+                    "eid": "loginWidgetButton"
+                },
+                {
+                    "path": "//*[@id='loginWidgetButton']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ftype": "submit",
+                    "fname": "loginWidgetButton",
+                    "eid": "loginWidgetButton"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form",
+                    "type": "submit",
+                    "fname": "enterprisePlusLoginWidgetForm"
+                },
+                {
+                    "path": "//*[@id='loginWidgetButton']",
+                    "type": "blur",
+                    "ftype": "submit",
+                    "fname": "loginWidgetButton",
+                    "eid": "loginWidgetButton"
+                }
+            ]
+        },
+        {
+            "url": "https://www.enterprise.com/car_rental/enterprisePlusLoginWidget.do;jsessionid=qB2FRSpRpyqlW1XsNj1nzY3DQSDJyGP11y8FGTc0Y8Br6G1v1TGy!-121333286",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "enterprise.com"
+    ],
+    "login_url": "https://www.enterprise.com/car_rental/enterprisePlusLoginWidget.do",
+    "tags": [
+        "travel"
+    ],
+    "thumbnail_ts": 1388043248.329201,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.enterprise.com/car_rental/enterprisePlusLoginWidget.do",
+            "events": [
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[1]/h:p[2]/h:input",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "memberNumber"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[1]/h:p[2]/h:input",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "memberNumber",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[1]/h:p[2]/h:input",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "memberNumber"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[2]/h:p[2]/h:input",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password"
+                },
+                {
+                    "path": "//*[@id='loyaltyWidgetHomeContainer']/h:form/h:div[1]/h:div[2]/h:p[2]/h:input",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        12
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Enterprise Rent-A-Car",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

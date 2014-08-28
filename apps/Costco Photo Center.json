@@ -1,0 +1,66 @@
+{
+    "url_root": "costcophotocenter.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpENUFBODIyN0Y5OTcxMUUzOTU2QkUyMUM4MkE0NEExRSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpENUFBODIyNkY5OTcxMUUzOTU2QkUyMUM4MkE0NEExRSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RjVDODI3QTQxODIwNjgxMTgyMkFEMjExQ0M3QjQyNjgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "costcophotocenter.com"
+    ],
+    "login_url": "https://www.costcophotocenter.com/Login",
+    "tags": null,
+    "thumbnail_ts": 1404943362.408164,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.costcophotocenter.com/Login",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='txtEmailAddress']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$ContentPlaceHolder$txtEmailAddress",
+                    "eid": "txtEmailAddress",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='txtPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$ContentPlaceHolder$txtPassword",
+                    "eid": "txtPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Costco Photo Center",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

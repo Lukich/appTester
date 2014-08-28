@@ -1,0 +1,64 @@
+{
+    "url_root": "verizon.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBREM0QTYzNEFDNDIxMUUzQjJCQ0QxQzhBQjk1RDRBQiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBREM0QTYzM0FDNDIxMUUzQjJCQ0QxQzhBQjk1RDRBQiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MzZBMjQ4OTFBRTIwNjgxMThDMTRBQ0JCRjkwNTYzMzQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "business.verizon.com"
+    ],
+    "login_url": "https://business.verizon.com/",
+    "tags": null,
+    "thumbnail_ts": 1396044363.735268,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://business.verizon.com/",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='signinformdiv']/xhtml:form[@name='loginForm']/xhtml:input[@name='IDToken1']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "IDToken1",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Login ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "IDToken2",
+                    "eid": "password",
+                    "f": "field2",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Verizon Business",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

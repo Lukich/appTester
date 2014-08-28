@@ -1,0 +1,67 @@
+{
+    "url_root": "deltahealthsystems.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2OEYzQkQ3RTk3NTcxMUUzODVBREQzQkQzODc5QkIyNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2OEYzQkQ3RDk3NTcxMUUzODVBREQzQkQzODc5QkIyNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDRCN0Y1MzIxNDIwNjgxMThBNkRCNUE2QTdCRTU3OEMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "deltahealthsystems.com"
+    ],
+    "login_url": "https://www.deltahealthsystems.com/Pages/Login.aspx",
+    "tags": [
+        "health"
+    ],
+    "thumbnail_ts": 1393966630.402615,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.deltahealthsystems.com/Pages/Login.aspx",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_m_g_1fafcb02_6bac_4f0d_8de3_7278218d54f6_ctl00_login_UserName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$m$g_1fafcb02_6bac_4f0d_8de3_7278218d54f6$ctl00$login$UserName",
+                    "eid": "ctl00_m_g_1fafcb02_6bac_4f0d_8de3_7278218d54f6_ctl00_login_UserName",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='ctl00_m_g_1fafcb02_6bac_4f0d_8de3_7278218d54f6_ctl00_login_Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$m$g_1fafcb02_6bac_4f0d_8de3_7278218d54f6$ctl00$login$Password",
+                    "eid": "ctl00_m_g_1fafcb02_6bac_4f0d_8de3_7278218d54f6_ctl00_login_Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Delta Health Systems",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

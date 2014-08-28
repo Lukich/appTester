@@ -1,0 +1,187 @@
+{
+    "url_root": "jiveon.com",
+    "prev_login_script": [
+        {
+            "url": "https://signup.jiveon.com/login.jspa",
+            "events": [
+                {
+                    "path": "//*[@id='loginemail']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "loginemail"
+                },
+                {
+                    "path": "//*[@id='loginemail']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "loginemail"
+                },
+                {
+                    "path": "//*[@id='loginemail']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "loginemail",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='loginemail']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "loginemail",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='loginemail']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "loginemail"
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword"
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword"
+                },
+                {
+                    "path": "//*[@id='login-submit']",
+                    "type": "focus",
+                    "ftype": "submit",
+                    "fname": "login",
+                    "eid": "login-submit"
+                },
+                {
+                    "path": "//*[@id='login-submit']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ftype": "submit",
+                    "fname": "login",
+                    "eid": "login-submit"
+                },
+                {
+                    "path": "//*[@id='loginform']",
+                    "type": "submit",
+                    "fname": "loginform01",
+                    "eid": "loginform"
+                },
+                {
+                    "path": "//*[@id='login-submit']",
+                    "type": "blur",
+                    "ftype": "submit",
+                    "fname": "login",
+                    "eid": "login-submit"
+                }
+            ]
+        },
+        {
+            "url": "https://signup.jiveon.com/login!execute.jspa",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "signup.jiveon.com"
+    ],
+    "login_url": "https://signup.jiveon.com/login.jspa",
+    "thumbnail_ts": 1360192032.02657,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://signup.jiveon.com/login.jspa",
+            "events": [
+                {
+                    "path": "//*[@id='loginemail']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "loginemail",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='loginpassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginpassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Jive",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

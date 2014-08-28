@@ -1,0 +1,121 @@
+{
+    "url_root": "live.com, hotmail.com",
+    "seq": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "title": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "admin_controlled_creds": false,
+    "param_list": ["cbcxt=mai"],
+    "metadata": {},
+    "alias_urls": [
+        "login.live.com?cbcxt=mai"
+    ],
+    "login_url": "https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=12&ct=1400537768&rver=6.4.6456.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx&lc=1033&id=64855&mkt=en-us&cbcxt=mai&snsc=1",
+    "name": "Hotmail",
+    "notes": null,
+    "ua_browser": null,
+    "url_root_array": [
+        "live.com"
+    ],
+    "url_root_map": {
+        "live.com": true
+    },
+    "cred": null,
+    "login_script": [
+        {
+            "url": "https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=12&ct=1400537768&rver=6.4.6456.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx&lc=1033&id=64855&mkt=en-us&cbcxt=mai&snsc=1",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='i0116']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "login",
+                    "eid": "i0116",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": ""
+                },
+                {
+                    "path": "//xhtml:input[@id='i0118']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "passwd",
+                    "eid": "i0118",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "prev_login_script": [
+        {
+            "url": "https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=12&ct=1400537768&rver=6.4.6456.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx&lc=1033&id=64855&mkt=en-us&cbcxt=mai&snsc=1",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='i0116']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "login",
+                    "eid": "i0116",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:input[@id='i0116']",
+                    "type": "change",
+                    "ftype": "email",
+                    "fname": "login",
+                    "eid": "i0116",
+                    "f": "field0"
+                },
+                {
+                    "path": "//xhtml:input[@id='i0118']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "passwd",
+                    "eid": "i0118",
+                    "f": "field1",
+                    "e": [
+                        9
+                    ]
+                },
+                {
+                    "path": "//xhtml:input[@id='i0118']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "passwd",
+                    "eid": "i0118",
+                    "f": "field1"
+                },
+                {
+                    "path": "//xhtml:input[@id='idSIButton9']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "fname": "SI",
+                    "eid": "idSIButton9"
+                }
+            ]
+        },
+        {
+            "url": "https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=12&ct=1400537768&rver=6.4.6456.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx&lc=1033&id=64855&mkt=en-us&cbcxt=mai&snsc=1&bk=1400537768&uaid=cb5f406869e8413ba5286d348379cd07",
+            "events": []
+        }
+    ],
+    "catalog_published": true,
+    "matching_type": "param match"
+}

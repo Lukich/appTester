@@ -1,0 +1,108 @@
+{
+    "url_root": "enbcolorado.com,secureinternetbank.com",
+    "prev_login_script": [
+        {
+            "url": "http://www.enbcolorado.com",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='AccessIDVisible']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "AccessIDVisible",
+                    "eid": "AccessIDVisible",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Access ID"
+                }
+            ]
+        },
+        {
+            "url": "https://web12.secureinternetbank.com/pbi_pbi1961/Pbi1961.ashx?wci=Logon&wce=Submit&AccessID=RemotePbiLogon&Password=*",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='DisplayPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "DisplayPassword",
+                    "eid": "DisplayPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1QzJCMDI3RDRFMUIxMUUzQUQxRjkwNjQ5NDZENTEyNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1QzJCMDI3QzRFMUIxMUUzQUQxRjkwNjQ5NDZENTEyNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTM2RkNDRTgwNzIwNjgxMTgyMkFBNjcxMkFFNkRCMzkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "web12.secureinternetbank.com"
+    ],
+    "login_url": "https://web12.secureinternetbank.com/pbi_pbi1961/Pbi1961.ashx?WCI=NextLoginOption&SPTN=0DFEFCE31A2646AFB8A43698D99100A1",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1395262328.287515,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.enbcolorado.com/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='AccessIDVisible']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "AccessIDVisible",
+                    "eid": "AccessIDVisible",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Login ID"
+                }
+            ]
+        },
+        {
+            "url": "https://web12.secureinternetbank.com/pbi_pbi1961/Pbi1961.ashx?WCI=NextLoginOption&SPTN=0DFEFCE31A2646AFB8A43698D99100A1",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='DisplayPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "DisplayPassword",
+                    "eid": "DisplayPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Evergreen National Bank",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

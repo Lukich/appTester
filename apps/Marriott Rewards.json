@@ -1,0 +1,193 @@
+{
+    "url_root": "marriott.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.marriott.com/signInError.mi",
+            "events": [
+                {
+                    "path": "//*[@id='visibleUserName']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='visibleUserName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "visibleUserName",
+                    "eid": "visibleUserName",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='visibleUserName']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "visibleUserName",
+                    "eid": "visibleUserName",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='visibleUserName']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "visibleUserName",
+                    "eid": "visibleUserName"
+                },
+                {
+                    "path": "//*[@id='j_password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "j_password"
+                },
+                {
+                    "path": "//*[@id='j_password']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='j_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "j_password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                },
+                {
+                    "path": "//*[@id='j_password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "j_password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='sign-in-form']/h:div[2]/h:p[6]/h:button",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "fname": "btnSubmit"
+                },
+                {
+                    "path": "//*[@id='sign-in-form']",
+                    "type": "submit",
+                    "fname": "signInForm",
+                    "eid": "sign-in-form"
+                },
+                {
+                    "path": "//*[@id='j_password']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "j_password"
+                },
+                {
+                    "path": "//*[@id='j_password']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "j_password"
+                },
+                {
+                    "path": "//*[@id='visibleUserName']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "visibleUserName",
+                    "eid": "visibleUserName"
+                }
+            ]
+        },
+        {
+            "url": "https://www.marriott.com/signInError.mi",
+            "events": [
+                {
+                    "path": "//*[@id='visibleUserName']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "visibleUserName",
+                    "eid": "visibleUserName"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": "delete",
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "marriott.com"
+    ],
+    "login_url": "https://www.marriott.com/signIn.mi",
+    "tags": [
+        "travel"
+    ],
+    "thumbnail_ts": 1388043484.596108,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.marriott.com/signIn.mi",
+            "events": [
+                {
+                    "path": "//*[@id='visibleUserName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "visibleUserName",
+                    "eid": "visibleUserName",
+                    "displayname": "Username",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='j_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "j_password",
+                    "displayname": "Password",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Marriott Rewards",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

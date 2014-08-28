@@ -1,0 +1,65 @@
+{
+    "url_root": "kohls.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowRDc4REQyRUJFQTIxMUUzQjhFOEI2MzQxMDdDQTU4OCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowRDc4REQyREJFQTIxMUUzQjhFOEI2MzQxMDdDQTU4OCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkMwNTE5M0Y0QzIwNjgxMTgwODNFMzU2OEJFRjIzNzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "credit.kohls.com"
+    ],
+    "login_url": "https://credit.kohls.com/eCustService/",
+    "tags": null,
+    "thumbnail_ts": 1397865036.880937,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://credit.kohls.com/eCustService/",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='user']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "user",
+                    "eid": "user",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User Name"
+                },
+                {
+                    "path": "//xhtml:input[@id='pass']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "eid": "pass",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Kohl's Credit Card",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

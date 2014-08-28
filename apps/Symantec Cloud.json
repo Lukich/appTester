@@ -1,0 +1,65 @@
+{
+    "url_root": "symanteccloud.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxQjRCQTBGMEVEOTgxMUUzQjlCOUQ1NjI1MjhGMDZBRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxQjRCQTBFRkVEOTgxMUUzQjlCOUQ1NjI1MjhGMDZBRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTgwODNFNzY4MEQ0MTE3MzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6ffLqSAAAOXElEQVR42uxcB3RUZRZ+701LmUknk0kvkEAISwkkVCHUCEQOG0AE9EASgoCCLiIuVZalLQhCXGTPgpSI1BWVoBAMCFIFEqka0kN6SCNlMvXtN/lxiJE97FEWzlnvzTlzXvnfX77v3u/e/00SPjw8nCN7diYQBEQAEUD27EzK8zyhQBFABJARAUQAGSVhigCypx0BoigSChQBlAPIKAKIADIigAggoyRMEUBGBBABZEQAEUBGBFAZSkYRQASQEQFEABkRQASQURlKEUBGBBABZEQAEUBGBBABZEQAbcTInn0EODvaTx5aJJeZCc2nTYAocu2Du6xes9rHJ1A0098Z/CoJ+i0Pz/tTfL9wl41bk7nKdJ4PJTSfJAFqZ22Id4Oboz7ISycIXNZdRWm1PKtYda/OBncDAoM7dOgQ1rm9rilH5OzOZYYRlE+MAGelNn5UUZ/OdRo3g9nEN+stMhXT1yxIxZJ78hMXFMmpGjul66CB/S5cuisKjrm5uYTjrza+T58+rc+HdK+YOeaup69ebOSh6vB9vYGXSkSJQjTqBKlg5hR8qW6S1nlNVdU9by91fHx8bW0t4fhkIiC6V8nShAJO5JprBRsnc3WJ7F6dvLDCxmjkAz0b/dQ6qZnTKl/WdF6PBBwY0O1fn6US+k+MgE6+NUvnFBirBamMU8jNn6fa7D8VUFGratJJcNdeobOV1U15QT0+cSVntOGkKtH8zcHtM5EsWnenVCodHBwUCkVzc3NlZaXRaPz/gAnrcnJyLikpNpt/fbUtlUo9PDQVFeV6vb5tGSqXmpZPzeW0nCjh6hvNcze3X7uve365E0Mf1qhTVDWqFYFrebk3JynnGvfzOVMXvZgrig8gNplMffv23b1798cff7xjx479+/d/+OGHvr6+TxkpT0/P7t2729jYPNluO4WGxY4b/xu7dXJyGj9horu7+hH7gKE9KrwD9Lp6QWZvfmeL99UstY2NbZvnlyz7y5iR/S3lv9lFf2e+tqCgS2+uf1glu9u1a/j69es9PDzKy8uvXbuGCGjfvv3Tj4CVK1cmJSWpVKon260omuVy+W/spLlZBwrbxNADCXo+shLSL1eZjx2TZuT5JCTOfiEm+h9bt6SkHGWvKjQaj+jhQ1jjxJmLxoXeHTaM4/Tc2P4lF267m0XJkCEDcQten5ycjAMXFxdoUUlJia2tLc/zjY2N7J0HlgGB0mq1OAU9oiiiZbt27QoKCsAZ5uft7d3U1IQH2VgymczV1RUNIGiglv1Zub29PXrAStBeo9HgSl5eHm6hmb+/vyAIaHDv3j3W2M7ODm0Q9RUVFTqdzrpyXIe7oJOqqqr6+vpfygXGxZTu37+PfgSes3wKD/zV1tZO5aBq1uJuXQs9IuZpbjHrtCEJ7FQilTo6OOr0OplM2tysfXQO8FXrzY28YCN+ctobp199eSRu6kuLFi1C1OzZswdX3nnnz6zlhg2bbt28xt33H/F8PiTLy03vZKetblRKJBaxguthlhi4usVwumnTJkdHx2XLlt28eROrgntCJRArkydPPnnyJIiZP38+2l+5cuXw4cNvv/02QKypqUH78+fPQ0zmzZsXFBSE9aDlsWPHVq9eDQpXrVqF5A+VW758OUAETHPmzEEn27dvB6+AY9euXbg4YsQIQI/GISEhmNudO3cWLFgAFnHcsWPHpUuXgi3AhK62bt169OhRKyi4PnLUaKPRhN4A8aGDB6qra1hiw10PjWb8+BcbGurt7VUZ6VfPnfsWS4a2lJWVnjqZxtCfFhd/69atc2e/xZKnJ84QBKlO3yzwfAsrpkdIkNLWbDLztdXSep0jTouL8idOnISD2bNn9+vXDxPq1asXTnW65gOHPrOkBL1DY6XEaOCdHXkfjaXHPfssC5gyZQoiYNq0adimYVrwrKysLKDQpUsX3PXy8sIBkCoqKkJ6AGpA/8cff4R7In+sW7cO2F29etXZ2Xnz5s3wbqQ+IJWeng6AgEVsbOzAgQNbYrl52LBh27ZtAxmZmZnw9/feew+N9+3bx+Ls008/BTcgfsuWLUAfaQlXgoOD0Qx3ASUiFYsCRqAZTgY3tyIik8knTX4ZPCXv3nnki88ZYTI5UJUjZDHKjFdn3bxxI3nXrq++TBkdE9OtW3c0cHNzVbbSPY2nF4vy+IREiPlnhw+lfPFFVVU1pvroCBAtA4ulRTLxJ0oKC/PhvHPnzoWqWue39N2/CtyDKK5qkHgoRLmUt3OwBFpZcebs2XNWrVoREBAwffp0cHDq1Kl33313586dMTExgwYN2rt3L7wbLQEcCGCS+tprr12/fj0hISEuLu7EiRNwcEzxwIEDEC7Ad+nSJXgxWER4QTFeeeUV8HHhwgVoFJ5Fz+gK8CHzQ8d++OGHjIyMCRMmwOlQBWDO48aNU6vVZ8+eBQ3AAs+GhoZC4vAJDk6fPr148WK4ZGBgYOu9ZFTU4Gad7mjKEdCs1Raj8rFEtlKFbjHnXhGRtTU1p0+fghvl5GRfvHB+4KCoW7duapu0+lb6ZtDrsU+CiPn6+W/auB7qh4vHj30VGBhk1bGfEQC/gTu7O/8sawIyrAf+6+bmhtOcnJwz35xkKUFv5F1UJgknag2CvkFgPWRkXEF77OxGjhzZs2dPOCncOSUlBVrUqVMnyBHSMlp+//33WDabR2lpKT7RAJ9gBWsGUkCfCavljYhanZiYOHr0aEDGaq2fsqKItAEU6urqmNfjEwBZdR8EAPGW7KWBjgE+uDxO4QrgAAcQQNZba/TBtEUDq6tbZwsLoEYj6ICPhwSH3Lh+3ar16RnpoZ27YMJG08+EBTja2tm7uLhWlJdZEwxywH98G9qohUCJru0MSpuHAwOjNWvWWE/XrFlt/e7AzaFZCQJkYn2TpLhCYm2DwVJTU9944w04F05ff/11IAJ/xPp79+4dGRmJqSOogRTTU1au4C5LreyTgYg1DB48GN49duxYpAc4rJUVZiye2DwZAdbvNpgfGQwGVvzBJ6Kjo5EDEJSQO1xhU/0lHHjEYDSAhl9+TQK2cMnG1g49WKch8AKO2zRuGZeXSaQyqdRkNFidmqXJNv+d5gEBZVVyiZ3ISbhp0aWtb8OFa2os7qnVNmVmZlmvxz1fYuZ4TsZV1Eor71sc1rWdJjy8h7VBcXExS0eYHMMOuoSwSEtLwwJYadQG0DbHUIYlS5bgeMaMGUgJ4KDtW5SWHqwRDYBYNQKBYh6KkGVLgBZFRUUh5UDioG+M7/DwcDYitM6KIHqDXKB+a+unAuLSDk5TUJAXHBJiHdTHx8dkMmJFUqnEur1C/wgXvV5nKUMcHNlwsIaGBozz6CR8/LITZ8Ppa4URUTVBHjXW21jJ8hUbs3KKFixcaTQa2MU/BFRF9Kg3NPEg7NhFZ5PZ4i/bt/0zKekDZLlRo0bBZzdu3IiWSHGsIiorK0PgwwUQ+IwY5g6tQbSuivkyHmR3IR0oBN56663WJLV2OrZCJG12F6cTJ07s1q0byMbp8OHDkWMQf+gBROLBDRs24DrKMAjm0KFDkUuQ3vFUz54RwSEdr1+7Bqnp0CFYobABE2FhXdBzfX2DnZ0tqD2ZlhYY1D6oRUtdXd2QEqCoyLcomXx9/eBYeCQiIgKkotwpLCzAlCIiIlGJopMe4T3RAHW4u1oNdUKt8TAHHD6rThxTplKZzDo+6U/ZM9cFF1Q6slvfXUy7lnHWqomd/WrWzso1aHmFylxWJDuRbinDUUEdOrj3pZcm9Wkx1hIpccWKFYzFjz76aOHChQjGy5cvMwKwGCsNmBz8l0kQrsCVAFN+fv6bb74JRlENsyIS9SKTLEwdbVCQsIGwfmgatP727dsYaOrUqSjGkDYA/axZswA3MjxriTSDZ7HJWLt2LRID+rf2IJXJIiIjTWbTlg+S9u/b+8fYcSy7YPLZOdlgG8UxTuvqar9OPR4TMwanwBqfaV+nooczZ07Hxo6Li58Ox8A0rlz+LjAoKDvrzsED+2Njx3fsFAr3Ki4qQqXg4OAIUenYsZO3t88ne5Ifvg2NCK54f1mOvlKQ2yJK+KSDXkfOuxuMMoOpRWEhpkrtmAEViTGlHC8a9bzUVXx1SfD1PFerJ2JCfn5+LMUhkFHeMBWGoRZEJsAOeebMmawQRCkCAm7cuIHFI9OiARAvLCwElF27dgUNFy9eZA9Ci5A24GhhYWFIrWiGixgLCRyAAhQ4O55CTYkYx4jPPfccVB7QoF7CXUwJ7dFhdnY29mtWRWY94wDXUSvjwM/PH9LB6k6NxhM/DfUN8GIoj729EpVIcXER2zy2c3cHgkV37xYU5LOwgwOhyPby9qmsqMAjiCe0R9yzQIFqoZrKy811gNy18K1UqgSJUF1V9ZAASGhcdN6MhHJDObRAlNiK+QWK/HLbzAK5VDCF+Om92xn8fZr1WkEqFQV78f0dHgfOBDx2/w04IP3wR7g5cjIUmd6APvptKDL/juMBlXXyxQl3OQVnrBH8PXX+3rqBXbG35ASpiM2CQWuJD61O+Nvf/b685CGRPPYVioiUMGDAABwjK2C7S7+E8ZgvZGChvjXjo8r6d8NW29RUL2ElL4LCTmXSNgiXbjtsP+qdU/pfve0C3FBtZB6EJKuLyB5PQEt5a/JTN4X61/cKabRRmAWeq9cK528q80vtc8sc6P8s/s8JIHt6OYC8+VknYRKUZ2r0y7lEABFARgQQAWREABFA9kw2YrQPoAggAsiIACKAjAigKoiMIoAIICMCiAAySsIUAWREABFARgRQEiajCCACyIgAygFkFAFEABkRQDmAjCKACCAjAigHkFEEEAFkT0CCCINnSwD9nTBJEBFARjmAcgAZSRARQEYE/A6TMOUAigAigIwIoBxARhFABJARAUQAGSVhigAyIuD3Yv8WYABbneVOa2ezuQAAAABJRU5ErkJggg==",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "identity.symanteccloud.com"
+    ],
+    "login_url": "https://identity.symanteccloud.com/Logon",
+    "tags": null,
+    "thumbnail_ts": 1402940654.620636,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://identity.symanteccloud.com/Logon",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='Logon_Username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "Logon.Username",
+                    "eid": "Logon_Username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='Logon_Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "Logon.Password",
+                    "eid": "Logon_Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Symantec Cloud",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

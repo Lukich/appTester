@@ -1,0 +1,177 @@
+{
+    "url_root": "insight.ly",
+    "prev_login_script": [
+        {
+            "url": "https://login.insight.ly/User/Login",
+            "events": [
+                {
+                    "path": "//*[@id='email']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "email",
+                    "eid": "email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='email']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "email",
+                    "eid": "email",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='email']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "email",
+                    "eid": "email"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='lower']/h:input[2]",
+                    "type": "focus",
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//*[@id='lower']/h:input[2]",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//*[@id='authform']",
+                    "type": "submit",
+                    "eid": "authform"
+                },
+                {
+                    "path": "//*[@id='lower']/h:input[2]",
+                    "type": "blur",
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//*[@id='email']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "email",
+                    "eid": "email"
+                }
+            ]
+        },
+        {
+            "url": "https://login.insight.ly/User/AuthenticateForms",
+            "events": [
+                {
+                    "path": "//*[@id='email']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "email",
+                    "eid": "email"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "login.insight.ly",
+        "insight.ly"
+    ],
+    "login_url": "https://login.insight.ly/User/Login",
+    "thumbnail_ts": 1360191978.681443,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://login.insight.ly/User/Login",
+            "events": [
+                {
+                    "path": "//*[@id='email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "email",
+                    "eid": "email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Insightly",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

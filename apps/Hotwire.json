@@ -1,0 +1,92 @@
+{
+    "url_root": "hotwire.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": 9500,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozRUE4MTEzNjcwMEUxMUUzQjc2RkNBNEU4OEQxODdBMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMzMwRDBDQTcwMEUxMUUzQjc2RkNBNEU4OEQxODdBMSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RENCM0UzOEEyQzIwNjgxMThDMTQ4MjY0NjYwMzgwMkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "hotwire.com"
+    ],
+    "login_url": "https://www.hotwire.com/account-unverified/login",
+    "tags": [
+        "travel"
+    ],
+    "thumbnail_ts": 1389137852.490439,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.hotwire.com/",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='genRandom3']/xhtml:div/xhtml:div/xhtml:span",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//xhtml:a[@id='headerSignIn']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "eid": "headerSignIn",
+                    "ehref": "https://www.hotwire.com/account-unverified/login"
+                }
+            ]
+        },
+        {
+            "url": "https://www.hotwire.com/account-unverified/login",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='tileName-A1']/xhtml:div/xhtml:form/xhtml:div[3]/xhtml:input[@name='email']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "email",
+                    "eid": "email",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:div[@id='tileName-A1']/xhtml:div/xhtml:form/xhtml:div[3]/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Hotwire",
+    "notes": "Appears to need user to go to main page first and not directly to login page. I think it sets a cookie at the main page that is required to login.",
+    "provisioner": false,
+    "ua_browser": null
+}

@@ -1,0 +1,75 @@
+{
+    "url_root": "edwardjones.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDMTkxRTJBRUY5OTYxMUUzOTU2QkUyMUM4MkE0NEExRSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3OURCRkFBOEY5OTYxMUUzOTU2QkUyMUM4MkE0NEExRSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RUNDODI3QTQxODIwNjgxMTgyMkFEMjExQ0M3QjQyNjgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "accountaccess.edwardjones.com"
+    ],
+    "login_url": "https://accountaccess.edwardjones.com/ca-logon/logon.action",
+    "tags": [
+        "finance"
+    ],
+    "thumbnail_ts": 1404943408.383899,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://accountaccess.edwardjones.com/ca-logon/logon-pwd.action",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='userNa']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userNa",
+                    "eid": "userNa",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "User ID"
+                }
+            ]
+        },
+        {
+            "url": "https://accountaccess.edwardjones.com/ca-logon/logon.action",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='passwd']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "passwd",
+                    "eid": "passwd",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Edward Jones",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

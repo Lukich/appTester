@@ -1,0 +1,158 @@
+{
+    "url_root": "squareup.com",
+    "prev_login_script": [
+        {
+            "url": "https://squareup.com/",
+            "events": [
+                {
+                    "path": "h:html/h:body/h:div[1]/h:header/h:nav/h:div/h:a",
+                    "type": "focus",
+                    "ehref": "https://squareup.com/logout"
+                },
+                {
+                    "path": "h:html/h:body/h:div[1]/h:header/h:nav/h:div/h:a",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ehref": "https://squareup.com/logout"
+                },
+                {
+                    "path": "h:html/h:body/h:div[1]/h:header/h:nav/h:div/h:a",
+                    "type": "blur",
+                    "ehref": "https://squareup.com/logout"
+                },
+                {
+                    "path": "//*[@id='email']",
+                    "type": "focus",
+                    "ftype": "email",
+                    "fname": "email",
+                    "eid": "email"
+                },
+                {
+                    "path": "//*[@id='email']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='email']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "email",
+                    "eid": "email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='email']",
+                    "type": "change",
+                    "ftype": "email",
+                    "fname": "email",
+                    "eid": "email",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='email']",
+                    "type": "blur",
+                    "ftype": "email",
+                    "fname": "email",
+                    "eid": "email"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ]
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": {
+        "dnd_restricted_urls": [
+            "squareup.com/dashboard#account"
+        ]
+    },
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "squareup.com"
+    ],
+    "login_url": "https://squareup.com/login",
+    "thumbnail_ts": 1369873709.489142,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://squareup.com/login",
+            "events": [
+                {
+                    "path": "//*[@id='email']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "email",
+                    "eid": "email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Square",
+    "notes": "Updated From Eng on 9-4-2013",
+    "provisioner": false,
+    "ua_browser": null
+}

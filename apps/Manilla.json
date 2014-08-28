@@ -1,0 +1,166 @@
+{
+    "url_root": "manilla.com",
+    "prev_login_script": [
+        {
+            "url": "https://app.manilla.com/users/sign_in",
+            "events": [
+                {
+                    "path": "//*[@id='user_email']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "user[email]",
+                    "eid": "user_email"
+                },
+                {
+                    "path": "//*[@id='user_email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "user[email]",
+                    "eid": "user_email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='user_email']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "user[email]",
+                    "eid": "user_email",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='user_email']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "user[email]",
+                    "eid": "user_email"
+                },
+                {
+                    "path": "//*[@id='user_password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "user[password]",
+                    "eid": "user_password"
+                },
+                {
+                    "path": "//*[@id='user_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "user[password]",
+                    "eid": "user_password",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='user_password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "user[password]",
+                    "eid": "user_password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='user_password']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "user[password]",
+                    "eid": "user_password"
+                },
+                {
+                    "path": "//*[@id='new_user']/h:div[2]/h:button",
+                    "type": "focus",
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//*[@id='new_user']/h:div[2]/h:button",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//*[@id='new_user']",
+                    "type": "submit",
+                    "eid": "new_user"
+                }
+            ]
+        },
+        {
+            "url": "https://app.manilla.com/users/sign_in",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "app.manilla.com",
+        "manilla.com"
+    ],
+    "login_url": "https://app.manilla.com/users/sign_in",
+    "thumbnail_ts": 1360192062.172796,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://app.manilla.com/users/sign_in",
+            "events": [
+                {
+                    "path": "//*[@id='sign_in_with_manilla']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='user_email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "user[email]",
+                    "eid": "user_email",
+                    "displayname": "Email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='user_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "user[password]",
+                    "eid": "user_password",
+                    "displayname": "Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Manilla",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

@@ -1,0 +1,63 @@
+{
+    "url_root": "privacyguard.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGQUUyNDY2MUE3MEYxMUUzOEM4RUQ4Q0QyRTU4QTEzNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGQUUyNDY2MEE3MEYxMUUzOEM4RUQ4Q0QyRTU4QTEzNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6N0VFN0RDN0QwRDIwNjgxMThDMTRFNjQwOTUxMUM5Q0EiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "privacyguard.com"
+    ],
+    "login_url": "https://www.privacyguard.com/secure/Signin.aspx",
+    "tags": null,
+    "thumbnail_ts": 1395350046.910995,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.privacyguard.com/secure/Signin.aspx",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='signinBodyLeft']/xhtml:form[@name='SignInFormControl']/xhtml:div[2]/xhtml:input[@name='signin_username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "signin_username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:div[@id='signinBodyLeft']/xhtml:form[@name='SignInFormControl']/xhtml:div[5]/xhtml:input[@name='signin_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "signin_password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "PrivacyGuard",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

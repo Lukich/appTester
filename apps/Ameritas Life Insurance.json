@@ -1,0 +1,67 @@
+{
+    "url_root": "ameritas.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MkEzNDgzRjYyQjMxMUUzOUYxN0FEQUJCOTFERjQwMiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MkEzNDgzRTYyQjMxMUUzOUYxN0FEQUJCOTFERjQwMiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QjUyMTdFMzJFQTIwNjgxMTgwODNDMzE0MkYwMkM4MUQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "service.ameritas.com"
+    ],
+    "login_url": "https://service.ameritas.com/service/login.asp",
+    "tags": [
+        "insurance"
+    ],
+    "thumbnail_ts": 1389130715.843419,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "never match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://service.ameritas.com/service/login.asp",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ontUser']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ontUser",
+                    "eid": "ontUser",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Login ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='ontPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ontPassword",
+                    "eid": "ontPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Ameritas Life Insurance",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

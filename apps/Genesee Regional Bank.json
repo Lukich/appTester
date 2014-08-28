@@ -1,0 +1,76 @@
+{
+    "url_root": "grbbank.com, netteller.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": ["fi=geneseeregionalbank"],
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3NkI2QzIyMjU2MUYxMUUzQTVBQUFCMjM2NTE1OTVGNCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3NkI2QzIyMTU2MUYxMUUzQTVBQUFCMjM2NTE1OTVGNCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QzEzMzlBRTEyQzIwNjgxMThDMTQ4MDUyM0RGOUVEQ0YiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "cm.netteller.com",
+        "grbbank.com"
+    ],
+    "login_url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=geneseeregionalbank&bn=2847f5a05e6fab9e&burlid=b836f5d5a10b8c17",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388790379.954558,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=geneseeregionalbank&bn=2847f5a05e6fab9e&burlid=b836f5d5a10b8c17",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_IdTextBox']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$PageContent$Login1$IdTextBox",
+                    "eid": "ctl00_PageContent_Login1_IdTextBox",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Login ID"
+                }
+            ]
+        },
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=geneseeregionalbank&bn=2847f5a05e6fab9e&burlid=b836f5d5a10b8c17",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_PasswordTextBox']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$PageContent$Login1$PasswordTextBox",
+                    "eid": "ctl00_PageContent_Login1_PasswordTextBox",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Genesee Regional Bank",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

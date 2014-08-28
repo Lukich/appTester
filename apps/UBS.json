@@ -1,0 +1,66 @@
+{
+    "url_root": "ubs.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "onlineservices.ubs.com"
+    ],
+    "login_url": "https://onlineservices.ubs.com/olsauth/ex/pbl/ubso/dl#login",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388967324.592502,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://onlineservices.ubs.com/olsauth/ex/pbl/ubso/dl#login",
+            "events": [
+                {
+                    "path": "//*[@id='userId-inputEl']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userId",
+                    "eid": "userId-inputEl",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='password-inputEl']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password-inputEl",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "UBS",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

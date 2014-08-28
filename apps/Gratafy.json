@@ -1,0 +1,117 @@
+{
+    "url_root": "gratafy.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.gratafy.com",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='loginEmail']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "email",
+                    "eid": "loginEmail",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='loginPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2RTE2NkUzMkYwMjMxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2RTE2NkUzMUYwMjMxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RENEMTMxM0YwOTIwNjgxMTgwODNEREQ5NEIzRDlGRjIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5D9pwAAAAVRUlEQVR42uQ9C3AcxZXTs6tdaXellayfhX6WJSGDLVsStoFgg8GXEJtAsGNDLgckQPjc5RIuVB2Xc7iQQCU5UjlSqYQLJOS4hCOY30F8DsZxTFkYGwf8AduyjK2PJdmWZEmr32q1/76RVtqdnenu6Z7uFbLdtbU1O9vT0/3e6/fr169B3cEnAJBmrEAomXhd7CnNs+qfyvVnsxfcMmfJCne1wN5uH2x6rnd3q7+f3LcGV9lvq+9ianm/t+P+lheUC1B/6Inpm8poYOqASwAfZ9mY23Bv4YoCW1aKiGar5+MfdW3zwzDyXxuwbF/4kNvqYG32192Nz/TuViNAMFwIxCtqonwhZ9FDl6zOTctM9cT1RQKPnHp972ib/q9HS9auz2sw1+zNTb+wFD14A5yme2XMpqGPA1nsJmWz8UY09Sd6CCT1vVpH8VMVG2/LX+aw2GeAc6bJ1rVzauemZTaOnFTfz5LtT1ZsMN2sXbZacZyBiZ+QQYxsipLGY9U0NTeVfH5D3lJpxssXc+uL7XO+0fpiCEZjd24vWM7T4Pq8K+Sk0dIBFPlvbBpBSKqs/pdyTmiqLXQUvVZz/6cC/VhZ6ip/vvprLtkW+3mNq4KnNWVwVoU/xwEPpvFAz7gTTGPyQSCRBDmI1Sd2iPD4anfNTyo2Tr4USp9euSyj6NdVd379xO98MFTrLOXsjEyguxgOjJGIQQzyjr461NVHvvS7JWti0J8NpSZj7q+q7rCIUFesTMxXr9jQdwHXWyAlkI2T2E9XfuWqzPnSbCqLnMXPVt2ZQgTg4AVVFUg8ClDopsm1cE0p41Q4rzT7Sr2zjL8RmZWDARWkCFMQEDnS1IMQIcM1NZ+pumN2Ql9UkTU6qBkLQDIWA3HVFqcIxZmPWmX66bwNy1zzpAu6yGr1kazLq6+T4IipqW+NIFT05c785ddnL5Au9GKltFT11MoqPJgeUdjOt0s+J10EJSEDki0poCfMyZ+Agl8ZY0DzUk1xyrafzhqNM/UzYJqLT1hJ0UlihFO3NGaRGidT+g9kEgoIgwtpef2ofJ1Ltn+61tbMIQDPCqZRgdQ1QVIdISX2opVZVddkVc3AyAPR0Gm/pzc0EoJhh2wvtmXPTc+RJTDTCMDr8pDA0wEdsTO54cDknNpUujZ1o90xePST8f6dQ8e6goO4Dl+ZWV7nKrsuq7rGUTRzQhgBe42XVGKmDbKDGvnEVwuuzk+Bc7/TP7C5f/9r/QeiRhSj9O0Db8dfvR3Pdu/OTXPelnfFnQVX22Vr6hAA6g88bggyAiEb6q8sbimwZ8kjaUDkaPtCI0+d/suO4Wak7a3ntwhnjATuLbzmgaJrQWq4k0zW3AmCUG06QbpHyOWOgqvEQv9Pno/XNv1SgX4SmNEKGMQNULF5nut97+amX+73dqQKAQS403rt+eyAacvrSoED+1br5sc6t0ahVpLR+FH00OgJjTzY8j9/6H0/BUIYyRaBFFWzHUDinfTrvQQWt9pdk211CFE9IzCqAOuQryvec6YVaQSbmh7+f3TvPObrfmLeOsEzgOC9oTGskAteTEaycn+Vu0bUkP6+9cUp6DP2ELdioS7bho893vF/qUIAYimczrDiZD5KWTunVsh4/qXttQNjnThwY3oIyHjS/NwydPitgSNiEQAYrFizRhahrHEvFPKWd4dP7Bz9xEzcF0T7bnFo+97pLcd93QIRAGnEqUlnNV5PjTdYmVHAP5IwjDza+aaG3pG0jJwZSN8tbuDKnX8/vV2kM44GuGq6MFzCxVETUszclLOIfyS/6m70RUPolR8WktIPUP+Ucufo+Jk/DzYJQIAR4wY49R/ZPxwyyMpfPndUoaL5/L5vH6UpQ+6MoX8+PrGe7XlXhDMOYgkBAAahkFijh2xKap2jmF/73HzuA30juC7pO8YaORlrsyPg+WCkfVnmPAGGGIEDmuDyhvBUC70GEUu+O4ePs2plmklsjgZ2D58UqYYiIaiVYzo4mkBeHOXK41Zg4RxDVIKHfWdM62NG7izSYN70fJQSQ4ywAAnwvAVSCGF9ccm80bWNQ5/QTz56ckGaQZrmx2FoNDyeQmcc0lLHCivI7KtQ7lel53EioMXfRz/56FkNcSFExf2GmgXIAJzth1AhTHkaNOqdutkiWzYnAkLRiCHE41KH3BkTFk9feIzPGReFU93SLv8mXWgnAfsyQFL07uQ7Y3qLy5LOqQX1hoYMQgRgIu5Y35nYt3qa0mh/qjh+yNN/2cymDF3YqH7GkC21mIIba8Qm8wphT2iMSXIiKxvKKqydnAohTGD9ZLUHaeOYVvKonRAQ318a6EONLkTvHYCQFwNYb6jWpseoa2THIU0JRsOcCMik3qUE8feQcZI0OhXncqxM4BhxwUXQlCk3KhF21Hgjfk4EFFJ7MlhhNQMbeGWC4h9HL9NaMc20VW8F6AuOcs+ADBN9EFVsfIakdSoaTsfiAX7GAjo9AWdnToWmR6fud/gHlri4Au0dchrZAYXYUjjdf/5tuZ9xzefVgugscvOzmMyXeiNeThq8MXshDWMkbyA0NCNwc6jKUShGCBPWTGZ5lGZumss5vW2Rk6HrZSHBO61UWMG9cUom6wma1zNhArfpRQMOfhmglHW59TwCCYkkQ2eq8rlKLALUe0jNTVgk8shPNXJ7dJWyFrOmZshANHtytLghW8IS+FL+UjEIQIhKgO230TwAuCmFNBqGIj447Z4w/ZmfUVDvLCUQAZWjDWhnA5nevlKwXKnC2XM5NglBzBuS/NHfjN1BVlZ9okmP4BuM/2zyniY2SPV5oHDlhFMmytWI0dASHxuQ7ytYwd9tGS+FBBghmk01uPK+t53/XXWustXumlS7PeJlU8madEX9FWWIJXR8oxAh4vAASoYbw6N57IwQoHy//JaClKSu0dLQMte8NYIiyWQCY4RGyhxytYAgJ9S+DXWFPag8PKaMUusPy9fRrU4zze+kVqrTC342/zbBrgiIArhhH3WiDJIVZ7VvQ1Nhm0dMsF+ts/g/K/8u3n3k/mQkdUG6nW2lthwF+vzr2PFiKbxvlTSdEYmWrYNEfeSDhNbUf6mvHXLade5LhQypyOa+wln29mBTVL3+YkxN2m7rR7Ew45KnK7+cY3WJdMZBU24/mtgmw0mjvn5rqCkEw6JGVe8qe/HSey5Ln0vPf6AREP7GveC56rvcVqdY8WKZe9/1Go8VItwB6iFuRkciu5ucFttiZ4mogWVbHbfm1lklsF8VLE1KBpacIkldp8TqfqL81rsKrk6Fcxos3vdY/MX6PE1Mmy+0IhqVxYAQflNgcW5Z+I/CRzgSHv/vc3tf6t8fN2whcf+h+t/itCwF7l806+egQsCSvz4mUYOJaRefiWe/X/qFz4sI1EVxGPjmwKFD3s4/J8fQTWcDTBLBbjn95tzFn3FVNmSmPFELWLLve0L2W5PZC+WsKknLefWyB1I95rOBwcaRk75oUMGKLxKMKmatbLFPWlUlNvfKrBqHxSbNVLESbC5zYhn3LyEhVrycDg3+ceBQSqe8Ui6x5/xt/nJpdhQZktRjwG3CMM+hn539y3g0KF00RZaSDVddtKc+bQo09E9QmtAamzlWIQAjj3duvYgQYMQWoMSYTYgwRzSwxr1618iJ90daL5oZQOFxS1qoM8tbJJZFwe90/G9PYPhiQIBl7r3X6ZkOwHN9ExIAsFeOQHh47MzNcxZfdDMAUC/84hZ7RZXm8e5vtb18MbIgyrx6U2k6iPtnEqgy1bkD3o7vnHr9YpQBBj4GSCV+kyLs2KzWRHl3pOVf22cpDhT68IS8ghFAlU0BGNfhsumSfzaOtjzU+jL/wr3YT7Ov+5/aXxG2KG+4EK+/xi1/x+uoK8SuTa+Yf+htf7DlhcGgl38RXMina3zg4bZXItHIhAND7KI8PSGbSDXKk/vgyNiZ2z/5TYqyJjGV9vG+b7a9NBwZV/qfwb0uLzPxGXK+TxPuIwhJ+QI0LxqLBh5q2/zjrrei0qcWK/nxWNfXW17oC3slYYna8JSL1HzIK2iQEWe4uDnCysnWwSO3Hnu6cfjEzEP/jwMH/6H1D34YSvIi8BWrxJgRETD+q1+8pD/PCnd/IDy2qeONyx1F9xWuXJ5ZMQOg7/QP/OTs9kPepDxQNfYCEQiA2O1H6qAenswK5JnCtNVA/d5jY93fbnvl0ozCjXkNa3JqUwT6gZD3+d49b3o+1v9V7yrnz3JhJZyUQZaoppEBGAFNftGJ8d4fdm178vT2L+U2rMiqqneViQL9jqGm3SMt76i24WtKpogTtKyctMzzOJIX4aYa+UVhGH25f//mvv0WANbmLCqyZ6/MrJzPmAcqDCMHR08dHe85Od6zm8Id+9nsy8XIgBQVZIQBAabavQimgmUUBUmR0sr1b3p2SxPhRrYlzuIKe366Ba0vjkUCZ4Oe475e+g3vsSEoLc+1uTlB1BscsfLTLFnLRPI3pNjXtAZYGBSuWV80+P5ou/IRNU3jJHJrbh0/je4dabFiVHoQS2VHEMvxn7pqiSV+XBYAZMoVgjSmqTZZB91tXuijtvPd6L6MXwJ7wj5ZQm8SNlgII56JB+nlBFNyE9JGflV+L8PgXHMJU9TXi50l80UkGmwdPyfjXwMoeiZqD4HBiww9GRrHOHkNjv4cG1y5d+4KITPsvdFWmc4rjIOd2HgWwOOMIuyvo5kHhCwRGmP+mqzKBhEniA0EvVEYlXncyKwZRozmAUQyfXNbZQ0PDqVPmaj+mWlJ/7fSm4SQ/9tDRyXDfcKSaj0LGuUeFGhPTP4ESLsvPj0pMuJw8RlkJ388b73Tki4EAW2BvklLGKOnJ26CuFBGZtlPoEdU2Kg+Y2bsyPjq9IIGV2mO1XkuOHLId/qYr3vPaKumGwbt0yVTx1X4+fzbF4tIsjk1AzzNylusEj5ThwntmAn0UHWSJ6GpK13zHim+UX1kfKHNXeua2JR6NjD4+759Wz1HyQdb0p89rbFgVGZX2pPzNtSJi55/Z6g51r6l8J5rWe0diSIIlyYSFFDc/kbhtQ+XfM6J8bpkWjNWZFWvnzMRS9rs7zGx+G940I1ysdRV/ouKL1dwJxdUl819H5709028ffF7j5rWHQlUrz8GyES5J//qu6kVPgX6b/Qf2uo5fDLQJ8TiVcp8e979c1cKP1YrDCPXH30qyRtqmkBw204At5GgzPe7WdRtIIH1eQ3KR5EQfxo88u7wiZZAvzktQGnqlpzaVe6apXxpiXHl1f4DiXct3v1dnOPBEDda3xm744hQ5/nqr1amc1mbERjdPXyiPeDpC418MHrqXJiUFaTA6roqa36uNXOZq2yROF6PLBuOP9MbGgUqbyja8cAm2Yxwhk4LBdBZYZY4SjihPyHfgLwqe8EqHafyR4Lj0bByYQNWh8WmVJNmsOwYPHZuGvpTCDCxKIibLrSnLgGENae+uSw1cz/GXjIs9gwRaynmyn/17lEPVpbMLapQ5B+h9OVhVM8K6UIsWwY+OhMaUg+WLTKOylFHNwPIL6rMyL/woD8W8f+8+x3NTZme51A6XhCeDMiMA3lm+fLMlB90bg1BbZrryRM0qDbyS5r8ihI+xaJm/QRCtA1MSMw4EBjNs2VeSNB/Z+j4PtTCnJxQYIwoWu/7xOVPNjT9AXEagYn8KS0XEvSbfd0/6NqKZAmyWj2g95YYAtREEKP6pacCngsG+v3B0U2n3sCNFJ2uxvAQVSTfwPlSTGDljYGPwrHUrue94A38c8drAxEfTn2XhWg1EsXOSInC1apy98Nnenad79AfCHm/2fZSm38ASFhylOnJnGZ9nPr4RmP19NX+g4fGus5f6B8f73mg9YVWfz8ZMpbCr62UkjOGavUcFI0DTE2AehCroSKDedVW+9CxOmdpYVrWeQf990ZaHm57xRcJaiCjB4ul8O6VEt6xTEqwo0vuSx9JSMn3FEa0bfBotiVjgaPofAF9IBp+rGPL787tRa6IAJ2XGCxu3ESwoZj8o5RFHwNqWMrtc27PW7p21m8b3jnY/NTZHd5IkCF+kAkBOBONkr3wyHgIoV22bsy/Yl1O3Sy00faNtv62d+/J8V5KEkxwjtpdm6QUHBVhgszpS72zdHX2gpvmLAGzAPTbPEdeHTjY6u8D1LSbxKsJMyAVrMkwMx3TCt1Nc2obHKWrcy6febgf851tHDn5ev/B8JR7x2TSKwQCGKGZeLEQtmNiHU0pN7hrqjIK1+QszBGd1VBdgjC83dPUGfRs9Rwej4ZM9z8ZAbs4EUBbn37fi0F6Q9Qg41zUBiw3uBcU2rOq7HnLMivsfNtIfZHAh6Pt7UHPcNi3c+j4aCRAydkJiQA1BbEiRgEmYJgkFyGTGeMDJYk5zkfpZwBG3h5KOug6x5JxuaOoLD2P5sS4KISDIW+bv++Evz92QiK9DItbkfpAN6IWtGuTOeIlK0WU7IhenJgQM6K0CdNKCnkqx27KNK+nfJk6wBYwxiRrDtuUOOI4aQ7ZNXSx0ByxQd8TwkSX8cmxgJ6gKM8C0Tt2DF1DiXAuOrAyEC8LwtQgM+w8A3Xi/5LxiydQD1bTKaYN98tLk/oUYIE4fzYLMqQMCd8wfBaTCjGJxEmHedIctEvI98AkV7UHV1N4W9nhC1hr0Jx2TkAP2aCJRVlboSomTn+AANQo+JgIdUkSkz5DE0eOHDLPIYrMyjQgHSOrAA4As12aBppMpfZxi2jKB1mJGlIcu4xbxlCpjEBiT80p4TcIIRmJuidJa8IYtgNohmouhgVtaqCuDQ8gIcS2xLmHYU5l5F43SAcEgkmoV0aQhI4TwtCcIhw7NsmE9EOu9tAIDEpjDXlQGskWQbJkVFyIXizhEhyitSBWtZqiMtRMPSaOYVqQko8NUkMKaYvQUBsyfyEABlE5BB6lXMhke4RJM0EOzNDJQRgbqjJkYGvJbgC8qAOUTBUnBoAp4RG7iCEAQInVHYRVMZkkM8HwIUb7ApppRL1REoplAzjqQUImhgBIYy5SRkKQtrtCEjtn2VgKWYEFObw6Js6QRcYMIl8tUzIZE6FahGpJ4gHS6hg8BXCs+pk4Q1ZvA+MOR5WNyBzEhTiOQtHb+ymYlUZIMO0wMEGk0OgpVkqHEKsmIHNpIAdoRZyZAWkne4JCIdXZG9p2xXmYaVLdAKOnSI1M+3eTsuZIyGw9kOBf0Y9CpicBPc65/HSMax3mfDv01qKBuxDfFP35rUh/D+0OGcidHk4SfzY9lDiy6GucnfhoYmAoCNmERPLP/xdgAFeQwmLiktRMAAAAAElFTkSuQmCC",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "gratafy.com"
+    ],
+    "login_url": "https://www.gratafy.com",
+    "tags": [
+        "ecommerce", "shopping"
+    ],
+    "thumbnail_ts": 1403822402.744593,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.gratafy.com/",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='header-bar-container']/xhtml:ul[2]/xhtml:li[2]/xhtml:a",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ehref": "#"
+                },
+                {
+                    "path": "//xhtml:input[@id='loginEmail']/xhtml:div",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//xhtml:input[@id='loginEmail']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "email",
+                    "eid": "loginEmail",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='loginPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "loginPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Gratafy",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null,
+    "no_ufc": null
+}

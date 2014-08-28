@@ -1,0 +1,136 @@
+{
+    "url_root": "webex.com,webexconnect.com",
+    "prev_login_script": [
+        {
+            "url": "https://signin.webex.com/collabs/auth?service=it&from=hostmeeting",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": [
+                        26
+                    ]
+                },
+                {
+                    "path": "//xhtml:input[@id='username']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username",
+                    "f": "field0"
+                },
+                {
+                    "path": "//xhtml:input[@id='username']",
+                    "type": "keydown",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username"
+                }
+            ]
+        },
+        {
+            "url": "https://idbroker.webex.com/idb/SSOPOST/metaAlias/consumer/idp",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='IDToken2']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "IDToken2",
+                    "eid": "IDToken2",
+                    "f": "field1",
+                    "e": [
+                        9
+                    ]
+                },
+                {
+                    "path": "//xhtml:input[@id='IDToken2']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "IDToken2",
+                    "eid": "IDToken2",
+                    "f": "field1"
+                },
+                {
+                    "path": "//xhtml:input[@id='IDToken2']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "IDToken2",
+                    "eid": "IDToken2"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "idbroker.webex.com"
+    ],
+    "login_url": "https://idbroker.webex.com/idb/SSOPOST/metaAlias/consumer/idp",
+    "thumbnail_ts": 1384454541.519676,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://signin.webex.com/collabs/auth?service=it&from=hostmeeting",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Email Address"
+                }
+            ]
+        },
+        {
+            "url": "https://cas.webexconnect.com/cas/FederatedSSO.do",
+            "events": []
+        },
+        {
+            "url": "https://idbroker.webex.com/idb/SSOPOST/metaAlias/consumer/idp",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='IDToken2']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "IDToken2",
+                    "eid": "IDToken2",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "WebEx",
+    "notes": "Anu-11/14/2013",
+    "provisioner": false,
+    "ua_browser": null
+}

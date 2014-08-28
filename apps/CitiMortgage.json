@@ -1,0 +1,67 @@
+{
+    "url_root": "citimortgage.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDREI3MUQ3N0FDQTQxMUUzQjJCQ0QxQzhBQjk1RDRBQiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDREI3MUQ3NkFDQTQxMUUzQjJCQ0QxQzhBQjk1RDRBQiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RjlGNkZCNjcxMDIxNjgxMThDMTRBQ0JCRjkwNTYzMzQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "citimortgage.com"
+    ],
+    "login_url": "https://www.citimortgage.com/Mortgage/Home.do",
+    "tags": [
+        "finance"
+    ],
+    "thumbnail_ts": 1396064686.802577,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.citimortgage.com/Mortgage/Home.do",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='username-field1']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username-field1",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='password-field1']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password-field1",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "CitiMortgage",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

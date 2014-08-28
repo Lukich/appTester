@@ -1,0 +1,86 @@
+{
+    "url_root": "kickstarter.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.kickstarter.com/login?ref=nav",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='user_session_email']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "user_session[email]",
+                    "eid": "user_session_email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:input[@id='user_session_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "user_session[password]",
+                    "eid": "user_session_password",
+                    "f": "field1",
+                    "e": [
+                        5
+                    ]
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyQkE5QjExQTIyNTMxMUUzQUY3NEEzOTUyQUEzRDkzQyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyQkE5QjExOTIyNTMxMUUzQUY3NEEzOTUyQUEzRDkzQyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RUI1QTNCQTEzRjIwNjgxMThDMTRDM0MwREIyRUMxMkIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "kickstarter.com"
+    ],
+    "login_url": "https://www.kickstarter.com/login?ref=nav",
+    "thumbnail_ts": 1380642966.937357,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.kickstarter.com/login?ref=nav",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='user_session_email']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "Email",
+                    "eid": "user_session_email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//xhtml:input[@id='user_session_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "Password",
+                    "eid": "user_session_password",
+                    "f": "field1",
+                    "e": [
+                        5
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Kickstarter",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

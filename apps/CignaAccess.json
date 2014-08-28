@@ -1,0 +1,67 @@
+{
+    "url_root": "cigna.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2MTU4MTI3QTAxNTQxMUU0QjlDN0ZBMTU5RjJCMEU3QiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2MTU4MTI3OTAxNTQxMUU0QjlDN0ZBMTU5RjJCMEU3QiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDBFMERCN0EwRTIwNjgxMTgyMkE4Qjc2QjE1QTM2OEIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "cignaaccess.cigna.com"
+    ],
+    "login_url": "https://cignaaccess.cigna.com/wps/portal",
+    "tags": [
+        "health",
+        "insurance"
+    ],
+    "thumbnail_ts": 1405115278.607004,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://cignaaccess.cigna.com/wps/portal",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='mainContent']/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:div/xhtml:div[2]/xhtml:div/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td[2]/xhtml:input[@name='USERNAME']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "USERNAME",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "//xhtml:div[@id='mainContent']/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:div/xhtml:div[2]/xhtml:div/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr[4]/xhtml:td[2]/xhtml:input[@name='PASSWORD']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "CignaAccess",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

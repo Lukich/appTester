@@ -1,0 +1,69 @@
+{
+    "url_root": "govone.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3ODZCODdDOTQ4RTcxMUUzQTUyRkYxMUIxQTAwNUYzRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3ODZCODdDODQ4RTcxMUUzQTUyRkYxMUIxQTAwNUYzRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RjY3NkVEMzY0RjIwNjgxMTgwODNBNjFCQ0M3QkVDMzEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "govone.com"
+    ],
+    "login_url": "https://www.govone.com/TPP/westamerica/Account/Logon",
+    "tags": [
+        "finance",
+        "personal",
+        "business"
+    ],
+    "thumbnail_ts": 1388968621.197321,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "ignore params",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.govone.com/TPP/westamerica/Account/Logon",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='Username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "Username",
+                    "eid": "Username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "Password",
+                    "eid": "Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "WestAmerica Bank-RemitOne",
+    "notes": "Anu-11/20/2013",
+    "provisioner": false,
+    "ua_browser": null
+}

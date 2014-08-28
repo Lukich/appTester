@@ -1,0 +1,199 @@
+{
+    "url_root": "wellsfargo.com",
+    "prev_login_script": [
+        {
+            "url": "https://wellsoffice.wellsfargo.com/ceoportal/signon/index.jsp",
+            "events": [
+                {
+                    "path": "//*[@id='comp_id']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "COMPANY",
+                    "eid": "comp_id"
+                },
+                {
+                    "path": "//*[@id='comp_id']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "COMPANY",
+                    "eid": "comp_id",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='comp_id']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "COMPANY",
+                    "eid": "comp_id",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='comp_id']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "COMPANY",
+                    "eid": "comp_id"
+                },
+                {
+                    "path": "//*[@id='user_id']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "WFUID",
+                    "eid": "user_id"
+                },
+                {
+                    "path": "//*[@id='user_id']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='user_id']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "WFUID",
+                    "eid": "user_id",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='user_id']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "WFUID",
+                    "eid": "user_id",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='user_id']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "WFUID",
+                    "eid": "user_id"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "eid": "password",
+                    "f": "field2",
+                    "e": [
+                        6
+                    ]
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "eid": "password",
+                    "f": "field2"
+                },
+                {
+                    "path": "//*[@id='wf-btn-0']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "waitFor": true
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "wellsoffice.wellsfargo.com",
+        "wellsoffice.wellsfargo.com/ceoportal/signon/index.jsp"
+    ],
+    "login_url": "https://wellsoffice.wellsfargo.com/ceoportal/signon/index.jsp",
+    "tags": [
+        "finance",
+        "business"
+    ],
+    "thumbnail_ts": 1388775953.227292,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "ignore params",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://wellsoffice.wellsfargo.com/ceoportal/signon/index.jsp",
+            "events": [
+                {
+                    "path": "//*[@id='comp_id']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "COMPANY",
+                    "eid": "comp_id",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='user_id']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "WFUID",
+                    "eid": "user_id",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "eid": "password",
+                    "f": "field2",
+                    "e": [
+                        6
+                    ]
+                },
+                {
+                    "path": "//*[@id='wf-btn-0']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "waitFor": true
+                }
+            ]
+        }
+    ],
+    "name": "Wells Office",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

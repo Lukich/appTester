@@ -1,0 +1,66 @@
+{
+    "url_root": "bennycentral.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGNjdDN0ZEOTA2RkExMUU0QkYzQUE1RUU4MUEzQkRGNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGNjdDN0ZEODA2RkExMUU0QkYzQUE1RUU4MUEzQkRGNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RUNEMEUzM0MyNTIwNjgxMThDMTRENDgwNTM4QUFCNEMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "bennycentral.com"
+    ],
+    "login_url": "https://www.bennycentral.com/LoginPage.aspx?",
+    "tags": null,
+    "thumbnail_ts": 1405729503.217207,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.bennycentral.com/LoginPage.aspx?",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='TextBoxUsername']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "TextBoxUsername",
+                    "eid": "TextBoxUsername",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='TextBoxPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "TextBoxPassword",
+                    "eid": "TextBoxPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Benny Central",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

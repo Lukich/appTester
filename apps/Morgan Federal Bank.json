@@ -1,0 +1,75 @@
+{
+    "url_root": "morganfed.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozNEYyMDYzNDRFOTExMUUzQUQxRjkwNjQ5NDZENTEyNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozNEYyMDYzMzRFOTExMUUzQUQxRjkwNjQ5NDZENTEyNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDNBNDkwQ0E3RjIwNjgxMTgyMkFBNjcxMkFFNkRCMzkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "secure.morganfed.com"
+    ],
+    "login_url": "https://secure.morganfed.com/engine/login/logins.asp",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388791736.968864,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://secure.morganfed.com/engine/login/logins.asp",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='loginName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "LoginName",
+                    "eid": "loginName",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Login ID"
+                }
+            ]
+        },
+        {
+            "url": "https://secure.morganfed.com/engine/login/logins.asp",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='Password1']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "Password",
+                    "eid": "Password1",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Morgan Federal Bank",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

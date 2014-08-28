@@ -1,0 +1,109 @@
+{
+    "url_root": "stackoverflow.com",
+    "prev_login_script": [
+        {
+            "url": "https://stackoverflow.com/users/login",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='se-signup-legend']/xhtml:p/xhtml:span[2]",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//xhtml:form[@id='se-login-form']/xhtml:div[2]/xhtml:div/xhtml:input[@name='email']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "email",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:form[@id='se-login-form']/xhtml:div[2]/xhtml:div[2]/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3QjY3RjgxMEI3RTQxMUUzOEFDRTg1QjAzQThDODkzNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3QjY3RjgwRkI3RTQxMUUzOEFDRTg1QjAzQThDODkzNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QzM4QTI3MkQ1RDIwNjgxMTgyMkE4Q0JCOUZFQzQ1NDgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "stackoverflow.com"
+    ],
+    "login_url": "https://stackoverflow.com/users/login",
+    "tags": null,
+    "thumbnail_ts": 1397490199.232509,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://stackoverflow.com/users/login",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='se-signup-legend']/xhtml:p/xhtml:span[2]",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//xhtml:form[@id='se-login-form']/xhtml:div[2]/xhtml:div/xhtml:input[@name='email']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "email",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:form[@id='se-login-form']/xhtml:div[2]/xhtml:div[2]/xhtml:input[@name='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Stack Overflow (StackExchange)",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

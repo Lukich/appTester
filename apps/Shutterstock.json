@@ -1,0 +1,63 @@
+{
+    "url_root": "shutterstock.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDMzNGRUQ2OUZDNkYxMUUyQjMwMkRGNDM5REE5NTdDQSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDMzNGRUQ2OEZDNkYxMUUyQjMwMkRGNDM5REE5NTdDQSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NzQ3N0M4NTYwRTIwNjgxMThDMTRGMEE1NDY4RjI1NzEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "shutterstock.com"
+    ],
+    "login_url": "http://www.shutterstock.com/",
+    "tags": [
+        "ecommerce", "shopping"
+    ],
+    "thumbnail_ts": 1387568033.178211,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.shutterstock.com/login.mhtml",
+            "events": [
+                {
+                    "path": "//*[@name='user']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "user",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@name='pass']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "pass",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Shutterstock",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

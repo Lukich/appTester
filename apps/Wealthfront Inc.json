@@ -1,0 +1,67 @@
+{
+    "url_root": "wealthfront.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDQUU5RUY3NDk2OTExMUUzQUM1MUFEN0FDRkIzRjI3OSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDQUU5RUY3Mzk2OTExMUUzQUM1MUFEN0FDRkIzRjI3OSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RjM4MzU1MUUwRjIwNjgxMTgwODNFMEVCRDYzRjYxRkMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "wealthfront.com"
+    ],
+    "login_url": "https://www.wealthfront.com/login",
+    "tags": [
+        "finance"
+    ],
+    "thumbnail_ts": 1393441600.293789,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.wealthfront.com/login",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='login-email']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "email",
+                    "eid": "login-email",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='login-password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "login-password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Wealthfront Inc",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

@@ -1,0 +1,168 @@
+{
+    "url_root": "relateiq.com",
+    "prev_login_script": [
+        {
+            "url": "https://app.relateiq.com/#/login",
+            "events": [
+                {
+                    "path": "//*[@id='tbxUsername']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "j_username",
+                    "eid": "tbxUsername"
+                },
+                {
+                    "path": "//*[@id='tbxUsername']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='tbxUsername']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "j_username",
+                    "eid": "tbxUsername",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='tbxUsername']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "j_username",
+                    "eid": "tbxUsername",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='tbxUsername']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "j_username",
+                    "eid": "tbxUsername"
+                },
+                {
+                    "path": "//*[@id='tbxPassword']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "tbxPassword"
+                },
+                {
+                    "path": "//*[@id='tbxPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "tbxPassword",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                },
+                {
+                    "path": "//*[@id='tbxPassword']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "tbxPassword",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='loginBtn']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "eid": "loginBtn"
+                },
+                {
+                    "path": "//*[@id='loginContainer']/h:form",
+                    "type": "submit"
+                },
+                {
+                    "path": "//*[@id='tbxPassword']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "tbxPassword"
+                },
+                {
+                    "path": "//*[@id='tbxPassword']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "j_password",
+                    "eid": "tbxPassword"
+                }
+            ]
+        },
+        {
+            "url": "https://app.relateiq.com/app.html?e=1?e=1",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAD+0lEQVR42u2dPW8TQRCG/YOAOISPWCAQECMQEREpKChCRYHcIJoUUCYtcokEDQVSJBoKd0hIaaBKkTaiNj8gPyC88kijZfd8OJGT4XLPq1V0t77x5eaZnZmNIruzhELVwQUAAAAKBHAFhQoAAAAAAkCLAVxFoQJANACSADWAGoCoAQBAAAAACgBwDYUKAAAAAAIAABAAWgrgOgoVAAAAAAQAACAAtBTAMgoVAAAAAAQAACAAAAABoIUAeihUAADA3/o40fr6OgBidDTRYDA4szu+fHXny7dH28M+AGIA/Py1tv/7icbTZ7cAcHIAGxsbexMd1/D7/mMDsLp2EwAnByATsz2uofyu/PP8xW1SUAyA81aELQ8oIWxtbY3HY3lEx/6qJg8ODsxTOtDpLAA2NzfN6vDwcDQa9ft9GeouOzs7flN/2ywRqaGSiQzdPGuxXr+5qyL87sP9dPLeyo33nx9YeRj9WFWh1qQu05hvqeicUgirlbQDPbPNy2vuo1Ryll6qASAvZyZ6H5t0R5dv67zLl/QrpeCVf+RleTb1vldmH+JkB/NNVqcFQNrd3ZUfPfx1qkmtCYWzx7UtEUXlNACeWGxVWUQ7kjTSyxSk621G11vUp7a+DkoAOtaMGLzdXhEMa1UdSTMAyN3ppJ7WQi9b/jq15ODzGQDDppDP7pKtgEoA4mrer7R16hkAZRhztKUdl+aNQTMAZEl8OBwe1UoXVJrbaVkqjGg9AEM7TZ4bMwCKep2qNy0fTVWhqQCsJOiZ96bIXVwJoLIp+icALxjTbloJoMxIWbVoJAArhh50s5tbFPv6yPJ7PQArMKVtpVuzFaBsU1756evDpgKwjGHdUTqv/kcZuaYLsjwuDOk13lDNUgMyW4sGbwRKANqXWQ1Qwkmt5PcmFeEyaXhjKq/p+XWBYtOCNK3YmblXaf3U9Zq3ncQsAOR3t9XddYHua1TS3UmZc7QnMF8r5FWK5XHNNKwLqszaZUdvObp+HyCPZ+VUTjSc9QAsUxnjTPX7AO9Efcj73h397wAGE2WrPvWIMFgNlB/TVFBjbv27TGxvYTPpJsPi3WyzN7RtswztplpGWSusnCOflvtb7by0AmyTbH+nawaAcywAAAAAAAAA6gEAAGheAJZ7PUbg4H9D+edcACAAAAABAAAIAC0EwMdl8GkpAEAAAAACQDsB8Nm1fHQxABAAAICCAPA9RnyNFQAQAACA+EJnvtAZAQAA6IwBLKFQAQAAAECRAC6jUAEAAABAkQAWUagAAICWA+guLjICR6eLQgUAALQcwEK3ywgcnQUUKgAAAAAoEsAlFCoAAAAAKBLARRQqAAAAAAgALQZwAYUKAABot/4AJAz8TMsadboAAAAASUVORK5CYII=",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "version": "3.13.1-3-g35b2f2c"
+    },
+    "alias_urls": [
+        "app.relateiq.com",
+        "relateiq.com"
+    ],
+    "login_url": "https://app.relateiq.com/#/login",
+    "thumbnail_ts": 1368591020.933458,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://app.relateiq.com/#/login",
+            "events": [
+                {
+                    "path": "//*[@id='tbxUsername']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "Email",
+                    "eid": "tbxUsername",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='tbxPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "Password",
+                    "eid": "tbxPassword",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "RelateIQ",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

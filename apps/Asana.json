@@ -1,0 +1,188 @@
+{
+    "url_root": "asana.com",
+    "prev_login_script": [
+        {
+            "url": "https://app.asana.com/",
+            "events": [
+                {
+                    "path": "//*[@id='email_input']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='email_input']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "e",
+                    "eid": "email_input",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='email_input']",
+                    "type": "change",
+                    "ftype": "email",
+                    "fname": "e",
+                    "eid": "email_input",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='email_input']",
+                    "type": "blur",
+                    "ftype": "email",
+                    "fname": "e",
+                    "eid": "email_input"
+                },
+                {
+                    "path": "//*[@id='password_input']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "p",
+                    "eid": "password_input"
+                },
+                {
+                    "path": "//*[@id='password_input']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "p",
+                    "eid": "password_input",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ]
+                },
+                {
+                    "path": "//*[@id='dialog_form']",
+                    "type": "submit()"
+                },
+                {
+                    "path": "//*[@id='password_input']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "p",
+                    "eid": "password_input",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='password_input']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "p",
+                    "eid": "password_input"
+                },
+                {
+                    "path": "//*[@id='password_input']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "p",
+                    "eid": "password_input"
+                },
+                {
+                    "path": "//*[@id='password_input']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "p",
+                    "eid": "password_input"
+                }
+            ]
+        },
+        {
+            "url": "https://app.asana.com/app/asana/-/login",
+            "events": [
+                {
+                    "path": "//*[@id='password_input']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "p",
+                    "eid": "password_input"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "asana.com",
+        "app.asana.com"
+    ],
+    "login_url": "https://app.asana.com/",
+    "thumbnail_ts": 1358661158.797833,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://app.asana.com/",
+            "events": [
+                {
+                    "path": "//*[@id='email_input']",
+                    "type": "focus",
+                    "ftype": "email",
+                    "fname": "e",
+                    "eid": "email_input"
+                },
+                {
+                    "path": "//*[@id='email_input']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "e",
+                    "eid": "email_input",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email"
+                },
+                {
+                    "path": "//*[@id='email_input']",
+                    "type": "blur",
+                    "ftype": "email",
+                    "fname": "e",
+                    "eid": "email_input"
+                },
+                {
+                    "path": "//*[@id='password_input']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "p",
+                    "eid": "password_input"
+                },
+                {
+                    "path": "//*[@id='password_input']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "p",
+                    "eid": "password_input",
+                    "f": "field1",
+                    "e": [
+                        7
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Asana",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

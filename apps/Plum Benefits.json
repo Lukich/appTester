@@ -1,0 +1,90 @@
+{
+    "url_root": "plumbenefits.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.plumbenefits.com/signup",
+            "events": [
+                {
+                    "path": "//*[@id='username']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "username",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": 1000
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ]
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4NkEyQ0ZGQUQyM0ExMUUzQTBEN0UyMzM2NDI4NDU0MyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4NkEyQ0ZGOUQyM0ExMUUzQTBEN0UyMzM2NDI4NDU0MyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMThDMTRDNzZBMUUzNzY2NkQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "plumbenefits.com"
+    ],
+    "login_url": "https://www.plumbenefits.com/",
+    "tags": null,
+    "thumbnail_ts": 1399999092.72981,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.plumbenefits.com/",
+            "events": [
+                {
+                    "path": "//xhtml:form[@id='login_form']/xhtml:p/xhtml:input[@name='login_email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "login_email",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:form[@id='login_form']/xhtml:p/xhtml:input[@name='login_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "login_password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Plum Benefits",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

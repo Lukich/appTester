@@ -1,0 +1,106 @@
+{
+    "url_root": "secureinternetbank.com",
+    "prev_login_script": [
+        {
+            "url": "https://web17.secureinternetbank.com/ebc_ebc1961/ebc1961.ashx?wci=process&wce=request&rid=3000&rtn=122243774&rt=122243774&mfa=2",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='DivPageData']/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td[4]/xhtml:input[@name='UID']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "UID",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Access ID"
+                }
+            ]
+        },
+        {
+            "url": "https://web17.secureinternetbank.com/ebc_ebc1961/EBC1961.ashx?WCI=Process&STU=9aadf3998ca540388cd010bd75fc1cdb&WCE=Passmark&RID=0a489da24fb24987be833958576cbee2",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "eid": "Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEOTJCNzdDRDQ0NTAxMUUzODE4RUNDMEI4MDU0Nzg3RSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEOTJCNzdDQzQ0NTAxMUUzODE4RUNDMEI4MDU0Nzg3RSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDhGNjJFRUE4NTIwNjgxMTgyMkFEMTNCNEY0RjkyRTIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "web17.secureinternetbank.com"
+    ],
+    "login_url": "https://web17.secureinternetbank.com/ebc_ebc1961/EBC1961.ashx?WCI=Process&STU=9aadf3998ca540388cd010bd75fc1cdb&WCE=Passmark&RID=0a489da24fb24987be833958576cbee2",
+    "tags": [
+        "finance",
+        "business"
+    ],
+    "thumbnail_ts": 1390106513.111961,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "never match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://web17.secureinternetbank.com/ebc_ebc1961/ebc1961.ashx?wci=process&wce=request&rid=3000&rtn=122243774&rt=122243774&mfa=2",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='DivPageData']/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr[2]/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td[4]/xhtml:input[@name='UID']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "UID",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Access ID"
+                }
+            ]
+        },
+        {
+            "url": "https://web17.secureinternetbank.com/ebc_ebc1961/EBC1961.ashx?WCI=Process&STU=9aadf3998ca540388cd010bd75fc1cdb&WCE=Passmark&RID=0a489da24fb24987be833958576cbee2",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='Password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "eid": "Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Banc of California-Business",
+    "notes": "Anu-11/15/2013",
+    "provisioner": false,
+    "ua_browser": null
+}

@@ -1,0 +1,76 @@
+{
+    "url_root": "merchantsbankca.com, netteller.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": ["fi=merchantsbankca"],
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGQzEyRTE2NzQ0MzIxMUUzODE4RUNDMEI4MDU0Nzg3RSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGQzEyRTE2NjQ0MzIxMUUzODE4RUNDMEI4MDU0Nzg3RSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QkVEQUUwRTc2OTIwNjgxMTgyMkFEMTNCNEY0RjkyRTIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "cm.netteller.com",
+        "merchantsbankca.com"
+    ],
+    "login_url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=merchantsbankca&bn=9b65442b0a51e0b3&burlid=08c4eb0ca9a5266c",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388791515.128647,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=merchantsbankca&bn=9b65442b0a51e0b3&burlid=08c4eb0ca9a5266c",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_IdTextBox']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$PageContent$Login1$IdTextBox",
+                    "eid": "ctl00_PageContent_Login1_IdTextBox",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Login ID"
+                }
+            ]
+        },
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=merchantsbankca&bn=9b65442b0a51e0b3&burlid=08c4eb0ca9a5266c",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_PasswordTextBox']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$PageContent$Login1$PasswordTextBox",
+                    "eid": "ctl00_PageContent_Login1_PasswordTextBox",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Merchant's Bank of California",
+    "notes": "Anu-11/13/2013",
+    "provisioner": false,
+    "ua_browser": null
+}

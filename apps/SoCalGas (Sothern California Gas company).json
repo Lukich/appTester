@@ -1,0 +1,66 @@
+{
+    "url_root": "socalgas.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDMTkxRTJCNkY5OTYxMUUzOTU2QkUyMUM4MkE0NEExRSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDMTkxRTJCNUY5OTYxMUUzOTU2QkUyMUM4MkE0NEExRSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RUZDODI3QTQxODIwNjgxMTgyMkFEMjExQ0M3QjQyNjgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "myaccount.socalgas.com"
+    ],
+    "login_url": "https://myaccount.socalgas.com/security/signin.fcc?",
+    "tags": null,
+    "thumbnail_ts": 1404944180.908204,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://myaccount.socalgas.com/security/signin.fcc?",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='USER']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "USER",
+                    "eid": "USER",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='password1']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "eid": "password1",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "SoCalGas (Sothern California Gas company)",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}

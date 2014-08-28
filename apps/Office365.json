@@ -1,0 +1,149 @@
+{
+    "url_root": "microsoftonline.com, live.com, microsoft.com, msn.com",
+    "prev_login_script": [
+        {
+            "url": "http://office.microsoft.com/",
+            "events": [
+                {
+                    "path": "//*[@id='ancSignIn']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='emailAddress']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "eid": "emailAddress",
+                    "fname": "Email address",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "waitFor": true
+                }
+            ]
+        },
+        {
+            "url": "https://login.live.com/login.srf?wa=wsignin1%2E0&rpsnv=11&ct=1379536471&rver=6%2E1%2E6206%2E0&wp=MBI&wreply=https%3A%2F%2Foffice%2Emicrosoft%2Ecom%2Fwlid%2Fauthredir%2Easpx%3Furl%3Dhttps%253A%252F%252Foffice%252Emicrosoft%252Ecom%252Fen%252Dus%252Fmyoffice%252Easpx%26hurl%3D74CBC189313654021A380BD27B1ADF17C5DBB185%26ipt%3D1&lc=1033&id=34134",
+            "events": [
+                {
+                    "path": "//*[@id='i0118']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "passwd",
+                    "eid": "i0118",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='idSIButton9']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "fname": "SI",
+                    "eid": "idSIButton9",
+                    "waitFor": 500
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": null,
+    "param_list": [
+        "id=34134"
+    ],
+    "js_platform": null,
+    "use_cookie": "inject",
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxQjBFQzREQjYyMzUxMUUyQjkwOUZFQkM3NDM4OUM0QiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxQjBFQzREQTYyMzUxMUUyQjkwOUZFQkM3NDM4OUM0QiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MzRDNTdDNjU3RDIwNjgxMThDMTRBNjBDQkM5Mjc3MzAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "login.live.com/login.srf"
+    ],
+    "login_url": "http://office.microsoft.com/",
+    "tags": null,
+    "thumbnail_ts": 1392422756.477197,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://office.microsoft.com/",
+            "events": [
+                {
+                    "path": "//*[@id='ancSignIn']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='emailAddress']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "eid": "emailAddress",
+                    "fname": "Email address",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "waitFor": true
+                }
+            ]
+        },
+        {
+            "url": "https://login.live.com/login.srf?wa=wsignin1%2E0&rpsnv=11&ct=1379536471&rver=6%2E1%2E6206%2E0&wp=MBI&wreply=https%3A%2F%2Foffice%2Emicrosoft%2Ecom%2Fwlid%2Fauthredir%2Easpx%3Furl%3Dhttps%253A%252F%252Foffice%252Emicrosoft%252Ecom%252Fen%252Dus%252Fmyoffice%252Easpx%26hurl%3D74CBC189313654021A380BD27B1ADF17C5DBB185%26ipt%3D1&lc=1033&id=34134",
+            "events": [
+                {
+                    "path": "//*[@id='i0118']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "Password",
+                    "eid": "i0118",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='idSIButton9']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "fname": "SI",
+                    "eid": "idSIButton9",
+                    "waitFor": 500
+                }
+            ]
+        }
+    ],
+    "name": "Office365",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

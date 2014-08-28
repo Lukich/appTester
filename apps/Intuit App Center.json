@@ -1,0 +1,62 @@
+{
+    "url_root": "intuit.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCMEI3MkU5RDU5QTYxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCMEI3MkU5QzU5QTYxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDM4ODhFRDQ2RjIwNjgxMThDMTRFMDYwNTgyRTk2NkEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "appcenter.intuit.com"
+    ],
+    "login_url": "https://appcenter.intuit.com/Account/Logon?startWithLogOn=true",
+    "thumbnail_ts": 1387577627.39211,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://appcenter.intuit.com/Account/Logon?startWithLogOn=true",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='signUpSignInWidgetSignInLoginName']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "signUpSignInWidgetSignInLoginName",
+                    "eid": "signUpSignInWidgetSignInLoginName",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Login ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='signUpSignInWidgetSignInPassword']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "signUpSignInWidgetSignInPassword",
+                    "eid": "signUpSignInWidgetSignInPassword",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Intuit App Center",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

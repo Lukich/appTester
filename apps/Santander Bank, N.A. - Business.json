@@ -1,0 +1,85 @@
+{
+    "url_root": "santanderbank.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozRjgwMUVFNjU5REQxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozRjgwMUVFNTU5REQxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NkVGQzUyQTlBNjIwNjgxMThDMTRFMDYwNTgyRTk2NkEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "bob.santanderbank.com"
+    ],
+    "login_url": "https://bob.santanderbank.com/LGSVBS_NS_ENS/ChannelDriver.ssobto",
+    "tags": [
+        "finance",
+        "business"
+    ],
+    "thumbnail_ts": 1388775584.770169,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "never match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://drob.santanderbank.com/cscobgss/Satellite?pagename=WCSUSAPublica/GSPageDetail/WCCSUSAPub_GSPageDetail_LoginEmpresas_PT2&appID=sovereign.wc.WCSUSAPub&cid=1287715273110&c=GSPageDetail&leng=en_US&empr=WCSUSAPublica&canal=CSUSAPub",
+            "events": [
+                {
+                    "path": "//xhtml:form[@id='formsovAH01']/xhtml:fieldset/xhtml:label/xhtml:input[@name='cbLogin_E.organizationID']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "cbLogin_E.organizationID",
+                    "eid": "cbLogin_E.organizationID",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Login ID"
+                },
+                {
+                    "path": "//xhtml:form[@id='formsovAH01']/xhtml:fieldset/xhtml:label[2]/xhtml:input[@name='cbLogin_E.userID']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "cbLogin_E.userID",
+                    "eid": "cbLogin_E.userID",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "User ID"
+                }
+            ]
+        },
+        {
+            "url": "https://bob.santanderbank.com/LGSVBS_NS_ENS/ChannelDriver.ssobto",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='pass']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "cbUserPassword.currentPassword",
+                    "eid": "pass",
+                    "f": "field2",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Santander Bank, N.A. - Business",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

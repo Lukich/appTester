@@ -1,0 +1,75 @@
+{
+    "url_root": "crunchbase.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMDdFMTJDN0M4MTUxMUUzQjUyMEE3RUMxNERBNzI5RSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMDdFMTJDNkM4MTUxMUUzQjUyMEE3RUMxNERBNzI5RSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTJEQzk4NkEzNTIwNjgxMTgwODNENDE0RTEzOEYyQjEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "crunchbase.com"
+    ],
+    "login_url": "http://www.crunchbase.com/login",
+    "tags": null,
+    "thumbnail_ts": 1399063462.945409,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://www.crunchbase.com/login",
+            "events": [
+                {
+                    "path": "/xhtml:html/xhtml:body",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0
+                },
+                {
+                    "path": "//xhtml:input[@id='user_email']",
+                    "type": "keypress",
+                    "ftype": "email",
+                    "fname": "user[email]",
+                    "eid": "user_email",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "Email"
+                },
+                {
+                    "path": "//xhtml:input[@id='user_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "user[password]",
+                    "eid": "user_password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "CrunchBase",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

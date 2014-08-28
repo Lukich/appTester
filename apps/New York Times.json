@@ -1,0 +1,190 @@
+{
+    "url_root": "nytimes.com",
+    "prev_login_script": [
+        {
+            "url": "http://www.nytimes.com/",
+            "events": [
+                {
+                    "path": "//*[@id='memberTools']/h:li[2]/h:a",
+                    "type": "focus",
+                    "ehref": "/auth/login?URI=http://"
+                },
+                {
+                    "path": "//*[@id='memberTools']/h:li[2]/h:a",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ehref": "/auth/login?URI=http://"
+                },
+                {
+                    "path": "//*[@id='memberTools']/h:li[2]/h:a",
+                    "type": "blur",
+                    "ehref": "/auth/login?URI=http://"
+                }
+            ]
+        },
+        {
+            "url": "https://myaccount.nytimes.com/auth/login?URI=http://",
+            "events": [
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid"
+                },
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='main']/h:div/h:div[1]/h:div[2]/h:div/h:div/h:table/h:tbody/h:tr/h:td[2]/h:form/h:fieldset/h:div[4]/h:div/h:button",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit"
+                },
+                {
+                    "path": "//*[@id='main']/h:div/h:div[1]/h:div[2]/h:div/h:div/h:table/h:tbody/h:tr/h:td[2]/h:form",
+                    "type": "submit"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                }
+            ]
+        },
+        {
+            "url": "https://myaccount.nytimes.com/auth/login?URI=http://",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMzcwNTlEQkUyNzcxMUUyQUFCODlCMzRDNjcyREUzNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMzcwNTlEQUUyNzcxMUUyQUFCODlCMzRDNjcyREUzNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QTQwOTUwQkEwQjIwNjgxMTgyMkFCN0M4OTg5NkQxNzgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "nytimes.com",
+        "myaccount.nytimes.com"
+    ],
+    "login_url": "http://www.nytimes.com/",
+    "thumbnail_ts": 1373572484.603495,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://myaccount.nytimes.com/auth/login",
+            "events": [
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "New York Times",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

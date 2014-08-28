@@ -1,0 +1,89 @@
+{
+    "url_root": "ridgewoodbank.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxOTQ4RDJBMDU5NDAxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxOTQ4RDI5RjU5NDAxMUUzQjU4RURGOTRCMUUzQUVDNSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTFCMTEyODMwOTIwNjgxMThDMTRFMDYwNTgyRTk2NkEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "ridgewoodbank.com"
+    ],
+    "login_url": "https://www.ridgewoodbank.com/home/home",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388966312.388103,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.ridgewoodbank.com/home/home",
+            "events": [
+                {
+                    "path": "//xhtml:div[@id='mobile_alert_content']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "eid": "mobile_alert_content"
+                },
+                {
+                    "path": "//xhtml:span[@id='dropdownBold']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "eid": "dropdownBold"
+                },
+                {
+                    "path": "//xhtml:input[@id='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid",
+                    "f": "field0",
+                    "e": [],
+                    "waitFor": true,
+                    "displayname": "User ID"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Ridgewood Savings Bank",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

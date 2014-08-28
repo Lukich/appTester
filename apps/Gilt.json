@@ -1,0 +1,81 @@
+{
+    "url_root": "gilt.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1QjdBQTlGRUEwRkQxMUUzQjM3OEQ4QkRBNTI3RTNGMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1QjdBQTlGREEwRkQxMUUzQjM3OEQ4QkRBNTI3RTNGMCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkY3RjExNzQwNzIwNjgxMTgwODNBRUU5MzQ2NUZEMTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "gilt.com"
+    ],
+    "login_url": "http://www.gilt.com/",
+    "tags": [
+        "ecommerce", "shopping"
+    ],
+    "thumbnail_ts": 1394661297.123237,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+  {
+    "url": "http://www.gilt.com/",
+    "events": [
+      {
+        "path": "//*[@href='/login']",
+        "type": "click",
+        "ctrlKey": false,
+        "altKey": false,
+        "metaKey": false,
+        "shiftKey": false,
+        "detail": 1,
+        "ehref": "/login"
+      },
+      {
+        "path": "//xhtml:aside[@id='dom-dialog-0']/xhtml:div/xhtml:div/xhtml:div/xhtml:article/xhtml:div/xhtml:div/xhtml:form[@name='signin']/xhtml:div/xhtml:p[2]/xhtml:label/xhtml:input[@name='email']",
+        "type": "keypress",
+        "ftype": "email",
+        "fname": "email",
+        "eid": "email",
+        "f": "field0",
+        "e": [],
+        "waitFor": true,
+        "displayname": "Email Address"
+      },
+      {
+        "path": "//xhtml:aside[@id='dom-dialog-0']/xhtml:div/xhtml:div/xhtml:div/xhtml:article/xhtml:div/xhtml:div/xhtml:form[@name='signin']/xhtml:div/xhtml:p[3]/xhtml:label/xhtml:input[@name='password']",
+        "type": "keypress",
+        "ftype": "password",
+        "fname": "password",
+        "eid": "password",
+        "f": "field1",
+        "e": [],
+        "displayname": "Password"
+      },
+      {
+        "path": "//xhtml:aside[@id='dom-dialog-0']/xhtml:div/xhtml:div/xhtml:div/xhtml:article/xhtml:div/xhtml:div/xhtml:form[@name='signin']/xhtml:div/xhtml:p[4]/xhtml:input",
+        "type": "click",
+        "ftype": "button"
+      },
+    ]
+  }
+],
+    "name": "Gilt",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

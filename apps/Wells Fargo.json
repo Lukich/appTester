@@ -1,0 +1,150 @@
+{
+    "url_root": "wellsfargo.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.wellsfargo.com/",
+            "events": [
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        12
+                    ]
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "seq": 9400,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "online.wellsfargo.com",
+        "wellsfargo.com"
+    ],
+    "login_url": "https://online.wellsfargo.com",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388968566.619834,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.wellsfargo.com/",
+            "events": [
+                {
+                    "path": "//*[@id='userid']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "userid",
+                    "eid": "userid",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        12
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "Wells Fargo",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

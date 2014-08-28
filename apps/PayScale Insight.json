@@ -1,0 +1,176 @@
+{
+    "url_root": "payscale.com",
+    "prev_login_script": [
+        {
+            "url": "https://insight.payscale.com/signin.aspx",
+            "events": [
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$bdy$m_signin$m_email",
+                    "eid": "ctl00_bdy_m_signin_m_email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_email']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "ctl00$bdy$m_signin$m_email",
+                    "eid": "ctl00_bdy_m_signin_m_email",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_email']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "ctl00$bdy$m_signin$m_email",
+                    "eid": "ctl00_bdy_m_signin_m_email"
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "ctl00$bdy$m_signin$m_password",
+                    "eid": "ctl00_bdy_m_signin_m_password"
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$bdy$m_signin$m_password",
+                    "eid": "ctl00_bdy_m_signin_m_password",
+                    "f": "field1",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_password']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "ctl00$bdy$m_signin$m_password",
+                    "eid": "ctl00_bdy_m_signin_m_password",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_password']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "ctl00$bdy$m_signin$m_password",
+                    "eid": "ctl00_bdy_m_signin_m_password"
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_loginSubmit']",
+                    "type": "focus",
+                    "ftype": "submit",
+                    "fname": "ctl00$bdy$m_signin$m_loginSubmit",
+                    "eid": "ctl00_bdy_m_signin_m_loginSubmit"
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_loginSubmit']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1,
+                    "ftype": "submit",
+                    "fname": "ctl00$bdy$m_signin$m_loginSubmit",
+                    "eid": "ctl00_bdy_m_signin_m_loginSubmit"
+                },
+                {
+                    "path": "//*[@id='aspnetForm']",
+                    "type": "submit",
+                    "fname": "aspnetForm",
+                    "eid": "aspnetForm"
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_loginSubmit']",
+                    "type": "blur",
+                    "ftype": "submit",
+                    "fname": "ctl00$bdy$m_signin$m_loginSubmit",
+                    "eid": "ctl00_bdy_m_signin_m_loginSubmit"
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_password']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "ctl00$bdy$m_signin$m_password",
+                    "eid": "ctl00_bdy_m_signin_m_password"
+                }
+            ]
+        },
+        {
+            "url": "https://insight.payscale.com/signin.aspx",
+            "events": [
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_password']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "ctl00$bdy$m_signin$m_password",
+                    "eid": "ctl00_bdy_m_signin_m_password"
+                }
+            ]
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {
+        "imported": "pint"
+    },
+    "alias_urls": [
+        "insight.payscale.com"
+    ],
+    "login_url": "https://insight.payscale.com/signin.aspx",
+    "thumbnail_ts": 1360192155.404907,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://insight.payscale.com/signin.aspx",
+            "events": [
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$bdy$m_signin$m_email",
+                    "eid": "ctl00_bdy_m_signin_m_email",
+                    "displayname": "Email",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='ctl00_bdy_m_signin_m_password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$bdy$m_signin$m_password",
+                    "eid": "ctl00_bdy_m_signin_m_password",
+                    "displayname": "Password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "PayScale Insight",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

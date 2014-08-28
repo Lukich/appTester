@@ -1,0 +1,68 @@
+{
+    "url_root": "familysavingscu.com, deeptarget.com/",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMzQyQ0M3QTNGMzExMUUzOUI5MkY4MTkxQURGMEY5NyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMzQyQ0M3OTNGMzExMUUzOUI5MkY4MTkxQURGMEY5NyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTgwODNEQjZCQkIzNDIwMDUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "https://ntmc.familysavingscu.com/cgi-bin/mcw000.cgi?MCWSTART"
+    ],
+    "login_url": "https://ntmc.familysavingscu.com/cgi-bin/mcw000.cgi?MCWSTART",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388787395.962553,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "exact match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://ntmc.familysavingscu.com/cgi-bin/mcw000.cgi?MCWSTART",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='HBUSERNAME']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "HBUSERNAME",
+                    "eid": "HBUSERNAME",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='PASSWORD']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "PASSWORD",
+                    "eid": "PASSWORD",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Access Code"
+                }
+            ]
+        }
+    ],
+    "name": "Family Savings Credit Union",
+    "notes": "Anu-11/5/2013",
+    "provisioner": false,
+    "ua_browser": null
+}

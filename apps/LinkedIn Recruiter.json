@@ -1,0 +1,206 @@
+{
+    "url_root": "linkedin.com",
+    "prev_login_script": [
+        {
+            "url": "https://www.linkedin.com/cap/",
+            "events": [
+                {
+                    "path": "//*[@id='session_key-login']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "session_key",
+                    "eid": "session_key-login"
+                }
+            ]
+        },
+        {
+            "url": "https://www.linkedin.com/uas/login-cap?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcap%2Fdashboard%2Fhome&source_app=cap&trk=cap_signin",
+            "events": [
+                {
+                    "path": "//*[@id='session_key-login']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "session_key",
+                    "eid": "session_key-login"
+                },
+                {
+                    "path": "//*[@id='session_key-login']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "session_key",
+                    "eid": "session_key-login"
+                },
+                {
+                    "path": "//*[@id='session_key-login']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                },
+                {
+                    "path": "//*[@id='session_key-login']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "session_key",
+                    "eid": "session_key-login",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='session_key-login']",
+                    "type": "change",
+                    "ftype": "text",
+                    "fname": "session_key",
+                    "eid": "session_key-login",
+                    "f": "field0"
+                },
+                {
+                    "path": "//*[@id='session_key-login']",
+                    "type": "blur",
+                    "ftype": "text",
+                    "fname": "session_key",
+                    "eid": "session_key-login"
+                },
+                {
+                    "path": "//*[@id='session_password-login']",
+                    "type": "focus",
+                    "ftype": "password",
+                    "fname": "session_password",
+                    "eid": "session_password-login"
+                },
+                {
+                    "path": "//*[@id='session_password-login']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "session_password",
+                    "eid": "session_password-login",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                },
+                {
+                    "path": "//*[@id='session_password-login']",
+                    "type": "change",
+                    "ftype": "password",
+                    "fname": "session_password",
+                    "eid": "session_password-login",
+                    "f": "field1"
+                },
+                {
+                    "path": "//*[@id='btn-primary']",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 0,
+                    "ftype": "submit",
+                    "fname": "signin",
+                    "eid": "btn-primary"
+                },
+                {
+                    "path": "//*[@id='login']",
+                    "type": "submit",
+                    "fname": "login",
+                    "eid": "login"
+                },
+                {
+                    "path": "//*[@id='session_password-login']",
+                    "type": "blur",
+                    "ftype": "password",
+                    "fname": "session_password",
+                    "eid": "session_password-login"
+                },
+                {
+                    "path": "//*[@id='login']/h:input[6]",
+                    "type": "focus"
+                },
+                {
+                    "path": "//*[@id='session_password-login']",
+                    "type": "keydown",
+                    "ftype": "password",
+                    "fname": "session_password",
+                    "eid": "session_password-login"
+                }
+            ]
+        },
+        {
+            "url": "https://www.linkedin.com/static?key=business_info_more&trk=cap_login_noseat",
+            "events": []
+        }
+    ],
+    "app_name": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "linkedin.com/cap",
+        "linkedin.com/uas/login-cap"
+    ],
+    "login_url": "https://www.linkedin.com/uas/login-cap?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcap%2Fdashboard%2Fhome&source_app=cap&trk=cap_signin",
+    "thumbnail_ts": 1370465339.421344,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "ignore params",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.linkedin.com/cap/",
+            "events": [
+                {
+                    "path": "//*[@id='session_key-login']",
+                    "type": "focus",
+                    "ftype": "text",
+                    "fname": "session_key",
+                    "eid": "session_key-login"
+                }
+            ]
+        },
+        {
+            "url": "https://www.linkedin.com/uas/login-cap?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcap%2Fdashboard%2Fhome&source_app=cap&trk=cap_signin",
+            "events": [
+                {
+                    "path": "//*[@id='session_key-login']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "session_key",
+                    "eid": "session_key-login",
+                    "displayname": "Email Address",
+                    "f": "field0",
+                    "e": []
+                },
+                {
+                    "path": "//*[@id='session_password-login']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "session_password",
+                    "eid": "session_password-login",
+                    "displayname": "Password",
+                    "f": "field1",
+                    "e": [
+                        6
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "LinkedIn Recruiter",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

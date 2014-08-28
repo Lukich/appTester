@@ -1,0 +1,76 @@
+{
+    "url_root": "bnbbank.com, netteller.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": ["fi=BNBBANK"],
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OTI4Mzk0NjU0NzcxMUUzQUNDN0FCRjNBRjgwRkRDQyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OTI4Mzk0NTU0NzcxMUUzQUNDN0FCRjNBRjgwRkRDQyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUI3N0Q5OTExQjIwNjgxMTgwODNENzg0N0Y3NjRGNEQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "cm.netteller.com",
+        "bnbbank.com"
+    ],
+    "login_url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=BNBBANK&bn=02e13146e963371a&burlid=5c2a6a9588ff1bea",
+    "tags": [
+        "finance",
+        "personal"
+    ],
+    "thumbnail_ts": 1388785509.32975,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=BNBBANK&bn=02e13146e963371a&burlid=5c2a6a9588ff1bea",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_IdTextBox']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "ctl00$PageContent$Login1$IdTextBox",
+                    "eid": "ctl00_PageContent_Login1_IdTextBox",
+                    "f": "field0",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Login ID"
+                }
+            ]
+        },
+        {
+            "url": "https://cm.netteller.com/login2008/Authentication/Views/Login.aspx?fi=BNBBANK&bn=02e13146e963371a&burlid=5c2a6a9588ff1bea",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='ctl00_PageContent_Login1_PasswordTextBox']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "ctl00$PageContent$Login1$PasswordTextBox",
+                    "eid": "ctl00_PageContent_Login1_PasswordTextBox",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "Broadway National Hana Bank",
+    "notes": null,
+    "provisioner": false,
+    "ua_browser": null
+}

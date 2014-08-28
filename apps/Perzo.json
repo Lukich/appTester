@@ -1,0 +1,76 @@
+{
+    "url_root": "perzo.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": null,
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": null,
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCMjY1NjlGRTFBNjQxMUU0QUNBQUY1QjNFRjhBRjhENCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCMjY1NjlGRDFBNjQxMUU0QUNBQUY1QjNFRjhBRjhENCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDk4MDExNzQwNzIwNjgxMTgwODNEMzQ1QzU5MTA4NDAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "perzo.com"
+    ],
+    "login_url": "https://www.perzo.com/#login",
+    "tags": null,
+    "thumbnail_ts": 1407880744.232308,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "domain only",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "https://www.perzo.com/#login",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='log_email']",
+                    "type": "keypress",
+                    "ftype": "text",
+                    "fname": "email",
+                    "eid": "log_email",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Email Address"
+                },
+                {
+                    "path": "//xhtml:input[@id='log_pw']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "log_pw",
+                    "f": "field1",
+                    "e": [
+                        9
+                    ],
+                    "displayname": "Password"
+                },
+                {
+                    "path": "/xhtml:html/xhtml:body/xhtml:div[4]/xhtml:div/xhtml:div",
+                    "type": "click",
+                    "ctrlKey": false,
+                    "altKey": false,
+                    "metaKey": false,
+                    "shiftKey": false,
+                    "detail": 1
+                }
+            ]
+        }
+    ],
+    "name": "Perzo",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null,
+    "no_ufc": null
+}

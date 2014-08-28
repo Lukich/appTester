@@ -1,0 +1,71 @@
+{
+    "url_root": "asrhealthbenefits.com",
+    "prev_login_script": null,
+    "app_name": null,
+    "seq": null,
+    "param_list": [
+        "id=296"
+    ],
+    "js_platform": null,
+    "use_cookie": null,
+    "admin_provisioned": false,
+    "error_count": 0,
+    "ua_platform": null,
+    "automation_level": null,
+    "custom_ua": null,
+    "ua_version": null,
+    "master": null,
+    "content_restrictions": "null",
+    "type": 8,
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NjUyMjMyRUQ1MjA2ODExODIyQUJGMEE5RTdEQjNGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3REM0QzJGMEYwMjUxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3REM0QzJFRkYwMjUxMUUzQUQ3MUM1MEQyN0YwRjBDNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NkJBNzU2MzQwQjIwNjgxMTgwODNEREQ5NEIzRDlGRjIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6ODY1MjIzMkVENTIwNjgxMTgyMkFCRjBBOUU3REIzRjEiLz4gPC9yZGY6RGVzY3Jp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",
+    "admin_controlled_creds": false,
+    "metadata": {},
+    "alias_urls": [
+        "asrhealthbenefits.com"
+    ],
+    "login_url": "http://asrhealthbenefits.com/content/public/default.aspx?id=296",
+    "tags": [
+        "health",
+        "insurance"
+    ],
+    "thumbnail_ts": 1403821110.962711,
+    "memo": null,
+    "catalog_published": true,
+    "use_custom_ua": null,
+    "matching_type": "param match",
+    "ignore_errors": false,
+    "login_script": [
+        {
+            "url": "http://asrhealthbenefits.com/content/public/default.aspx?id=296",
+            "events": [
+                {
+                    "path": "//xhtml:input[@id='username']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "username",
+                    "eid": "username",
+                    "f": "field0",
+                    "e": [],
+                    "displayname": "Username"
+                },
+                {
+                    "path": "//xhtml:input[@id='password']",
+                    "type": "keypress",
+                    "ftype": "password",
+                    "fname": "password",
+                    "eid": "password",
+                    "f": "field1",
+                    "e": [
+                        8
+                    ],
+                    "displayname": "Password"
+                }
+            ]
+        }
+    ],
+    "name": "ASR Health Benefits (Members)",
+    "notes": null,
+    "exec_env": null,
+    "provisioner": false,
+    "ua_browser": null
+}
