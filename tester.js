@@ -148,20 +148,16 @@ var nextPage = function(index) {
 								var el, 
 									framesLength = 0,
 									current = 0;
-								//look opn main page
+								//look on main page
 								el = page.evaluate(function(){
-					// window.callPhantom('TOP HREF IS ' + document.location.href);
 									return A8Tester.findElement(arguments[0], document);
 								}, path);
-					// console.log('el after first check ' + el);
 								//if not found, get iframes
 								if (!el) {
 									framesLength = page.framesCount;
 								}
-					// console.log('framesLength is ' + framesLength);
 								//switch to every iframe	
 								while (!el && current <= framesLength - 1) {
-					// console.log('switched to frame ' + current)
 									page.switchToFrame(current);
 
 									if (page.injectJs('a8tester.js')) {
@@ -169,7 +165,6 @@ var nextPage = function(index) {
 										el = page.evaluate(function(){
 											return A8Tester.findElement(arguments[0], document);
 										}, path);
-					// console.log('el for frame ' + current + ' is ' + el);
 									} else {
 										console.log('Failed to inject js into an iframe');
 									}
@@ -183,8 +178,6 @@ var nextPage = function(index) {
 							};
 
 						if (ev.waitFor) {
-					// console.log('waitfor detected');
-
 							var stop;
 							if (typeof ev.waitFor === 'boolean') {
 									stop = Date.now()+WAIT_TIMEOUT,
@@ -192,7 +185,6 @@ var nextPage = function(index) {
 
 								while (!found && Date.now() < stop) {
 									if (Date.now() > interval) {
-					// console.log('hitting finder');
 										found = runFinder(ev.path);
 										interval+=WAIT_INTERVAL;
 									}
@@ -208,11 +200,9 @@ var nextPage = function(index) {
 						}
 
 						if (found) {
-					// console.log('found');
-							response['success'].push('element found ' + ev.path);
+							response['success'].push('Element found ' + ev.path);
 						} else {
-					// console.log('not found');
-							response['failure'].push('element NOT found ' + ev.path);
+							response['failure'].push('Element not found ' + ev.path);
 						}
 
 					});
