@@ -68,7 +68,7 @@ var fileSystem = require('fs'),
 		return resp;
 	},
 	generateReport = function(){
-		var path = new Date()+ '.txt',
+		var path = 'report.txt',
 			content = 'Succeeded: ' + success + '\n' +
 					  'Good sites: ' + JSON.stringify(successDetails) + '\n' +
 					  'Failed: ' + fail + '\n' +
@@ -132,7 +132,7 @@ var nextPage = function(index) {
 
 		page.open(app.login_url, function(status){
 			if (status === 'success') {
-				if (page.injectJs('a8tester.js')) {
+				if (page.injectJs('utils.js')) {
 					var response = {
 						'name': app.name,
 						'success': [],
@@ -160,7 +160,7 @@ var nextPage = function(index) {
 								while (!el && current <= framesLength - 1) {
 									page.switchToFrame(current);
 
-									if (page.injectJs('a8tester.js')) {
+									if (page.injectJs('utils.js')) {
 								//look for path
 										el = page.evaluate(function(){
 											return A8Tester.findElement(arguments[0], document);
