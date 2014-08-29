@@ -74,7 +74,7 @@ var fileSystem = require('fs'),
 					  'Failed: ' + fail + '\n' +
 					  'Bad Sites: ' + JSON.stringify(failDetails, null, 4);
 		if (errors.length > 0) {
-			content += 'Errors: ' + JSON.stringify(errors, null, 4);
+			content += '\nErrors: ' + JSON.stringify(errors, null, 4);
 		}
 
 		fileSystem.write(path, content, 'w');	
@@ -105,7 +105,7 @@ var nextPage = function(index) {
 			enough = (index !== params['app']);
 		}
 	} else {
-		enough = (index > appsList.length);
+		enough = (index >= appsList.length);
 	}
 
 	if (enough) {
