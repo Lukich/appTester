@@ -1,7 +1,4 @@
 window.A8Tester = {
-	koko: function() {
-		return 'KOKOKO';
-	},
 	xpathParser: function(path, doc) {
 		function resolveNS() {
 			return "http://www.w3.org/1999/xhtml";
@@ -38,8 +35,6 @@ window.A8Tester = {
 				return true;
 			}
 
-
-//@TODO - waitFor
 		switch (eventBlock.type) {
 			case 'click':
 				result = handleClick();
@@ -58,60 +53,9 @@ window.A8Tester = {
 
 		return result;
 	},
-	findElement: function(path, doc, wait) {
-		var el = null, 
-			frames,
-			win = doc.defaultView,
-			behavior,
-			stop,
-			interval,
-			WAIT_INTERVAL = 500,
-			WAIT_TIMEOUT = 3000;
-
-// window.callPhantom('IN FIND ELEMENT');
-		if (wait) {
-			if (typeof wait === 'number') {
-				behavior = 'PAUSE';
-			} else {
-				behavior = 'WAIT';
-			}
-		}
-
-		if (behavior) {
-			if (behavior === 'PAUSE') {
-				//pause
-				stop = Date.now()+wait;
-				while (Date.now() < stop) {/*pause*/}
-				el = this.xpathParser(path, doc);
-			} else if (behavior === 'WAIT') {
-				//wait to appear
-				stop = Date.now()+WAIT_TIMEOUT,
-				interval = Date.now()+WAIT_INTERVAL;
-
-				while (!el && Date.now() < stop) {
-					if (Date.now() > interval) {
-						interval += WAIT_INTERVAL;
-						el = this.xpathParser(path, doc);
-					}
-				}
-			}
-		} else {
-			el = this.xpathParser(path, doc);
-		}
-// 		if (!el) {
-// window.callPhantom('no el, looking in frames');
-// 			frames = win.frames;
-// window.callPhantom('frames length is ' + frames.length)
-// 			for (var i = 0, j = frames.length; !el && (i < j); i++) {
-// try {
-// window.callPhantom('looking in frame #' + i);
-// 				el = this.xpathParser(path, win.frames[i].document);
-// } catch (e) {
-// 	window.callPhantom('caught error ' + e);
-// }
-// 			}
-// 		}
-
+	findElement: function(path, doc) {
+		var el = null;
+		el = this.xpathParser(path, doc);
 		return el;
 	},
 	utils: {

@@ -5,33 +5,8 @@
 
 @TODO:
 
-112. Testing Authorize.Net (Merchant)...
-no el, looking in frames
-frames length is 1
-looking in frame #0
-caught error Error: Permission denied to access property 'document'
-no el, looking in frames
-frames length is 1
-looking in frame #0
-caught error Error: Permission denied to access property 'document'
-FAIL
-113. Testing Autodesk 360...
-Failed to load image information - 
-no el, looking in frames
-frames length is 2
-looking in frame #0
-caught error Error: Permission denied to access property 'document'
-looking in frame #1
-caught error Error: Permission denied to access property 'document'
-no el, looking in frames
-frames length is 2
-looking in frame #0
-caught error Error: Permission denied to access property 'document'
-looking in frame #1
-caught error Error: Permission denied to access property 'document'
-FAIL
-
-6) add -v flag support to shoe console logs
+support for specific iframe lookup
+add -v flag support to shoe console logs
 */
 
 var page = require('webpage').create();
@@ -73,6 +48,7 @@ var fileSystem = require('fs'),
 	app,
 	index = 0,
 	specific = false,
+	params = {},
 	handleSuccess = function(name){
 		success++;
 		successDetails.push(name);
@@ -106,15 +82,33 @@ var fileSystem = require('fs'),
 
 
 if (args.length > 1) {
-		//evaluate specific index
-		index = args[1];
+	args.forEach(function(a){
+		var spl = a.split('=');
+		params[spl[0]] = parseInt(spl[1]);
+	});
+
+	if (params['app']) {
+		index = params['app'];
 		specific = true;
+	} else if (params['max']) {
+		specific = true;
+	}
 }
 
 
 var nextPage = function(index) {
-	if ((specific && index !== args[1]) || (!specific && index > appsList.length)) {
+	var enough = false;
+	if (specific) {
+		if (params['max']) {
+			enough = (index >= params['max']);
+		} else if (params['app']) {
+			enough = (index !== params['app']);
+		}
+	} else {
+		enough = (index > appsList.length);
+	}
 
+	if (enough) {
 		//we are done, generate report and exit
 
 		generateReport();
@@ -138,136 +132,96 @@ var nextPage = function(index) {
 
 		page.open(app.login_url, function(status){
 			if (status === 'success') {
-
-
-
 				if (page.injectJs('a8tester.js')) {
+					var response = {
+						'name': app.name,
+						'success': [],
+						'failure': []
+						},
+						WAIT_INTERVAL = 500,
+						WAIT_TIMEOUT = 5000;
 
+					//go through each event in event block
+					app.login_script[0].events.forEach(function(ev){
+						var found = false,
+							runFinder = function(path) {
+								var el, 
+									framesLength = 0,
+									current = 0;
+								//look opn main page
+								el = page.evaluate(function(){
+					// window.callPhantom('TOP HREF IS ' + document.location.href);
+									return A8Tester.findElement(arguments[0], document);
+								}, path);
+					// console.log('el after first check ' + el);
+								//if not found, get iframes
+								if (!el) {
+									framesLength = page.framesCount;
+								}
+					// console.log('framesLength is ' + framesLength);
+								//switch to every iframe	
+								while (!el && current <= framesLength - 1) {
+					// console.log('switched to frame ' + current)
+									page.switchToFrame(current);
 
+									if (page.injectJs('a8tester.js')) {
+								//look for path
+										el = page.evaluate(function(){
+											return A8Tester.findElement(arguments[0], document);
+										}, path);
+					// console.log('el for frame ' + current + ' is ' + el);
+									} else {
+										console.log('Failed to inject js into an iframe');
+									}
 
+									if (!el) {
+										current++;
+									}
+									page.switchToMainFrame();
+								}
+								return el;
+							};
 
+						if (ev.waitFor) {
+					// console.log('waitfor detected');
 
-var found = false,
-	response = {
-		'name'	 : app.name,
-		'success': [],
-		'failure': []
-	};
+							var stop;
+							if (typeof ev.waitFor === 'boolean') {
+									stop = Date.now()+WAIT_TIMEOUT,
+									interval = Date.now()+WAIT_INTERVAL; 
 
-app.login_script[0].events.forEach(function(e){
-console.log('e is ' + JSON.stringify(e));
-		found = page.evaluate(function(){
-// window.callPhantom('arguments[0].waitFor is ' + arguments[0].waitFor);
-			var res = A8Tester.findElement(arguments[0].path, document, arguments[0].waitFor);
-// window.callPhantom('res is ' + res);
-			return res;
-		}, e);
-// console.log('initial found is ' + found);
-	if (!found) {
-// console.log('going through frames');
-		var framesCount = page.framesCount,
-			current = 0;
-// console.log('frame count is ' + framesCount);
-		while (!found && current <= framesCount - 1) {
-// console.log('switching to frame ' + current);
+								while (!found && Date.now() < stop) {
+									if (Date.now() > interval) {
+					// console.log('hitting finder');
+										found = runFinder(ev.path);
+										interval+=WAIT_INTERVAL;
+									}
+								}
+							} else {
+								//implement pause
+								stop = Date.now()+wait;
+								while (Date.now() < stop) {/*pause*/}
+								found = runFinder(ev.path);
+							}
+						} else {
+							found = runFinder(ev.path);
+						}
 
-			page.switchToFrame(current);
-			if (page.injectJs('a8tester.js')) {
-				found = page.evaluate(function(){
-	// window.callPhantom('in frame eval. href is ' + document.location.href);
-					var res = A8Tester.findElement(arguments[0].path, document, arguments[0].waitFor);
-	// window.callPhantom('res is ' + res);
-					return res;
-				}, e);
-			}
+						if (found) {
+					// console.log('found');
+							response['success'].push('element found ' + ev.path);
+						} else {
+					// console.log('not found');
+							response['failure'].push('element NOT found ' + ev.path);
+						}
 
-			if (!found) {
-				page.switchToMainFrame();
-				current++;
-			}
-		}
-	}
+					});
 
-	page.switchToMainFrame();
-
-	if (found) {
-console.log('found');
-		response['success'].push('element found ' + e.path);
-	} else {
-console.log('not found');
-		response['failure'].push('element NOT found ' + e.path);
-	}
-});
-
-
-
-
-					// var ev = page.evaluate(function(){
-					// 	var appName = arguments[0],
-					// 		appEvents = arguments[1],
-					// 		response = {
-					// 			'name'	 : appName,
-					// 			'success': [],
-					// 			'failure': []
-					// 		},
-					// 		element,
-					// 		eventResult;
-
-
-// 						appEvents.forEach(function(eventBlock){
-// 							if (eventBlock.waitFor) {
-// window.callPhantom('waitFor detected');
-// 								if (typeof eventBlock.waitFor === 'number') {
-// 									//pause
-// 									var stop = Date.now()+eventBlock.waitFor;
-// 									while (Date.now() < stop) {/*pause*/}
-// 								} else {
-// 									var WAIT_TIMEOUT = 10000,
-// 									    WAIT_INTERVAL = 500,
-// 									    stop, 
-// 									    interval;
-// window.callPhantom('waitFor is a boolean');
-// 									//wait to appear
-// 									stop = Date.now()+WAIT_TIMEOUT,
-// 									interval = Date.now()+WAIT_INTERVAL;
-
-// 									while (!element && Date.now() < stop) {
-// 										if (Date.now() > interval) {
-// window.callPhantom('in interval');
-// 											interval += WAIT_INTERVAL;
-// 											element = A8Tester.findElement(eventBlock.path, document);
-// window.callPhantom('element is ' + element);
-// 										}
-// 									}
-// 								}
-// 							} else {
-// 								element = A8Tester.findElement(eventBlock.path, document);
-// 							}
-
-// 							if (element) {
-// 								/*
-// 									v1: testing for presence of an element.  if it's an input dispatch a test value to it
-// 									and ascertain that it hasveen applied correctly
-// 								*/
-
-// 								eventResult = A8Tester.eventDispatcher(element, eventBlock);
-// 								if (eventResult) {
-// 									response['success'].push('Success dispatching ' + eventBlock.type + ' to ' + eventBlock.path);
-// 								} else {
-// 									response['failure'].push('Failed to dispatch value during ' + eventBlock.type + ' to ' + eventBlock.path);
-// 								}
-// 							} else {
-// 								response['failure'].push('Element not found ' + eventBlock.path);
-// 							}				
-// 						});
-					// 	return response;
-					// }, app.name, app.login_script[0].events);
-
-					// if (ev.failure.length === 0) {
-					// 	handleSuccess(ev.name);
-					// } else {
-					// 	handleFailure(ev);
-					// }
+					if (response.failure.length === 0) {
+						handleSuccess(response.name);
+					} else {
+						handleFailure(response);
+					}
 				} else {
 					handleFailure(message(app.name, 'Failed to inject test code.'));
 				}
