@@ -6,7 +6,6 @@
 @TODO:
 
 support for specific iframe lookup
-add -v flag support to show console logs
 */
 
 var page = require('webpage').create();
@@ -49,6 +48,7 @@ var fileSystem = require('fs'),
 	index = 0,
 	specific = false,
 	params = {},
+	VERBOSE = false,
 	handleSuccess = function(name){
 		success++;
 		successDetails.push(name);
@@ -78,20 +78,104 @@ var fileSystem = require('fs'),
 		}
 
 		fileSystem.write(path, content, 'w');	
+	},
+	eventDispatcher = function(element, eventBlock) {
+		var result = true,
+			handleClick,
+			handleChange,
+			handleKeyPress,
+			handleFocusBlur,
+			generateRandomString,
+			self = this;
+
+			element.focus();
+
+			generateRandomString = function(length) {
+			    var text = "",
+			    	length = length || 10,
+			    	possible = "abcdefghijklmnopqrstuvwxyz0123456789";
+
+			    for( var i=0; i < length; i++ )
+			        text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+			    return text;
+			}
+
+			handleChange = function() {
+				var testString = generateRandomString();
+				try {
+					page.sendEvent('change', testString);
+				} catch (e) {
+					console.log('Error dispatching change event ' + e);
+				}
+				slimer.wait(1000);
+				return (element.value === testString);
+			};
+
+			handleClick = function() {
+				page.sendEvent('click');
+				return true;
+			};
+
+			handleKeyPress = function() {
+				var testString = generateRandomString();
+				page.sendEvent('keypress', testString);
+				slimer.wait(1000);
+				var result = false;
+				if (element.ownerDocument.frameElement) {
+					page.switchToFocusedFrame();
+					result = (element.value === testString);
+				}
+				// return (element.value === testString);
+				page.switchToMainFrame();
+				return result;
+			};
+
+			handleFocusBlur = function() {
+				page.sendEvent(eventBlock.type);
+				return true;
+			}
+
+		switch (eventBlock.type) {
+			case 'click':
+				result = handleClick();
+				break;
+			case 'keypress':
+				result = handleKeyPress();
+				break;
+			case 'change':
+				result = handleChange();
+				break;
+			case 'focus':
+			case 'blur':
+				result = handleFocusBlur();
+				break;
+		};
+
+		return result;
+	},
+	tell = function(msg) {
+		if (VERBOSE) {
+			console.log(msg);
+		}
 	};
 
 
 if (args.length > 1) {
 	args.forEach(function(a){
 		var spl = a.split('=');
-		params[spl[0]] = parseInt(spl[1]);
+		params[spl[0]] = spl[1];
 	});
 
-	if (params['app']) {
+	if (params['app'] !== undefined) {
 		index = params['app'];
 		specific = true;
 	} else if (params['max']) {
 		specific = true;
+	} 
+
+	if (params['verbose']) {
+		VERBOSE = true;
 	}
 }
 
@@ -101,7 +185,7 @@ var nextPage = function(index) {
 	if (specific) {
 		if (params['max']) {
 			enough = (index >= params['max']);
-		} else if (params['app']) {
+		} else if (params['app'] !== undefined) {
 			enough = (index !== params['app']);
 		}
 	} else {
@@ -132,6 +216,7 @@ var nextPage = function(index) {
 
 		page.open(app.login_url, function(status){
 			if (status === 'success') {
+				tell('Page loaded successfully. Url is ' + document.location.href);
 				if (page.injectJs('utils.js')) {
 					var response = {
 						'name': app.name,
@@ -143,8 +228,10 @@ var nextPage = function(index) {
 
 					//go through each event in event block
 					app.login_script[0].events.forEach(function(ev){
+						tell('Current event: ' + JSON.stringify(ev));
 						var found = false,
 							runFinder = function(path) {
+
 								var el, 
 									framesLength = 0,
 									current = 0;
@@ -152,18 +239,24 @@ var nextPage = function(index) {
 								el = page.evaluate(function(){
 									return A8Tester.findElement(arguments[0], document);
 								}, path);
+
+								tell('Main page, element is ' + el);
+
 								//if not found, get iframes
 								if (!el) {
 									framesLength = page.framesCount;
+									tell(framesLength + ' frames detected');
 								}
 								//switch to every iframe	
 								while (!el && current <= framesLength - 1) {
+									tell('Switching to frame ' + current);
 									page.switchToFrame(current);
 									if (page.injectJs('utils.js')) {
 										//look for path
 										el = page.evaluate(function(){
 											return A8Tester.findElement(arguments[0], document);
 										}, path);
+										tell('Frame ' + current + '. Element is ' + el);
 									} else {
 										console.log('Failed to inject js into an iframe');
 									}
@@ -176,14 +269,17 @@ var nextPage = function(index) {
 								return el;
 							};
 
+						//perform find
 						if (ev.waitFor) {
 							var stop;
 
 							if (typeof ev.waitFor === 'boolean') {
+								tell('Boolean waitFor detected');
 								//perform periodic lookup
 								stop = Date.now()+WAIT_TIMEOUT;
 								while (!found && Date.now() < stop) {
 									slimer.wait(WAIT_INTERVAL);
+									tell('Attempting periodic element lookup');
 									found = runFinder(ev.path);
 								}
 							} else {
@@ -196,13 +292,22 @@ var nextPage = function(index) {
 						}
 
 						if (found) {
-							response['success'].push('Element found ' + ev.path);
+							tell('Element found');
+							if (eventDispatcher(found, ev)) {
+								// console.log('event dispatcher returned true');
+								response['success'].push('Element found ' + ev.path);
+							} else {
+								tell('Unable to read value from it');
+								response['failure'].push('Problem dispatching value to element ' + ev.path + ' for event type ' + ev.type);
+							}
 						} else {
+							tell('Element not found');
 							response['failure'].push('Element not found ' + ev.path);
 						}
 
 					});
 
+					//update global report object
 					if (response.failure.length === 0) {
 						handleSuccess(response.name);
 					} else {
