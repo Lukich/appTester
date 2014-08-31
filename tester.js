@@ -6,7 +6,7 @@
 @TODO:
 
 support for specific iframe lookup
-add -v flag support to shoe console logs
+add -v flag support to show console logs
 */
 
 var page = require('webpage').create();
@@ -138,8 +138,8 @@ var nextPage = function(index) {
 						'success': [],
 						'failure': []
 						},
-						WAIT_INTERVAL = 500,
-						WAIT_TIMEOUT = 5000;
+						WAIT_INTERVAL = 1000,
+						WAIT_TIMEOUT = 10000;
 
 					//go through each event in event block
 					app.login_script[0].events.forEach(function(ev){
@@ -159,9 +159,8 @@ var nextPage = function(index) {
 								//switch to every iframe	
 								while (!el && current <= framesLength - 1) {
 									page.switchToFrame(current);
-
 									if (page.injectJs('utils.js')) {
-								//look for path
+										//look for path
 										el = page.evaluate(function(){
 											return A8Tester.findElement(arguments[0], document);
 										}, path);
@@ -179,20 +178,17 @@ var nextPage = function(index) {
 
 						if (ev.waitFor) {
 							var stop;
-							if (typeof ev.waitFor === 'boolean') {
-									stop = Date.now()+WAIT_TIMEOUT,
-									interval = Date.now()+WAIT_INTERVAL; 
 
+							if (typeof ev.waitFor === 'boolean') {
+								//perform periodic lookup
+								stop = Date.now()+WAIT_TIMEOUT;
 								while (!found && Date.now() < stop) {
-									if (Date.now() > interval) {
-										found = runFinder(ev.path);
-										interval+=WAIT_INTERVAL;
-									}
+									slimer.wait(WAIT_INTERVAL);
+									found = runFinder(ev.path);
 								}
 							} else {
 								//implement pause
-								stop = Date.now()+wait;
-								while (Date.now() < stop) {/*pause*/}
+								slimer.wait(ev.waitFor);
 								found = runFinder(ev.path);
 							}
 						} else {
