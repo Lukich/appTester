@@ -238,6 +238,7 @@ var nextPage = function(index) {
 							var el, 
 								framesLength = 0,
 								current = 0;
+							
 							//look on main page
 							el = page.evaluate(function(){
 								return A8Tester.findElement(arguments[0], document);
