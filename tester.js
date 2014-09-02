@@ -44,6 +44,7 @@ var fileSystem = require('fs'),
 	fail = 0,
 	successDetails = [],
 	failDetails = [],
+	ignoreDetails = [],
 	errors = [],
 	app,
 	index = 0,
@@ -52,6 +53,8 @@ var fileSystem = require('fs'),
 	params = {},
 	VERBOSE = false,
 	REPORT_PATH = 'report.txt',
+	WAIT_INTERVAL = 1000,
+	WAIT_TIMEOUT = 10000,
 	tempLog = function(msg) {
 		if (!fileSystem.exists(REPORT_PATH)) {
 			fileSystem.write(REPORT_PATH, msg, 'w');
@@ -74,6 +77,10 @@ var fileSystem = require('fs'),
 		console.log('FAIL');
 		tempLog('Testing ' + responseObj['name'] + ' : FAIL\n' + '	Error: ' + JSON.stringify(responseObj['failure'])+'\n');
 	},
+	handleIgnore = function(responseObj) {
+		ignoreDetails.push(responseObj['ignored']);
+		console.log('IGNORED');
+	},
 	message = function(app, msg){
 		var resp = Object.create(null);
 		resp[app.name] = msg;
@@ -83,6 +90,7 @@ var fileSystem = require('fs'),
 		var path = REPORT_PATH,
 			content = 'Succeeded: ' + success + '\n' +
 					  'Good sites: ' + JSON.stringify(successDetails) + '\n' +
+					  'Ignored: ' + JSON.stringify(ignoreDetails) + '\n' +
 					  'Failed: ' + fail + '\n' +
 					  'Bad Sites: ' + JSON.stringify(failDetails, null, 4);
 		if (errors.length > 0) {
@@ -221,104 +229,111 @@ var nextPage = function(index) {
 			if (status === 'success') {
 				tell('Page loaded successfully. Url is ' + app.login_url);
 
-				if (page.injectJs('utils.js')) {
-					var response = {
-						'name': app.name,
-						'success': [],
-						'failure': []
-						},
-						WAIT_INTERVAL = 1000,
-						WAIT_TIMEOUT = 10000;
+				var response = {
+					'index'		: index,
+					'name'		: app.name,
+					'success'	: [],
+					'failure'	: [],
+					'ignored'	: ''
+					};
 
-					//go through each event in event block
-					app.login_script[0].events.forEach(function(ev){
-						tell('Current event: ' + JSON.stringify(ev));
-						var found = false,
-						runFinder = function(path) {
-							var el, 
-								framesLength = 0,
-								current = 0;
-							
-							//look on main page
-							el = page.evaluate(function(){
-								return A8Tester.findElement(arguments[0], document);
-							}, path);
+				if (app.automation_level == 'manual') {
+					response['ignored'] = app.name + ' is set to manual. IGNORING';
+					handleIgnore(response);
+				} else {
+					if (page.injectJs('utils.js')) {
 
-							tell('Main page, element is ' + el);
+						//go through each event in event block
+						app.login_script[0].events.forEach(function(ev){
+							tell('Current event: ' + JSON.stringify(ev));
+							var found = false,
+							runFinder = function(path) {
+								var el, 
+									framesLength = 0,
+									current = 0;
 
-							//if not found, get iframes
-							if (!el) {
-								framesLength = page.framesCount;
-								tell(framesLength + ' frames detected');
-							}
-							//switch to every iframe	
-							while (!el && current <= framesLength - 1) {
-								tell('Switching to frame ' + current);
-								page.switchToFrame(current);
-								if (page.injectJs('utils.js')) {
-									//look for path
-									el = page.evaluate(function(){
-										return A8Tester.findElement(arguments[0], document);
-									}, path);
-									tell('Frame ' + current + '. Element is ' + el);
-								} else {
-									console.log('Failed to inject js into an iframe');
-								}
+								//look on main page
+								el = page.evaluate(function(){
+									return A8Tester.findElement(arguments[0], document);
+								}, path);
 
+								tell('Main page, element is ' + el);
+
+								//if not found, get iframes
 								if (!el) {
-									current++;
+									framesLength = page.framesCount;
+									tell(framesLength + ' frames detected');
 								}
-								page.switchToMainFrame();
-							}
-							return el;
-						};
+								//switch to every iframe	
+								while (!el && current <= framesLength - 1) {
+									tell('Switching to frame ' + current);
+									page.switchToFrame(current);
+									if (page.injectJs('utils.js')) {
+										//look for path
+										el = page.evaluate(function(){
+											return A8Tester.findElement(arguments[0], document);
+										}, path);
+										tell('Frame ' + current + '. Element is ' + el);
+									} else {
+										console.log('Failed to inject js into an iframe');
+									}
 
-						//perform find
-						if (ev.waitFor) {
-							var stop;
+									if (!el) {
+										current++;
+									}
+									page.switchToMainFrame();
+								}
+								return el;
+							};
 
-							if (typeof ev.waitFor === 'boolean') {
-								tell('Boolean waitFor detected');
-								//perform periodic lookup
-								stop = Date.now()+WAIT_TIMEOUT;
-								while (!found && Date.now() < stop) {
-									slimer.wait(WAIT_INTERVAL);
-									tell('Attempting periodic element lookup');
+							//perform find
+							if (ev.waitFor) {
+								var stop;
+
+								if (typeof ev.waitFor === 'boolean') {
+									tell('Boolean waitFor detected');
+									//perform periodic lookup
+									stop = Date.now()+WAIT_TIMEOUT;
+									while (!found && Date.now() < stop) {
+										slimer.wait(WAIT_INTERVAL);
+										tell('Attempting periodic element lookup');
+										found = runFinder(ev.path);
+									}
+								} else {
+									//implement pause
+									slimer.wait(ev.waitFor);
 									found = runFinder(ev.path);
 								}
 							} else {
-								//implement pause
-								slimer.wait(ev.waitFor);
 								found = runFinder(ev.path);
 							}
-						} else {
-							found = runFinder(ev.path);
-						}
 
-						if (found) {
-							tell('Element found');
-							if (eventDispatcher(found, ev)) {
-								// console.log('event dispatcher returned true');
-								response['success'].push('Element found ' + ev.path);
+							if (found) {
+								tell('Element found');
+								if (eventDispatcher(found, ev)) {
+									// console.log('event dispatcher returned true');
+									response['success'].push('Element found ' + ev.path);
+								} else {
+									tell('Unable to read value from it');
+									response['failure'].push('Problem dispatching value to element ' + ev.path + ' for event type ' + ev.type);
+								}
 							} else {
-								tell('Unable to read value from it');
-								response['failure'].push('Problem dispatching value to element ' + ev.path + ' for event type ' + ev.type);
+								tell('Element not found');
+								response['failure'].push('Element not found ' + ev.path);
 							}
+
+						});
+
+						//update global report object
+						if (response.failure.length === 0) {
+							handleSuccess(response.name);
 						} else {
-							tell('Element not found');
-							response['failure'].push('Element not found ' + ev.path);
+							handleFailure(response);
 						}
-
-					});
-
-					//update global report object
-					if (response.failure.length === 0) {
-						handleSuccess(response.name);
 					} else {
-						handleFailure(response);
+						handleFailure(message(app.name, 'Failed to inject test code.'));
 					}
-				} else {
-					handleFailure(message(app.name, 'Failed to inject test code.'));
+
 				}
 			} else {
 				handleFailure(message(app.name, 'Failed to load page.'));
