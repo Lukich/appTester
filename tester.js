@@ -11,6 +11,7 @@ support for specific iframe lookup
 var page = require('webpage').create();
 
 page.settings.userAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36' 
+page.settings.loadImages = false;
 
 
 page.onError = function(msg, trace) {
@@ -46,13 +47,23 @@ var fileSystem = require('fs'),
 	errors = [],
 	app,
 	index = 0,
+	appLength = appsList.length,
 	specific = false,
 	params = {},
 	VERBOSE = false,
+	REPORT_PATH = 'report.txt',
+	tempLog = function(msg) {
+		if (!fileSystem.exists(REPORT_PATH)) {
+			fileSystem.write(REPORT_PATH, msg, 'w');
+		} else {
+			fileSystem.write(REPORT_PATH, msg, 'a');
+		}
+	},
 	handleSuccess = function(name){
 		success++;
 		successDetails.push(name);
 		console.log('OK');
+		tempLog('Testing ' + name + ' : OK\n');
 	},
 	handleFailure = function(responseObj){
 		fail++;
@@ -61,6 +72,7 @@ var fileSystem = require('fs'),
 		}
 		failDetails.push(responseObj);
 		console.log('FAIL');
+		tempLog('Testing ' + responseObj['name'] + ' : FAIL\n' + '	Error: ' + JSON.stringify(responseObj['failure'])+'\n');
 	},
 	message = function(app, msg){
 		var resp = Object.create(null);
@@ -68,7 +80,7 @@ var fileSystem = require('fs'),
 		return resp;
 	},
 	generateReport = function(){
-		var path = 'report.txt',
+		var path = REPORT_PATH,
 			content = 'Succeeded: ' + success + '\n' +
 					  'Good sites: ' + JSON.stringify(successDetails) + '\n' +
 					  'Failed: ' + fail + '\n' +
@@ -101,39 +113,35 @@ var fileSystem = require('fs'),
 			    return text;
 			}
 
-			handleChange = function() {
-				var testString = generateRandomString();
-				try {
-					page.sendEvent('change', testString);
-				} catch (e) {
-					console.log('Error dispatching change event ' + e);
-				}
-				slimer.wait(1000);
-				return (element.value === testString);
-			};
-
 			handleClick = function() {
 				page.sendEvent('click');
 				return true;
 			};
 
-			handleKeyPress = function() {
-				var testString = generateRandomString();
-				page.sendEvent('keypress', testString);
-				slimer.wait(1000);
-				var result = false;
-				if (element.ownerDocument.frameElement) {
-					page.switchToFocusedFrame();
-					result = (element.value === testString);
-				}
-				// return (element.value === testString);
-				page.switchToMainFrame();
-				return result;
+			handleKeyPressChange = function() {
+				try {
+					var testString = generateRandomString();
+					page.sendEvent('keypress', testString);
+					slimer.wait(1000);
+					return (element.value === testString);
+				} catch (e) {
+					console.log('Error handling keypress: ' + e);
+					return false;
+				} 
 			};
 
 			handleFocusBlur = function() {
-				page.sendEvent(eventBlock.type);
-				return true;
+				try {
+					if (eventBlock.type === 'focus') {
+						element.focus()
+					} else {
+						element.blur();
+					}
+					return true;
+				} catch (e) {
+					console.log('Error handling focus/blur: ' + e);
+					return false;
+				}
 			}
 
 		switch (eventBlock.type) {
@@ -141,10 +149,8 @@ var fileSystem = require('fs'),
 				result = handleClick();
 				break;
 			case 'keypress':
-				result = handleKeyPress();
-				break;
 			case 'change':
-				result = handleChange();
+				result = handleKeyPressChange();
 				break;
 			case 'focus':
 			case 'blur':
@@ -169,10 +175,16 @@ if (args.length > 1) {
 
 	if (params['app'] !== undefined) {
 		index = params['app'];
-		specific = true;
-	} else if (params['max']) {
-		specific = true;
+		appLength = params['app'];
 	} 
+
+	if (params['max'] !== undefined) {
+		appLength = params['max'];
+	} 
+
+	if (params['min'] !== undefined) {
+		index = params['min'];
+	}
 
 	if (params['verbose']) {
 		VERBOSE = true;
@@ -181,16 +193,7 @@ if (args.length > 1) {
 
 
 var nextPage = function(index) {
-	var enough = false;
-	if (specific) {
-		if (params['max']) {
-			enough = (index >= params['max']);
-		} else if (params['app'] !== undefined) {
-			enough = (index !== params['app']);
-		}
-	} else {
-		enough = (index >= appsList.length);
-	}
+	var enough = (index > appLength);
 
 	if (enough) {
 		//we are done, generate report and exit
@@ -217,6 +220,7 @@ var nextPage = function(index) {
 		page.open(app.login_url, function(status){
 			if (status === 'success') {
 				tell('Page loaded successfully. Url is ' + document.location.href);
+
 				if (page.injectJs('utils.js')) {
 					var response = {
 						'name': app.name,
