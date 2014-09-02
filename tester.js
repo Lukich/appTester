@@ -216,7 +216,9 @@ var nextPage = function(index) {
 		app = JSON.parse(app);
 	} catch (e) {
 		app = null;
-		errors.push('ERROR ' + e + ' FOR ' + appsList[index]);
+		if (appsList[index] !== '#do_not_remove.txt') { //hide error for parsing do_not_remove placeholder. will make better later
+			errors.push('ERROR ' + e + ' FOR ' + appsList[index]);
+		}
 	}
 
 	if (!app) {
