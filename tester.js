@@ -219,7 +219,7 @@ var nextPage = function(index) {
 
 		page.open(app.login_url, function(status){
 			if (status === 'success') {
-				tell('Page loaded successfully. Url is ' + document.location.href);
+				tell('Page loaded successfully. Url is ' + app.login_url);
 
 				if (page.injectJs('utils.js')) {
 					var response = {
