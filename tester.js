@@ -234,44 +234,43 @@ var nextPage = function(index) {
 					app.login_script[0].events.forEach(function(ev){
 						tell('Current event: ' + JSON.stringify(ev));
 						var found = false,
-							runFinder = function(path) {
+						runFinder = function(path) {
+							var el, 
+								framesLength = 0,
+								current = 0;
+							//look on main page
+							el = page.evaluate(function(){
+								return A8Tester.findElement(arguments[0], document);
+							}, path);
 
-								var el, 
-									framesLength = 0,
-									current = 0;
-								//look on main page
-								el = page.evaluate(function(){
-									return A8Tester.findElement(arguments[0], document);
-								}, path);
+							tell('Main page, element is ' + el);
 
-								tell('Main page, element is ' + el);
+							//if not found, get iframes
+							if (!el) {
+								framesLength = page.framesCount;
+								tell(framesLength + ' frames detected');
+							}
+							//switch to every iframe	
+							while (!el && current <= framesLength - 1) {
+								tell('Switching to frame ' + current);
+								page.switchToFrame(current);
+								if (page.injectJs('utils.js')) {
+									//look for path
+									el = page.evaluate(function(){
+										return A8Tester.findElement(arguments[0], document);
+									}, path);
+									tell('Frame ' + current + '. Element is ' + el);
+								} else {
+									console.log('Failed to inject js into an iframe');
+								}
 
-								//if not found, get iframes
 								if (!el) {
-									framesLength = page.framesCount;
-									tell(framesLength + ' frames detected');
+									current++;
 								}
-								//switch to every iframe	
-								while (!el && current <= framesLength - 1) {
-									tell('Switching to frame ' + current);
-									page.switchToFrame(current);
-									if (page.injectJs('utils.js')) {
-										//look for path
-										el = page.evaluate(function(){
-											return A8Tester.findElement(arguments[0], document);
-										}, path);
-										tell('Frame ' + current + '. Element is ' + el);
-									} else {
-										console.log('Failed to inject js into an iframe');
-									}
-
-									if (!el) {
-										current++;
-									}
-									page.switchToMainFrame();
-								}
-								return el;
-							};
+								page.switchToMainFrame();
+							}
+							return el;
+						};
 
 						//perform find
 						if (ev.waitFor) {
