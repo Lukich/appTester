@@ -3,7 +3,7 @@
 APPS_PATH=apps
 REPORTS_PATH=reports
 SLIMERJS=slimerjs-0.9.2/slimerjs 
-EMAIL=luka@authentic8.com
+EMAIL=webapps-tests@authentic8.com
 TESTER=tester.js
 
 pushd $APPS_PATH
