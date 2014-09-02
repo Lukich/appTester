@@ -7,7 +7,7 @@ In order to run it go to the root directory and run ./slimerjs-0.9.2/slimerjs te
 tests on all apps.
 
 You can control a number of tests you are running by specifying parameters:
- 
+
 1) ./slimerjs-0.9.2/slimerjs tester.js app=533  would perform a test only on app #533 in the list.
 
 2) ./slimerjs-0.9.2/slimerjs tester.js max=10 would perform a test on the first 10 apps n the list.
@@ -20,4 +20,3 @@ You can control a number of tests you are running by specifying parameters:
 
 1) support for specific iframe targeting
 
-2) ignoring the manual apps
